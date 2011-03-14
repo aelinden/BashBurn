@@ -1,0 +1,34 @@
+# loopback.lang - Italian language
+
+bb_lb_noread="non può essere letto."
+bb_lb_no_lb_dir="Non c'è una directory di loopback, la sto creando..."
+
+bb_lb_dir_c="Directory creata."
+bb_lb_dir_cf="Creazione fallita, sto terminando."
+
+bb_lb_no_im_dir="Non c'è una directory di file immagine, la sto creando..."
+bb_lb_no_temp_dir="Non c'è la directory per i file temporanei, la sto creando..."
+
+bb_lb_sudo1="Devi essere nel gruppo sudoers per montare il file immagine."
+bb_lb_sudo2="Inserisci la tua password in basso, se fallisce potrebbe essere"
+bb_lb_sudo3="perchè non sei nel gruppo. In questo caso, correggi e prova di nuovo."
+bb_lb_sudo4="Devi avere il supporto per dispositivi di loopback" 
+bb_lb_sudo5="compilato nel kernel o come modulo,"
+bb_lb_sudo6="o il prossimo passaggio fallirà."
+
+bb_lb_mount="Immagine montata."
+bb_lb_mount_fail="Montaggio fallito, sto terminando."
+
+bb_lb_cp_cont="Sto copiando il contenuto, attendere per favore..."
+
+bb_lb_in_file="Adesso sei nel file system del file immagine. Apporta le tue modifiche e poi inserisci 'exit'."
+
+bb_lb_change1="Hai modificato qualcosa? (Se è così, una nuova immagine"
+bb_lb_change2="deve essere creata e questo richiede del tempo) (y/n)"
+bb_lb_change3="Ci sono già dei dati in "
+bb_lb_change4="saranno eliminati se si continua."
+bb_lb_change5="Vuoi continuare? (y/n)"
+bb_lb_change6="Sto creando una nuova immagine, attendere per favore..."
+bb_lb_change7="Nuova immagine creata in "
+bb_lb_change8="Sto terminando, le informazioni non saranno cancellate. Le modifiche al file immagine andranno perse."
+bb_lb_change9="Modifiche non effettuate, viene saltata la creazione della nuova immagine."

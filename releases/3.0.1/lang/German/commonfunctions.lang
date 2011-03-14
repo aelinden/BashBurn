@@ -1,0 +1,26 @@
+# commonfunctions.lang - German language file
+
+bb_cf_text1='CD scheint schon beschrieben zu sein. Moechtest Du sie loeschen?'
+bb_cf_text2="Antworte nur 'yes', wenn das eine wiederbeschreibare CD ist. Gib"
+bb_cf_text3="'abort' ein, wenn Du abbrechen und zurueck zum Menue willst.."
+bb_cf_text4='Abbrechen...'
+
+bb_cf_text5='Versuche Brennen ohne CD zu loeschen, was wahrscheinlich misslingt.'
+bb_cf_text6='Loeschen gescheitert. Brennprozess abgebrochen'
+
+bb_cdrw_blank1='Loesche CD...'
+bb_cdrw_blank2='CDRW geloescht'
+bb_cdrw_blank3='Einfaches Loeschen fehlgeschlagen! Versuche es zu erzwingen...'
+bb_cdrw_blank4='Erzwungenes Loeschen war erfolgreich.'
+bb_cdrw_blank5='Loeschen war nicht erfolgreich. Du solltest diese CD ersetzen!'
+bb_cdrw_blank6='CD/DVD scheint geloescht zu sein (oder keine im Laufwerk), loesche nichts...'
+
+bb_dvd_blank1='Schnelles oder gesamtes loeschen?'
+bb_dvd_blank2="Gib 'yes' fuer schnelles, "
+bb_dvd_blank3="oder 'no' fuer ein gesamtes Formatieren ein."
+bb_dvd_blank4='Druecke [ENTER] ohne irgendwas sonst einzugeben'
+bb_dvd_blank5='um den Vorgang abzubrechen.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

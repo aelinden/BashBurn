@@ -1,0 +1,188 @@
+# configure.lang - Nynorsk
+
+# Nick - this needs checking by a native speaker
+bb_conf_menu_writer="CD-brennar"
+bb_conf_menu_cddev="Einingsfil for CD-lesar"
+bb_conf_menu_cdmnt="Monteringspunkt for CD-lesar"
+bb_conf_menu_speed="Fart"
+bb_conf_menu_blank="Slettingsmåe"
+bb_conf_menu_numdev="Tal på einingar"
+bb_conf_menu_root="Rotkatalog"
+bb_conf_menu_burn="Brennekatalog"
+bb_conf_menu_label="CD-merkelapp"
+#bb_conf_menu10="Kopieringsrett"
+bb_conf_menu_auth="Forfattar"
+#bb_conf_menu12="Utgjevar"
+bb_conf_menu_desc="Skildring"
+#bb_conf_menu14="Namn på pakka"
+bb_conf_menu_norm="Normaliser"
+bb_conf_menu_dropt="Drivarval"
+bb_conf_menu_fifo="Fifo-katalog"
+bb_conf_menu_deltmp="Slett mellomlager etter brenning"
+bb_conf_menu_ob="Slå på overbrenning"
+#bb_conf_menu20="Kopisikring"
+bb_conf_menu_bitrate="Set bitraten"
+bb_conf_menu_lang="Spr�k"
+bb_conf_menu_dtao="DAO/TAO"
+bb_conf_menu_gap="Hull blant banes"
+bb_conf_menu_adv=Avansert
+bb_conf_menu_apply="Bruk endringane"
+bb_conf_menu_default="Bruk standardval"
+bb_conf_menu_back="Tilbake"
+bb_conf_menu_entry="Kva vel du?"
+
+bb_conf_action_desc="Aksjons"
+
+bb_conf_menu_toptext1=Sette opp
+bb_conf_menu_toptext2='Aktuell val�r'
+bb_conf_default_is='forh�ndsvalg v�re'
+# End Nick
+# Everything below still needs fixing
+# ===================================
+
+
+bb_conf_ch1_1="Du må skriva inn brennaren som 0,0,0 (for SCSI)"
+bb_conf_ch1_2="ATAPI:0,0,0 eller /dev/hdX (for IDE-brennarar)"
+bb_conf_ch1_3="(der hdX er rett stasjon, slik som hdc)"
+bb_conf_ch1_4="Du kan òg bruka namnet på eininga, til dømes yamaha, sanyo osb."
+bb_conf_ch1_5="viss "
+bb_conf_ch1_6="er rett sett opp."
+bb_conf_ch1_7="(Moglege) SCSI-EININGAR:"
+bb_conf_ch1_8="(Moglege) IDE-EININGAR:"
+bb_conf_ch1_9="Skriv inn rett sti til brennaren: "
+bb_conf_ch1_10="Autosøk: skriv inn auto"
+
+bb_conf_ch2_1="Stien til cdrom-eininga er vanlegvis noko slikt som /dev/cdrom eller /dev/dvd"
+bb_conf_ch2_2="Liste over moglege cdrom-einingar (etter /etc/fstab): "
+bb_conf_ch2_3="Skriv inn cdrom-einingsfila: "
+
+bb_conf_ch3_1="Monteringspunktet for cdrom-eininga di er vanlegvis noko slikt som /mnt/cdrom eller /mnt/dvd"
+bb_conf_ch3_2="Liste over moglege cdrom-einingar (etter /etc/fstab): "
+bb_conf_ch3_3="Skriv inn monteringspunktet for cdrom-eininga: "
+
+bb_conf_ch4_1="Ver merksam på at nyare versjonar av cdrecord ikkje set"
+bb_conf_ch4_2="1x som standardfart. For brennarar som er kompatible med MMC, er standardvalet"
+bb_conf_ch4_3="å brenna med høgast mogleg fart, så generelt er det"
+bb_conf_ch4_4="ikkje vits i å setja standard brennarfart."
+bb_conf_ch4_5="Medmindre du har ein god grunn, bør du seta farten til -1 og la"
+bb_conf_ch4_6="cdrecord bruka standardvalet for kvar brennar."
+bb_conf_ch4_7="Skriv inn brennarfarten: "
+
+bb_conf_ch5_1="Skriv inn slettemåte. Standard er alt eller disk"
+bb_conf_ch5_2="No er det sett til "
+
+bb_conf_ch6_1="Har du både cd-lesar og cd-brennar?"
+bb_conf_ch6_2="Viss du har, skriv inn 2. Viss ikkje, skriv inn 1."
+
+bb_conf_ch7_1="Rotkatalogen er der BashBurn har skallskripta sine."
+bb_conf_ch7_2="Du bør berre endra det om du veit kva du gjer."
+bb_conf_ch7_3="Viss du vil avbryta, skriv du berre inn "
+bb_conf_ch7_4=" på kommandolinja."
+
+bb_conf_ch8_1="Brennekatalogen er der du legg eller lenkar til dei filene du vil brenna."
+bb_conf_ch8_2="Pass på å ha skrivetilgang til den katalogen."
+
+bb_conf_ch9_1="Dette er namnet som vil bli brukt på monteringspunktet på"
+bb_conf_ch9_2="volumstyringssystemet til Solaris, og namnet som blir"
+bb_conf_ch9_3="gjeve til cden på ein Microsoft Win32- eller Apple Mac-plattform."
+bb_conf_ch9_4="Merkelappen er no "
+bb_conf_ch9_4b="Om du vil ha spørsmål kvar gong om kva slags merkelapp du vil ha,"           # New in 1.6
+bb_conf_ch9_4c="skriv du inn <ask-me> som merkelapp."                                         # New in 1.6 
+bb_conf_ch9_5="Skriv inn merkelapp på cden:"
+
+bb_conf_ch10_1="Om du vil setja kopieringsrett på cden din, skriv du det inn her:"
+
+bb_conf_ch11_1="Dette skildrar til vanleg kven som har laga cden,"
+bb_conf_ch11_2="oftast med postadresse og telefonnummer."
+bb_conf_ch11_3="Det er plass til 128 teikn med slik informasjon."
+bb_conf_ch11_4="Forfattaren er no "
+bb_conf_ch11_5="Skriv inn kven som har forfatta eller laga cden - hei, er ikkje det du?"
+
+bb_conf_ch12_1="Dette skildrar til vanleg kven som har gjeve ut cden,"
+bb_conf_ch12_2="oftast med postadresse og telefonnummer."
+bb_conf_ch12_3="Det er plass til 128 teikn med slik informasjon."
+bb_conf_ch12_4="Utgjevaren er no "
+bb_conf_ch12_5="Skriv inn kven som gjev ut cden (om nokon)"
+
+bb_conf_ch13_1="Dette skildrar til vanleg kva slags program det er"
+bb_conf_ch13_2="på cden. Det er plass til 128 teikn med slik"
+bb_conf_ch13_3="informasjon. Skildringa er no:"
+bb_conf_ch13_4="Skildre kva som er på cden:"
+
+bb_conf_ch14_1="Ei pakke inneheld fleire cdar, til dømes eit operativsystem"
+bb_conf_ch14_2="der innhaldet er spreidd på fleire cdar."
+bb_conf_ch14_3="Dette er valfritt. Viss du skriv inn talet"
+bb_conf_ch14_4="på cdar totalt og nummeret på kvar cd."
+bb_conf_ch14_5="Pakkenamnet er no "
+bb_conf_ch14_6="Skriv inn pakkenamnet:"
+
+bb_conf_ch15_1="Normalisering blir brukt til å justera lydvolumet på wav-filer til eit"
+bb_conf_ch15_2="standardvolumnivå. Det er nyttig til slikt som å laga mp3-miksar, der"
+bb_conf_ch15_3="ulikt lydnivå på ulike plater kan få volumet til å"
+bb_conf_ch15_4="variera mykje frå song til song. No er normaliseringa sett til "
+bb_conf_ch15_5="Berre skriv 'yes' om du har normalize-programmet installert. Viss ikkje, skriv du 'no'."
+
+bb_conf_ch16_1="Skriv inn drivarvala du vil bruka. Skil dei med eit komma."
+bb_conf_ch16_2="Er du usikker, trykkjer du berre [ENTER] utan å skrive noko."
+
+bb_conf_ch17_1="Skriv inn fifo-katalogen. Dette trengst berre til brenning med"
+bb_conf_ch17_2="røyrfunksjonen i Linux, og til vanleg er standardvalet heilt greit."
+bb_conf_ch17_3="Viss du vil avbryta, trykkjer du berre [ENTER] "
+bb_conf_ch17_4=" på kommandolinja."
+bb_conf_ch17_5=" er fifo-katalog)"
+
+bb_conf_ch18_1="Sletta filer i "
+bb_conf_ch18_2=" når brenninga er ferdig?"
+bb_conf_ch18_3="Standardvalet 'no', og det bør du skriva inn viss du"
+bb_conf_ch18_4="skal brenna desse filene meir enn ein gong..."
+
+bb_conf_ch19_1="Skal BashBurn overbrenna? Brennaren din"
+bb_conf_ch19_2="må støtta det, og det er ikkje sikkert"
+bb_conf_ch19_3="at det verkar likevel, sidan dette kan brenna"
+bb_conf_ch19_4="meir på cden enn han var laga for."
+bb_conf_ch19_5="Standardvalet er 'no'. (yes/no)"
+
+bb_conf_ch20_1="Denne innstillinga er for lyd-cdar. Er innhaldet kopisikra?"
+bb_conf_ch20_2="Standardvalet er 'no'. "
+bb_conf_ch20_3="OBS: "
+bb_conf_ch20_4="Dette valet kopisikrar "
+bb_conf_ch20_5="ikkje"
+bb_conf_ch20_6=" eigentleg lydfilene"
+bb_conf_ch20_7="som blir brent, det berre seier til cdrecord at dei er kopisikra."
+
+bb_conf_ch21_1="Bitraten er sjølvsagt det viktigaste for kvaliteten til lydfiler."
+bb_conf_ch21_2="Di høgre bitrate, di betre kvalitet. Høgre bitrate vil"
+bb_conf_ch21_3="sjølvsagt òg gje større lydfiler."
+bb_conf_ch21_4="Set opp bitrate for mp3- og ogg-lydfiler."
+bb_conf_ch21_5="Standardvalet er 128. "
+
+bb_conf_ch22_1="Her vel du språket til BashBurn, standard er engelsk."
+bb_conf_ch22_2="Tilgjengelege språk:"
+
+bb_conf_ch23_1="Dette er for gje cdrecord ordre om å brenna i:"
+bb_conf_ch23_2="SAO (Session at once, ein sesjon om gongen)"
+bb_conf_ch23_2b=" også kalla "
+bb_conf_ch23_2c="DAO (Disk at once, ein heil cd om gongen)"
+bb_conf_ch23_3="eller"
+bb_conf_ch23_4="TAO (Track at once, eit spor om gongen)."
+bb_conf_ch23_5=" Standardvalet er TAO."
+bb_conf_ch23_6="Vil du ha meir info, kan du sjå på rettleiinga for cdrecord. (man cdrecord)"
+bb_conf_ch23_7="Skriv inn valet ditt som -tao, -sao eller -dao (SAO og DAO er det same)"
+
+
+
+bb_conf_apply_1="Bruker endringar!"
+bb_conf_apply_2="Greidde ikkje lagra i"
+bb_conf_apply_3="Du bør gje kommandoen chmod 666"
+
+bb_conf_def_1="Bruker standardval!"
+bb_conf_def_2="(BBROOTDIR har *inga* standardoppføring - du må endra det!)"
+
+bb_conf_xit_1="Tilbake til hovudmenyen"
+bb_conf_xit_2="Du trykte på 'Bruk endringar' før du gjekk ut, ikkje sant?"
+
+bb_conf_err="Ver god å skriva inn "
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

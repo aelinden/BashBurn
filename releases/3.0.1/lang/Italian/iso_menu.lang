@@ -1,0 +1,36 @@
+# iso_menu.lang - Italian language
+
+bb_im_wait_1="Premi [ENTER] per tornare al menù."
+
+bb_im_menu_title="Menù ISO"
+bb_im_menu_1="Masterizza ISO"
+bb_im_menu_2="Crea ISO da file in "
+bb_im_menu_3="Crea ISO da un cd"
+bb_im_menu_4="Masterizza file immagine DVD"
+bb_im_menu_5="Monta immagine"
+bb_im_menu_0="Indietro"
+bb_im_menu_entry="Cosa scegli? "
+
+bb_im_error_files="Non ci sono file in "
+
+bb_im_ch2_1="C'è un file ISO in "
+bb_im_ch2_2=" Cancellarlo o spostarlo in"
+bb_im_ch2_3="prima di crearne uno nuovo."
+bb_im_ch2_4="Sto cercando di creare un file ISO"
+
+bb_im_ch2_4b="Etichetta del tuo cd di dati: "				# New in 1.6
+
+bb_im_ch2_5="File ISO creato"
+bb_im_ch2_6="Errore: Non si può creare un file ISO!"
+bb_im_ch2_7="Forse non hai i permessi di scrittura?"
+
+bb_im_ch3_1=" non montato! Prima montalo..."
+bb_im_ch3_2="Sto creando un file ISO dal cd in "
+
+bb_im_ch5_1="Inserisci la path del file immagine da montare:"
+bb_im_ch5_2="(o premi Enter per terminare)"
+bb_im_ch5_3="Non è stato inserito il nome del file, sto terminando."
+
+bb_im_ch0="Sto tornando al menu..."
+
+bb_im_error="Per favore inserisci "

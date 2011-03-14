@@ -1,0 +1,33 @@
+# datadefine.lang - English language
+
+
+bb_mnt_menu_title='Define burn data'
+
+bb_wfe_1='Press [ENTER] to return to menu.'
+
+bb_dc_menu_1=' Copy/Link data to '
+bb_dc_menu_2=' View data in '
+bb_dc_menu_3=' Delete data in '
+bb_dc_menu_0=' Back'
+
+bb_dc_explain1='You are now put into a shell. Your current position'
+bb_dc_explain2a='is in the '
+bb_dc_explain2b=' directory. For BashBurn to be'
+bb_dc_explain3='able to burn anything, you must copy or link your'
+bb_dc_explain4='data to this directory. You do this by using the cp or ln'
+bb_dc_explain5='commands. For instance, to link data here, you enter:'
+bb_dc_explain6=" 'ln -s <path to data> ./' (Without the '')"
+bb_dc_explain7='and to copy data you replace the ln -s with cp.'
+bb_dc_explain8='When you are finished, enter exit to return to the menu.'
+
+bb_dc_ch3_1="Do you really want to delete these files? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2='Files deleted.'
+bb_dc_ch3_3='Files not deleted'
+bb_dc_ch3_4='No files in '
+
+bb_dc_menu_err='Error. Please choose'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **
+

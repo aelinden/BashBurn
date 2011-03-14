@@ -1,0 +1,38 @@
+# mount.lang - Spanish language
+
+bb_mnt_enter_1="Presione [ENTER] para volver"
+
+bb_mnt_menu_title="Montar/Desmontar Dispositivo"
+bb_mnt_menu_1="Montar dispositivo"
+bb_mnt_menu_2="Desmontar dispositivo"
+bb_mnt_menu_3="Expulsar dispositivo"
+bb_mnt_menu_0="Volver"
+bb_mnt_menu_input="Su opción? "
+
+bb_mnt_ch1_1="Que dispositivo desea montar? Ingrese por ejemplo /mnt/cdrom"
+bb_mnt_ch1_2="(Debes ingresar el punto de montaje, no el archivo de dispositivo. Por ejemplo"
+bb_mnt_ch1_3="/mnt/cdrom funcionara bien, pero /dev/cdrom no. Sólo presione [ENTER]"
+bb_mnt_ch1_4="sin haber escrito nada para abortar."
+bb_mnt_ch1_5="Montaje cancelado!"
+bb_mnt_ch1_6="Montando "
+bb_mnt_ch1_7=" ha sido montado."
+bb_mnt_ch1_8="Montaje fallido. Tal vez no tienes los permisos necesarios,"
+bb_mnt_ch1_9="el dispositivo ya esta montado, no hay medio en el dispositivo"
+bb_mnt_ch1_10="o escribió mal la ruta del dispositivo?"
+
+bb_mnt_ch2_1="Parece que no hay dispositivos montados."
+bb_mnt_ch2_2="Que dispositivo deseas desmontar? Ingrese por ejemplo /mnt/cdrom"
+bb_mnt_ch2_3=" desmontado."
+bb_mnt_ch2_4="Desmontaje fallido. Tal vez no tienes los permisos necesarios"
+bb_mnt_ch2_5="o escribió mal la ruta del dispositivo?"
+
+bb_mnt_ch3_1="Que dispositivo deseas expulsar? Ingrese por ejemplo /mnt/cdrom"
+bb_mnt_ch3_1b="o sólo presione [ENTER] sin haber escrito nada para abortar."
+bb_mnt_ch3_1c="Abortado!"
+bb_mnt_ch3_2=" expulsado. (En caso que no lo hayas notado ;-) )"
+bb_mnt_ch3_3="Expulsión fallida. Tal vez no tienes los permisos necesarios"
+bb_mnt_ch3_4="o escribió mal la ruta del dispositivo?"
+
+bb_mnt_ch0="Volver al menú principal"
+
+bb_mnt_error="Por favor elija "

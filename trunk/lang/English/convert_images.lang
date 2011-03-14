@@ -1,0 +1,16 @@
+# convert_images.lang - English version
+
+bb_conv_img_copied1a='Image file must be copied/linked to'
+bb_conv_img_copied1b='before it can be converted into an ISO-image.'
+
+bb_conv_img_copied2='Have you done that? (y/n): '
+
+bb_conv_img_copied3a='Please copy image file to'
+bb_conv_img_copied3b='before trying to burn it.'
+
+bb_conv_img1='is now converted to ISO-format.'
+bb_conv_img2='could not be converted.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

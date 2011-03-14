@@ -1,0 +1,43 @@
+# burning.lang - German language
+
+bb_press_enter="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+
+bb_no_ob='Ueberbrennen nicht aktivieren...'
+
+bb_burning_tmp_1='Temporaere Dateien in'
+bb_burning_tmp_1b='geloescht...'
+bb_burning_tmp_2='nicht geloescht...'
+
+bb_burning_audio_1=gefunden
+bb_burning_audio_2='Keine Audio-Dateien in'
+bb_burning_audio_3='Verwende keine Normalisierungsfunktion...'
+
+bb_burning_finish_1='Brennen beendet'
+bb_burning_finish_2='Brennen fehlgeschlagen.'
+bb_burning_finish_3='Datei(en) verlinkt/kopiert nach'
+
+bb_burning_error='Keine Dateien in '
+
+bb_burning_iso_1="Kein 'ISO' gefunden in"
+
+bb_burning_data_1='Versuche ISO-Datei zu erstellen'
+
+bb_burning_data_label='Bezeichner (Label) Deiner CD: '
+
+bb_burning_data_2='FEHLER: Konnte keine ISO-Datei erstellen.'
+bb_burning_data_3='Vielleicht brauchst Du Schreibrechte?'
+
+bb_burning_fifo_1='Keine 'WAV' Dateien in'
+bb_burning_fifo_2=Brenne
+bb_burning_fifo_2b='Spuren (tracks)!'
+bb_burning_fifo3="Loesche unbenutzte FIFO's"
+
+bb_burning_dvd_1='Ist das die erste Session dieser DVD?'
+bb_burning_dvd_2="(Gib 'no' ein wenn Du eine neue Session an eine schon"
+bb_burning_dvd_3='gebrannte DVD anfügen willst. Diesen Vorgang brichst Du,'
+bb_burning_dvd_4="ohne sonstige Eingabe, mit Druecken der 'ENTER'-Taste ab)"
+bb_burning_dvd_5='(yes/no): '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

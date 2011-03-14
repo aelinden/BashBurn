@@ -1,0 +1,17 @@
+# commonfunctions.lang - Czech language file
+
+bb_cf_text1="Na CD jsou pravdepodobne vypalena data. Vymazat CD?"
+bb_cf_text2="Pouze odpoved 'yes' jestlize medium je prepisovatelny disk. Stiskni"
+bb_cf_text3="'abort' pro zruseni operace a navrat do hlavniho menu."
+bb_cf_text4="Ruseni operace ..."
+
+bb_cf_text5="Zkousi vypalovat bez vymazani CD. Tato operace se pravdepodobne nepovede."
+bb_cf_text6="Vymazani selhalo. Vypalovaci proces ukoncen"
+
+bb_cdrw_blank1="Probiha vymazani cd..."
+bb_cdrw_blank2="CDRW bylo uspesne vymazano"
+bb_cdrw_blank3="Rychle vymazani selhalo. Je nutne pouzit uplne vymazani..."
+bb_cdrw_blank4="Uplne vymazani probehlo uspesne."
+bb_cdrw_blank5="Vymazani nebylo dokonceno. Vymente cd."
+bb_cdrw_blank6="CD/DVD je pravdepodobne ciste (nebo neni CD v mechanice), neni co mazat..."
+

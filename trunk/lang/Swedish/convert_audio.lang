@@ -1,0 +1,13 @@
+# convert_audio.lang - Svenskt språk
+
+bb_conv_flac_1='Flac-files konverterade och redo att brännas'
+
+bb_conv_mp3_1=dekomprimerade
+bb_conv_mp3_2='och redo att brännas'
+bb_conv_mp3_3='Kunde inte dekomprimeras'
+
+bb_conv_ogg='Ogg-filer dekomprimerade och redo att brännas.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

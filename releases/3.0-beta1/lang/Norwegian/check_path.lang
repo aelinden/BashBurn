@@ -1,0 +1,14 @@
+# check_path.lang - Nynorsk
+
+bb_cp_1="Fann programmet"
+bb_cp_2="i"
+bb_cp_3="Fann ikkje programmet!"
+bb_cp_4="Installer det for å få full nytte av BashBurn."
+bb_cp_5="Sjekkar programstiar..."
+bb_cp_6=" Brenneverkty"
+bb_cp_7=" Verkty for lydhenting"
+bb_cp_8=" Verkty for koding og avkoding"
+bb_cp_9=" Ymse"
+bb_cp_10="OBS: Installer programma som ikkje vart funne,"
+bb_cp_11="elles kan det hende BashBurn ikkje verkar skikkeleg."
+bb_cp_12="Trykk [ENTER] for å gå tilbake til hovudmenyen"

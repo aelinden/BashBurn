@@ -1,0 +1,59 @@
+#"\e[30m" set foreground color to black
+#"\e[31m" set foreground color to red
+#"\e[32m" set foreground color to green
+#"\e[33m" set foreground color to yellow
+#"\e[34m" set foreground color to blue
+#"\e[35m" set foreground color to magenta (purple)
+#"\e[36m" set foreground color to cyan
+#"\e[37m" set foreground color to white
+#"\e[40m" set background color to black
+#"\e[41m" set background color to red
+#"\e[42m" set background color to green
+#"\e[43m" set background color to yellow
+#"\e[44m" set background color to blue
+#"\e[45m" set background color to magenta (purple)
+#"\e[46m" set background color to cyan
+#"\e[47m" set background color to white
+#"\e[1;30m" set foreground color to dark gray
+#"\e[1;31m" set foreground color to light red
+#"\e[1;32m" set foreground color to light green
+#"\e[1;33m" set foreground color to yellow
+#"\e[1;34m" set foreground color to light blue
+#"\e[1;35m" set foreground color to light magenta (purple)
+#"\e[1;36m" set foreground color to light cyan
+#"\e[1;37m" set foreground color to white
+#"\e[1;40m" set background color to dark gray
+#"\e[1;41m" set background color to light red
+#"\e[1;42m" set background color to light green
+#"\e[1;43m" set background color to yellow
+#"\e[1;44m" set background color to light blue
+#"\e[1;45m" set background color to light magenta (purple)
+#"\e[1;46m" set background color to light cyan
+#"\e[1;47m" set background color to white
+#
+#For other features:
+#"\e[0m" reset; clears all colors and styles (to white on black)
+
+colordef()
+{
+    # colors.idx - Colors used by BashBurn
+
+    NOCOL="\e[1;0m"
+    BBCOLOROFF="$NOCOL"
+    GR_ON_BL="\e[1;32m"
+    BBHEADCOLOR="$GR_ON_BL"
+    WH_ON_BL="\e[37;40m"
+    BBMAINCOLOR="$WH_ON_BL"
+    BLU_ON_BL="\e[1;36m"
+    BBSUBCOLOR="$BLU_ON_BL"
+    RED_ON_BL="\e[1;31m"
+    BBTABLECOLOR="$RED_ON_BL"
+    LILAC_ON_BL="\e[1;35m"
+    BBINPUTCOLOR="$LILAC_ON_BL"
+    YEL_ON_BL="\e[1;33m"
+    BBOPTIONCOLOR="$YEL_ON_BL"
+}
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

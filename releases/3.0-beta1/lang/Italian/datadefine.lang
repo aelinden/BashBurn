@@ -1,0 +1,28 @@
+# datadefine.lang - Italian language
+
+
+bb_mnt_menu_title="Indica i dati da masterizzare"
+
+bb_wfe_1="Premi [ENTER] per tornare al menù."
+
+bb_dc_menu_1=" Copia/Linka i dati in "
+bb_dc_menu_2=" Verifica i dati in "
+bb_dc_menu_3=" Elimina i dati in "
+bb_dc_menu_0=" Indietro"
+
+bb_dc_explain1="Adesso sarai posto in un terminale. La tua posizione attuale"
+bb_dc_explain2a="è nella "
+bb_dc_explain2b=" directory. Affinchè BashBurn possa"
+bb_dc_explain3="masterizzare qualcosa, devi copiare o linkare i tuoi dati"
+bb_dc_explain4="in questa directory. Puoi usare i comandi"
+bb_dc_explain5="cp o ln. Per esempio, per linkare qui dei dati, inserisci:"
+bb_dc_explain6=" 'ln -s <path dei dati> ./' (Senza '')"
+bb_dc_explain7="e per copiare i dati sostituisci ln -s con cp. Quando hai finito, "
+bb_dc_explain8="inserisci il comando 'exit' (Senza '') per tornare al menù principale."
+
+bb_dc_ch3_1="Vuoi veramente cancellare questi file? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2="File cancellati."
+bb_dc_ch3_3="File non cancellati"
+bb_dc_ch3_4="Non ci sono file in "
+
+bb_dc_menu_err="Errore. Per favore scegli"

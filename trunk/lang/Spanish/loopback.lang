@@ -1,0 +1,34 @@
+# loopback.lang - Spanish language
+
+bb_lb_noread="no pudo ser leido."
+bb_lb_no_lb_dir="No hay directorio de loopack, creando..."
+
+bb_lb_dir_c="Directorio creado."
+bb_lb_dir_cf="Fallo en la creacion, cancelando."
+
+bb_lb_no_im_dir="No existe directorio de imagen, creando..."
+bb_lb_no_temp_dir="No existe el directorio temporal, creando..."
+
+bb_lb_sudo1="Debes estar en el grupo sudoers para montar la imagen."
+bb_lb_sudo2="Ingresa tu contraseña abajo, si falla tal vez no estes"
+bb_lb_sudo3="en ese grupo. En ese caso, arreglalo e intenta de nuevo."
+bb_lb_sudo4="Tambien debes tener suporte para dispositivos loopback" 
+bb_lb_sudo5="compilado en el kernel o como modulo,"
+bb_lb_sudo6="o el proximo paso fallara."
+
+bb_lb_mount="Imagen montada."
+bb_lb_mount_fail="Fallo al montar, abortando."
+
+bb_lb_cp_cont="Copiando contenidos, por favor, aguarde..."
+
+bb_lb_in_file="Estas viendo los archivos de la imagen. Modifica y luego escribe 'exit'."
+
+bb_lb_change1="Realizo cambios? (Si es asi, una nueva imagen"
+bb_lb_change2="debe ser creada lo cual tomara un tiempo) (y/n)"
+bb_lb_change3="Ya existen datos en"
+bb_lb_change4="seran borrados si continua."
+bb_lb_change5="Quieres continuar? (y/n)"
+bb_lb_change6="Creando nueva imagen, por favor aguarde..."
+bb_lb_change7="Nueva imagen creada en"
+bb_lb_change8="Abortando, no se borra informacion. Cambios a la imagen descartados."
+bb_lb_change9="No se hicieron cambios, se omite recreacion de imagen."

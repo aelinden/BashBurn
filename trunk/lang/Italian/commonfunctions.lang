@@ -1,0 +1,16 @@
+# commonfunctions.lang - Italian language file
+
+bb_cf_text1="Il cd sembra già scritto. Vuoi cancellarlo?"
+bb_cf_text2="Rispondi 'yes' solo se si tratta di un cd registrabile. Inserisci"
+bb_cf_text3="'abort' se vuoi terminare e tornare al menú."
+bb_cf_text4="Sto terminando..."
+
+bb_cf_text5="Sto cercando di masterizzare senza cancellare il CD. Probabilmente fallirà."
+bb_cf_text6="Cancellazione fallita. Masterizzazione terminata"
+
+bb_cdrw_blank1="Cancello il cd..."
+bb_cdrw_blank2="CDRW cancellato"
+bb_cdrw_blank3="La cancellazione è fallita. Cerco di forzare la cancellazione..."
+bb_cdrw_blank4="Cancellazione forzata completata con successo."
+bb_cdrw_blank5="La cancellazione non è stata completata. Dovresti cambiare questo cd."
+bb_cdrw_blank6="Il CD/DVD sembra vuoto (o non c'è un cd nel dispositivo), non sarà cancellato..."

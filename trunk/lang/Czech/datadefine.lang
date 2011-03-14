@@ -1,0 +1,28 @@
+# datadefine.lang - Czech language
+
+
+bb_mnt_menu_title="Definice vypalovanych dat"
+
+bb_wfe_1="Stisknuti klavesy [ENTER] pro navrat do hlavniho menu."
+
+bb_dc_menu_1=" Kopirovat/Linkovat data do "
+bb_dc_menu_2=" Zobrazit data v "
+bb_dc_menu_3=" Smazat data v "
+bb_dc_menu_0=" Navrat do hlavniho menu"
+
+bb_dc_explain1="Nyni se nachazite v shellu. Vase soucasna pozice"
+bb_dc_explain2a="je v "
+bb_dc_explain2b=" adresari. Pro BashBurn je"
+bb_dc_explain3="mozne vypalit cokoliv, musite jen nakopirovat nebo nalinkovat vas"
+bb_dc_explain4="adresar s daty. Je mozne pouzit prikaz cp nebo ln."
+bb_dc_explain5="Napriklad, pro nalinkovani dat zadat:"
+bb_dc_explain6=" 'ln -s <cesta k datum> ./' (bez '')"
+bb_dc_explain7="a pro kopirovani dat misto ln -s pouzit cp."
+bb_dc_explain8="Po skonceni, stisknout exit pro navrat do hlavniho menu."
+
+bb_dc_ch3_1="Opravdu smazat tyto soubory? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2="Soubory smazany."
+bb_dc_ch3_3="Soubory nebyly smazany"
+bb_dc_ch3_4="Zadne soubory v "
+
+bb_dc_menu_err="Chyba. Zvolte"

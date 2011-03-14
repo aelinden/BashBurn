@@ -1,0 +1,29 @@
+# data_menu.lang - Czech language
+
+bb_dm_newcd="Vlozit ciste CD a stisknout klavesu [ENTER] pro pokracovani"
+
+bb_dm_wait="Stlacit klavesu [ENTER] pro navrat do hlavniho menu."
+
+bb_dm_menu_title="Data Menu"
+bb_dm_menu_1="Vypalit Data"
+bb_dm_menu_2="Zkopirovat Data CD (CD to CD)"
+bb_dm_menu_3="Vypalit Data DVD"
+bb_dm_menu_4="Vymazat CDRW"
+bb_dm_menu_5="Vymazat DVD"
+bb_dm_menu_0="Zpet"
+bb_dm_menu_entry="Vase volba? "
+
+bb_dm_ch2_1=" nenamountovano! Namountovat nejdriv..."
+bb_dm_ch2_2="ISO se naleza v "
+bb_dm_ch2_3=" Smazat nebo presunout"
+bb_dm_ch2_4="pred vytvorenim noveho."
+bb_dm_ch2_5="CD bylo zkopirovano!"
+bb_dm_ch2_6="Zacatek vypalovani"
+
+bb_dm_ch0="Probiha navrat do hlavniho menu.."
+
+bb_dm_error="Stisknout enter "
+
+bb_dm_cdcopy="Kopirovani obsahu CD do "
+bb_dm_cdcopy_err1="Chyba pri prenosu. Je spravne CD v mechanice?"
+bb_dm_cdcopy_err2="(Zkontrolovat informace o chybach)"

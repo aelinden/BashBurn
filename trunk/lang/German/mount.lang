@@ -1,0 +1,42 @@
+# mount.lang - German language
+
+bb_mnt_enter_1="Druecke die Taste 'ENTER' um zurueckzukehren"
+
+bb_mnt_menu_title='Geraet in/aus Dateisystem einhaengen(mount)/aushaengen(umount)'
+bb_mnt_menu_1='Geraet einhaengen (mount)'
+bb_mnt_menu_2='Geraet aushaengen (umount)'
+bb_mnt_menu_3='CD auswerfen'
+bb_mnt_menu_0="Zurueck"
+bb_mnt_menu_input='Deine Wahl? '
+
+bb_mnt_ch1_1='Welches Geraet moechtest Du zum Lesen einhaengen (mount)?'
+bb_mnt_ch1_2="Gib erst das Geraet, dann den Mount-Punkt ein (wie bei 'mount')."
+bb_mnt_ch1_3="Ein Beispiel: '/dev/hdc /mnt/cdrom'. Wenn Du hier abbrechen"
+bb_mnt_ch1_4="moechtest, druecke 'ENTER' um das Einhaengen abzubrechen."
+bb_mnt_ch1_5='Einhaengen abgebrochen!'
+bb_mnt_ch1_6='einhaengen '
+bb_mnt_ch1_7=' eingehaengt.'
+bb_mnt_ch1_8='Einhaengen ist fehlgeschlagen. Vielleicht hast Du keine ausreichenden Rechte,'
+bb_mnt_ch1_9='das Geraet ist schon eingehaengt, es ist kein Medium im Laufwerk'
+bb_mnt_ch1_10='oder Du hast beim Eingeben der Pfade einen Tippfehler gemacht?'
+
+bb_mnt_ch2_1='Es scheint, dass gar kein Geraet eingehaengt ist...'
+bb_mnt_ch2_2='Welches Geraet moechtest Du aushaengen (gib Geraet ODER Mount-Punkt ein)?'
+bb_mnt_ch2_3=' ausgehaengt (unmount).'
+bb_mnt_ch2_4='Aushaengen ist fehlgeschlagen. Vielleicht hast Du keine ausreichenden Rechte,'
+bb_mnt_ch2_5='oder Du hast beim Eingeben der Pfade einen Tippfehler gemacht?'
+
+bb_mnt_ch3_1='Von welchem Geraet moechtest Du die CD auswerfen? Gib das Geraet ein.'
+bb_mnt_ch3_1b="Zum Abbrechen druecke einfach nur 'ENTER'."
+bb_mnt_ch3_1c='Abgebrochen!'
+bb_mnt_ch3_2=' ausgeworfen. (Falls Du es nicht gemerkt hast ;-) )'
+bb_mnt_ch3_3='Auswerfen fehlgeschlagen. Vielleicht hast Du keine ausreichenden Rechte,'
+bb_mnt_ch3_4='oder Du hast beim Eingeben der Pfade einen Tippfehler gemacht?'
+
+bb_mnt_ch0='Zurueck zum Hauptmenue'
+
+bb_mnt_error='Bitte waehle '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,24 @@
+# Swedish language file for advanced.lang
+# 
+
+
+bb_adv_menutitle='Avancerade inställningar'
+bb_adv_cdburncmd='CD-brännarprogram'
+bb_adv_dvdburncmd='DVD-brännarprogram'
+bb_adv_isocmd='ISO-skaparprogram'
+bb_adv_dvdblankcmd='DVD-formatteringsprogram'
+bb_adv_imgburncmd='ISO-brännarprogram'
+bb_adv_audioripcmd='Ljud-CD kopieringsprogram'
+bb_adv_cdcopycmd='CD-kopieringsprogram'
+bb_adv_cdcopyopts='CD-kopieringsinställningar'
+bb_adv_mp3enc='MP3-kodningsprogram'
+bb_adv_mp3dec='MP3-avkodningsprogram'
+bb_adv_oggenc='Ogg-kodningsprogram'
+bb_adv_oggdec='Ogg-avkodningsprogram'
+bb_adv_flac='FLAC kod/avkodningsprogram'
+bb_adv_eject='Skivutmatningsprogram'
+bb_adv_norm='Ljudbalanseringsprogram'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

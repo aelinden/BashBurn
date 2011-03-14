@@ -1,0 +1,34 @@
+# loopback.lang - Polish language
+
+bb_lb_noread="Niepoprawna nazwa pliku"
+bb_lb_no_lb_dir="Brak katalogu loopback, tworze..."
+
+bb_lb_dir_c="Katalog utworzony"
+bb_lb_dir_cf="Utworzenie katalogu nie powiodło się."
+
+bb_lb_no_im_dir="Brak katalogu obrazu, tworze..."
+bb_lb_no_temp_dir="Brak katalogu na pliki tymczasowe, tworze..."
+
+bb_lb_sudo1="Aby zamontować obraz powinieneś być w sudoers group."
+bb_lb_sudo2="Wprowadź hasło, jeśli logowanie się nie powiedzie"
+bb_lb_sudo3="prawdopodobnie nie masz uprawnień."
+bb_lb_sudo4="Powinieneś również posiadać moduł obsługi urządzeń"
+bb_lb_sudo5="loopback, w przeciwnym przypadku"
+bb_lb_sudo6="następny krok się nie powiedzie."
+
+bb_lb_mount="Obraz zamontowany."
+bb_lb_mount_fail="Montowanie nie powiodło się, przerywam.."
+
+bb_lb_cp_cont="Kopiowanie zawartości, proszę czekać..."
+
+bb_lb_in_file="Jesteś w systemi plików pochodzącym z obrazu. Możesz go zmieniać, 'exit' aby powrócić."
+
+bb_lb_change1="Dokonałeś jakiś zmian? (Jeśli tak, nowy obraz "
+bb_lb_change2="musi zostać stworzny, potrwa to chwile) (y/n)"
+bb_lb_change3="Poprzednie informacje w "
+bb_lb_change4="zostaną usunięte."
+bb_lb_change5="Czy kontynuować? (y/n)"
+bb_lb_change6="Tworzenie nowego obrazu, proszę czekać..."
+bb_lb_change7="Nowy obraz utworzony w "
+bb_lb_change8="Przerwano, dane nie zostały usunięte. Zmiany w obrazie anulowane."
+bb_lb_change9="Nie dokonano żadnych zmian, pominięto tworzenie obrazu."

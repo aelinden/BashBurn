@@ -1,0 +1,39 @@
+# burning.lang - Italian language
+
+bb_press_enter="Premi [ENTER] per tornare al menù principale"
+
+bb_no_ob="Overburn non abilitata..."
+
+bb_burning_tmp_1="File temporanei in"
+bb_burning_tmp_1b="cancellati..."
+bb_burning_tmp_2="non sono stati cancellati..."
+
+bb_burning_audio_1="trovato"
+bb_burning_audio_2="Non ci sono file audio in"
+bb_burning_audio_3="Non si usa Normalizza..."
+
+bb_burning_finish_1="Masterizzazione terminata"
+bb_burning_finish_2="Masterizzazione fallita."
+bb_burning_finish_3="File linkati/copiati in"
+
+bb_burning_error="Non ci sono file in "
+
+bb_burning_iso_1="File ISO non trovato in"
+
+bb_burning_data_1="Cerco di creare il file ISO"
+
+bb_burning_data_label="Etichetta del tuo cd di dati: "					# New in 1.6
+
+bb_burning_data_2="Errore: Non si può creare il file ISO."
+bb_burning_data_3="Forse hai bisogno del permesso di scrittura?"
+
+bb_burning_fifo_1="Non ci sono file WAV in"
+bb_burning_fifo_2="Preparazione per la masterizzazione"
+bb_burning_fifo_2b="delle tracce!"
+bb_burning_fifo3="Cancellare file fifo non usati"
+
+bb_burning_dvd_1="Questa è la sessione iniziale del DVD?"
+bb_burning_dvd_2="(Inserisci no se vuoi aggiungere una nuova sessione a"
+bb_burning_dvd_3="un DVD già masterizzato. Per cancellare questa operazione"
+bb_burning_dvd_4="premi [ENTER] senza scrivere nulla)"
+bb_burning_dvd_5="(yes/no): "

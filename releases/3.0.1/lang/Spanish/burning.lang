@@ -1,0 +1,39 @@
+# burning.lang - Spanish language
+
+bb_press_enter="Presione [ENTER] para volver al menú principal"
+
+bb_no_ob="No se habilita overburn..."
+
+bb_burning_tmp_1="Archivos temporales en"
+bb_burning_tmp_1b="borrados..."
+bb_burning_tmp_2="no han sido borrados..."
+
+bb_burning_audio_1="encontrado"
+bb_burning_audio_2="No hay archivos de audio en"
+bb_burning_audio_3="No se Normaliza..."
+
+bb_burning_finish_1="Grabación finalizada"
+bb_burning_finish_2="Grabación fallida. Vea los documentos para mas información."
+bb_burning_finish_3="Archivo(s) linkeados/copiados a"
+
+bb_burning_error="No hay archivos en "
+
+bb_burning_iso_1="No se encontró ISO en"
+
+bb_burning_data_1="Intentando crear archivo ISO"
+
+bb_burning_data_label="Etiqueta de su CD de Datos: "					# New in 1.6
+
+bb_burning_data_2="Error: No se pudo crear archivo ISO."
+bb_burning_data_3="Tal vez necesita permisos de escritura?"
+
+bb_burning_fifo_1="No hay archivos WAV de MP3 en"
+bb_burning_fifo_2="Preparando para grabar"
+bb_burning_fifo_2b="pistas!"
+bb_burning_fifo3="Limpiar fifos no usados"
+
+bb_burning_dvd_1="Es esta la sesión inicial del DVD?"
+bb_burning_dvd_2="(Ingrese no si quiere agregar una nueva sesión a"
+bb_burning_dvd_3="un DVD ya grabado. Para cancelar la operación"
+bb_burning_dvd_4="presione [ENTER] sin ingresar nada)"
+bb_burning_dvd_5="(yes/no): "

@@ -1,0 +1,46 @@
+# iso_menu.lang - Swedish language
+
+bb_im_wait_1="Tryck [ENTER] för att återgå."
+
+bb_im_menu_title="ISO-Meny"
+bb_im_menu_1="Bränn ISO"
+bb_im_menu_2="Skapa ISO av filer i "
+bb_im_menu_3="Skapa ISO av CD"
+bb_im_menu_4="Bränn DVD-avbildning"
+bb_im_menu_5="Montera ISO"
+bb_im_menu_0="Tillbaka"
+bb_im_menu_entry="Ditt val? "
+
+bb_im_error_files="Inga filer i "
+
+bb_im_ch2_1="EN ISO existerar i "
+bb_im_ch2_2=" Radera eller flytta den"
+bb_im_ch2_3="innan du försöker skapa en ny."
+bb_im_ch2_4="Försöker skapa ISO-fil"
+
+bb_im_ch2_4b="Etikett på CDn: "				# New in 1.6
+
+bb_im_ch2_5="ISO skapad"
+bb_im_ch2_6="Fel: Kunde inte skapa ISO-fil!"
+bb_im_ch2_7="Du har kanske inte skrivrÃ¤ttigheter?"
+
+bb_im_ch3_1=" ej monterad! Gör det först..."
+bb_im_ch3_2="Skapar ISO av CD i "
+
+bb_im_ch5_1="Ange sökväg till avbildning som ska monteras:"
+bb_im_ch5_2="(Eller tryck enter för att avbryta)"
+bb_im_ch5_3="Inget namn angett, avbryter."
+
+bb_im_ch0="Återgår till meny..."
+
+bb_im_error="Var vänlig ange "
+
+
+
+
+
+
+
+
+
+

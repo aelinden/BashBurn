@@ -1,0 +1,16 @@
+# bincue.lang - German language
+
+bb_press_enter="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+
+bb_bincue_copy_1="'Bin' und 'Cue' Dateien muessen kopiert/verlinkt werden zu"
+bb_bincue_copy_1b='vor dem Versuch zu Brennen.'
+bb_bincue_copy_2="Hast Du das getan? Gib 'y' (ja) oder 'n' (nein) ein: "
+bb_bincue_copy_3='Bitte kopiere bin/cue-Dateien zu'
+bb_bincue_copy3b='bevor Du versuchst zu Brennen.'
+
+bb_bincue_burn_1='Brennen beendet'
+bb_bincue_burn_2='Brennen fehlgeschlagen. Vielleicht wegen fehlenden Rechten?'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,9 @@
+# convert_mp3s.lang - English language
+
+bb_conv_mp3_1=decompressed
+bb_conv_mp3_2='and ready to be burnt'
+bb_conv_mp3_3='could not be decompressed'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

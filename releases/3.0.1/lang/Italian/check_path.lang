@@ -1,0 +1,14 @@
+# check_path.lang - Italian language
+
+bb_cp_1="Programma trovato"
+bb_cp_2="in"
+bb_cp_3="Programma NON TROVATO!"
+bb_cp_4="Se non lo installi molte caratteristiche potrebbero non funzionare."
+bb_cp_5="Controllo le path..."
+bb_cp_6=" Strumenti di masterizzazione"
+bb_cp_7=" Estrattori"
+bb_cp_8=" Codificatori e Decodificatori"
+bb_cp_9=" Misc"
+bb_cp_10="NOTA: Installa i programmi non trovati"
+bb_cp_11="o BashBurn potrebbe non funzionare correttamente."
+bb_cp_12="Premi [ENTER] per tornare al menù principale."

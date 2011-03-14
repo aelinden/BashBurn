@@ -1,0 +1,76 @@
+# audio_menu.lang - Polish language
+
+bb_am_enter_1="Naci¶nij [ENTER] aby powróciæ do g³ównego menu."
+bb_am_enter_2="W³ó¿ puste CD i naci¶nij [ENTER] aby kontynuowaæ"
+
+bb_am_nomp3s="Brak mp3 w "
+bb_am_nooggs="Brak Ogg w "
+bb_am_noflacs="Brak Flac w "
+
+bb_am_norm_1=" Normalizacja "
+
+bb_am_err_1="[ERROR]: Przepraszam :( BashBurn nie mo¿e przeczytaæ tego cd!"
+
+bb_am_conf_1=" Wybra³e¶ te ¶cie¿ki do skopiowania: "
+bb_am_conf_2="Czy s± poprawne? (y/n): "
+
+bb_am_named_1="Informacje o dysku..."
+bb_am_named_2="Naci¶nij [ENTER] aby kontynuowaæ lub"
+bb_am_named_3="wpisz numer ¶cie¿ki do skopiowania "
+bb_am_named_4="Spacje w nazwach s± teraz wspierane"
+bb_am_named_5="np. Artysta - Piosnka, Artysta_Piosnka, Artysta-Piosnka."
+bb_am_named_6="Podaj ¶cie¿kê "
+
+bb_am_rip_1=" Kopiowanie ¶cie¿ek "
+bb_am_rip_2="¦cie¿ki skopiowane!"
+
+bb_am_encfilt=" Program kompresuj±cy..."
+
+bb_am_menu_title="Menu audio"
+bb_am_menu_1="Nagraj p³ytê audio z Mp3/Ogg/Wav/Flac"
+bb_am_menu_2="Nagraj bezpo¶rednio Audio-CD"
+bb_am_menu_3="Skopiuj Audio CD (CD - CD)"
+bb_am_menu_4="Skopiuj Audio CD (CD na dysk twardy)"
+bb_am_menu_5="Nagraj playliste XMMSa"
+bb_am_menu_6="Utwórz Mp3 z Wav"
+bb_am_menu_7="Utwórz Ogg z Wav"
+bb_am_menu_8="Utwórz Flac z Wav"
+bb_am_menu_9="Utwórz Mp3 z CD"
+bb_am_menu_10="Utwórz Ogg z CD"
+bb_am_menu_11="Utwórz Flac z CD"
+bb_am_menu_0="Wróæ"
+bb_am_menu_input="Wybór? "
+
+bb_am_ch3_1="Nagrywanie zakoñczone - Dziêkuje za u¿ycie BashBurna"
+bb_am_ch3_2="Wyst±pi³ b³±d przy nagrywaniu p³yty."
+bb_am_ch3_3="Wyst±pi³ b³±d przy kopiowaniu ¶cie¿ek z "
+
+bb_am_ch4_1="¦cie¿ki skopiowane i zapisane w "
+bb_am_ch4_2=" Je¶li chcesz utworzyæ pliki"
+bb_am_ch4_3="mp3,ogg lub flac, u¿yj w³a¶ciwej opcji z menu."
+
+bb_am_ch5="Nie mo¿na przeczytaæ playlist. Przerwano proces nagrywania."
+
+bb_am_ch6_1=" utworzony..."
+bb_am_ch6_2=" nie móg³ byæ utworzony"
+bb_am_ch6_3="Brak plików wav w "
+
+bb_am_ch7_1="Plik utworzony..."
+
+bb_am_ch9_1=" Tworzenie Mp3..."
+bb_am_ch9_2="Pliki mp3 utworzone. Pliki znajduj± siê w "
+
+bb_am_ch10_1=" Tworzenie plików ogg..."
+bb_am_ch10_2="Pliki ogg utworzone. Pliki znajduj± siê w "
+
+bb_am_ch11_1="Pliki Flac utworzone. Pliki znajduj± siê w "
+
+bb_am_ch0="Powrót do g³ównego menu"
+
+bb_am_error="Wybierz "
+
+
+
+
+
+

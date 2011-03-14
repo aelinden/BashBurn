@@ -1,0 +1,39 @@
+# burning.lang - Nynorsk
+
+bb_press_enter="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+
+bb_no_ob="Slår ikkje på overbrenning..."
+
+bb_burning_tmp_1="Mellomlagra filer i"
+bb_burning_tmp_1b="sletta..."
+bb_burning_tmp_2="ikkje sletta..."
+
+bb_burning_audio_1="funne"
+bb_burning_audio_2="Ingen lydfiler i"
+bb_burning_audio_3="Normaliserer ikkje..."
+
+bb_burning_finish_1="Ferdig å brenna"
+bb_burning_finish_2="Greidde ikkje brenna."
+bb_burning_finish_3="Fil(er) kopiert eller lenka til"
+
+bb_burning_error="Ingen filer i "
+
+bb_burning_iso_1="Ingen iso-fil (cd-avtrykk) i"
+
+bb_burning_data_1="Prøver å laga ei iso-fil (cd-avtrykk)"
+
+bb_burning_data_label="Merkelapp for data-cden din: "
+
+bb_burning_data_2="Feil: Greidde ikkje laga iso-fil (cd-avtrykk)."
+bb_burning_data_3="Kanskje du treng skrivetilgang?"
+
+bb_burning_fifo_1="Ingen WAV-filer i"
+bb_burning_fifo_2="Kjem til å brenna"
+bb_burning_fifo_2b="spor!"
+bb_burning_fifo3="Fjern ubrukte fifoar"
+
+bb_burning_dvd_1="Er dette fyrste økta på denne DVDen?"
+bb_burning_dvd_2="(Skriv 'no' om du vil leggja ei ny økt til ein"
+bb_burning_dvd_3="DVD som alt er brent. For å avbryta denne handlinga,"
+bb_burning_dvd_4="trykkjer du [ENTER] utan å skriva inn noko)"
+bb_burning_dvd_5="(yes/no): "

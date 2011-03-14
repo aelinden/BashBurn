@@ -1,0 +1,14 @@
+Installation
+
+1. Unpack the file (And if you are reading this I guess you already did)
+2. Cd into the directory and run the installation script (Install.sh)
+   For options, run Install.sh --help
+   (To do a global install that will affect all users on a system
+    you will have to be root or have global write permissions)
+3. Start the program by running 'bashburn' and configure it.
+4. Enjoy!
+
+Any problems mail me on anders.linden@gmail.com or post 
+on the BashBurn mailinglist. Also check out the BashBurn
+webpage at http://bashburn.dose.se for info and updates.
+

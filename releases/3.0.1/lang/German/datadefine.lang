@@ -1,0 +1,32 @@
+# datadefine.lang - German language
+
+
+bb_mnt_menu_title='Brenndateien definieren'
+
+bb_wfe_1="Druecke 'ENTER' um zum Menue zurueckzukehren."
+
+bb_dc_menu_1=' Kopiere/Verlinke Dateien in '
+bb_dc_menu_2=' Anschauen der Dateien in '
+bb_dc_menu_3=' Loeschen aller Dateien in '
+bb_dc_menu_0=' Zurueck'
+
+bb_dc_explain1='Dir wird nun eine Kommandozeile (bash) bereitgestellt!'
+bb_dc_explain2a="Du befindest dich im Verzeichnis '"
+bb_dc_explain2b="'. Damit Bashburn"
+bb_dc_explain3='etwas brennen kann, must Du Deine Daten zu diesem Verzeichnis'
+bb_dc_explain4='kopieren / verlinken (spart Plattenplatz). Benutze dazu die Befehle'
+bb_dc_explain5="'cp' oder 'ln'. Beispiele: 'cp /home/test.dat ./' oder"
+bb_dc_explain6="'ln -s /home/test.dat ./' definieren '/home/test.dat' zum Brennen."
+bb_dc_explain7="Hinweis: Alle Shellbefehle, z.B. auch 'rm' zum Loeschen, sind"
+bb_dc_explain8="moeglich! Gib 'exit' ein, um zum Menue zurueckzukehren."
+
+bb_dc_ch3_1="Moechtest Du wirklich diese Dateien loeschen? <'${BBHEADCOLOR}y(=ja)${BBCOLOROFF}'/'${BBTABLECOLOR}/n(=nein)${BBCOLOROFF}'>: "
+bb_dc_ch3_2='Dateien geloescht.'
+bb_dc_ch3_3='Dateien nicht geloescht'
+bb_dc_ch3_4='Keine Dateien in '
+
+bb_dc_menu_err='Fehler. Bitte waehle'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

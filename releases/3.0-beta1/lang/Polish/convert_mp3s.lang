@@ -1,0 +1,5 @@
+# convert_mp3s.lang - Polish language
+
+bb_conv_mp3_1="zdekompresowane"
+bb_conv_mp3_2="i gotowe do nagrania"
+bb_conv_mp3_3="nie mo¿na by³o zdekompresowaæ"

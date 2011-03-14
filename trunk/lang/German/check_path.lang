@@ -1,0 +1,18 @@
+# check_path.lang - German language
+
+bb_cp_1='Programm gefunden'
+bb_cp_2=in
+bb_cp_3='Programm NICHT gefunden!'
+bb_cp_4='ACHTUNG, lese den Hinweis unten!'
+bb_cp_5='Ueberpruefe Programm-Pfade...'
+bb_cp_6=' Brennwerkzeuge:'
+bb_cp_7=' Rippers:'
+bb_cp_8=' Encoder und Decoder:'
+bb_cp_9=' Sonstiges:'
+bb_cp_10='HINWEIS: Installiere die Programme die nicht gefunden wurden,'
+bb_cp_11='oder BashBurn koennte unter Umstaenden nicht korrekt funktionieren!'
+bb_cp_12="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,76 @@
+# audio_menu.lang - Nynorsk
+
+bb_am_enter_1="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+bb_am_enter_2="Set inn ein tom cd og trykk [ENTER] for å gå vidare"
+
+bb_am_nomp3s="Ingen mp3-filer i "
+bb_am_nooggs="Ingen Ogg-filer i "
+bb_am_noflacs="Ingen Flac-filer i "
+
+bb_am_norm_1=" Normaliserer "
+
+bb_am_err_1="[FEIL]: Lei for det :( BashBurn kan ikkje lesa cden!"
+
+bb_am_conf_1=" Du valde å henta desse spora: "
+bb_am_conf_2="Er dette rett? (y/n): "
+
+bb_am_named_1="Cd-informasjon..."
+bb_am_named_2="Trykk [ENTER] for å halda fram, eller"
+bb_am_named_3="Skriv kva lydspor du vil henta "
+bb_am_named_4="Du kan bruka mellomrom i filnamn!"
+bb_am_named_5="ie. Artist - song, Artist_song, Artist-song."
+bb_am_named_6="Kva heiter lydsporet "
+
+bb_am_rip_1=" Hentar lydspor "
+bb_am_rip_2="Har henta lydspor!"
+
+bb_am_encfilt=" Omkodingsfilterkommando..."
+
+bb_am_menu_title="Lydmeny"
+bb_am_menu_1="Brenn lyd-cd frå Mp3/Ogg/Wav/Flac"
+bb_am_menu_2="Brenn lyd-cd direkte"
+bb_am_menu_3="Kopier lyd-cd (cd til cd)"
+bb_am_menu_4="Kopier lyd-cd (cd til harddisk)"
+bb_am_menu_5="Brenn Xmms-speleliste"
+bb_am_menu_6="Lag mp3-filer av wav-filer"
+bb_am_menu_7="Lag ogg-filer av wav-filer"
+bb_am_menu_8="Lag flac-filer av wav-filer"
+bb_am_menu_9="Lag mp3-filer frå cd"
+bb_am_menu_10="Lag ogg-filer frå cd"
+bb_am_menu_11="Lag flac-filer frå cd"
+bb_am_menu_0="Tilbake"
+bb_am_menu_input="Kva vel du? "
+
+bb_am_ch3_1="Ferdig å brenna - takk for at du brukte BashBurn"
+bb_am_ch3_2="Feil! Kunne ikkje brenna cd-en."
+bb_am_ch3_3="Feil! Greidde ikkje henta lydspor frå "
+
+bb_am_ch4_1="Har henta og lagra lydspor i "
+bb_am_ch4_2=" Viss du vil laga"
+bb_am_ch4_3="mp3- ,ogg- eller flac-filer, bruker du funksjonane frå menyen."
+
+bb_am_ch5="Greidde ikkje lesa speleliste. Kjem ikkje til å brenna cd."
+
+bb_am_ch6_1=" laga..."
+bb_am_ch6_2" kunne ikkje bli komprimert"
+bb_am_ch6_3="Ingen wav-filer i "
+
+bb_am_ch7_1="Laga fil..."
+
+bb_am_ch9_1=" Lagar mp3-filer..."
+bb_am_ch9_2="Har laga mp3-filer. Filene er i "
+
+bb_am_ch10_1=" Lagar ogg-filer..."
+bb_am_ch10_2="Har laga ogg-filer. Filene er i "
+
+bb_am_ch11_1="Har laga flac-filer. Filene er i "
+
+bb_am_ch0="Går tilbake til hovudmenyen"
+
+bb_am_error="Ver god å velja "
+
+
+
+
+
+

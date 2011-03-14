@@ -1,0 +1,25 @@
+# commonfunctions.lang - English language file
+bb_cf_text1='CD seems to already be written to. Do you wish to blank it?'
+bb_cf_text2='Only answer 'yes' if the media is a rewritable disk. Enter'
+bb_cf_text3="'abort' if you wish to cancel and return to the menu."
+bb_cf_text4='Aborting...'
+
+bb_cf_text5='Trying to burn without blanking CD. This will probably fail.'
+bb_cf_text6='Blanking failed. Burn process aborted'
+
+bb_cdrw_blank1='Blanking cd...'
+bb_cdrw_blank2='CDRW blanked'
+bb_cdrw_blank3='Plain blanking failed. Trying to force...'
+bb_cdrw_blank4='Forced blanking succeeded.'
+bb_cdrw_blank5='Blanking was not successful. You should replace this cd.'
+bb_cdrw_blank6='CD/DVD seems to be blank (Or no CD in drive), not blanking...'
+
+bb_dvd_blank1='Fast or total blanking?'
+bb_dvd_blank2='Enter yes for fast, '
+bb_dvd_blank3='or no for a total formatting.'
+bb_dvd_blank4='Enter [ENTER] without entering anything'
+bb_dvd_blank5='To cancel the operation.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,14 @@
+# check_path.lang - Czech language
+
+bb_cp_1="Aplikace nalezena"
+bb_cp_2="v"
+bb_cp_3="Aplikace NENALEZENA!"
+bb_cp_4="Naistalovat nebo vsechny funkce nemusi fungovat."
+bb_cp_5="Testuji cesty..."
+bb_cp_6=" Vypalovaci nastroje"
+bb_cp_7=" Rippovani"
+bb_cp_8=" Kodovani a Dekodovani"
+bb_cp_9=" Misc"
+bb_cp_10="Poznamka: Instalovany program nebyl nalezen"
+bb_cp_11="nebo BashBurn nemusi pracovat korektne."
+bb_cp_12="Stisknout klavesu [ENTER] pro navrat do hlavniho menu."

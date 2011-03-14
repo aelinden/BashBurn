@@ -1,0 +1,26 @@
+# commonfunctions.lang - Swedish language file
+
+bb_cf_text1='Det verkar som om CDn redan är brännd. Vill du rensa den?'
+bb_cf_text2='Svara bara 'yes' om mediumet är omskrivbart. Ange'
+bb_cf_text3="'abort' om du vill avbryta och återgå till menyn."
+bb_cf_text4='Avbryter...'
+
+bb_cf_text5='Försöker bränna utan att rensa CDn. Detta kommer förmodligen att misslyckas.'
+bb_cf_text6='Rensning misslyckades. CD-bränning avbruten.'
+
+bb_cdrw_blank1='Formatterar CD...'
+bb_cdrw_blank2='CDRW formatterad'
+bb_cdrw_blank3='Vanlig formattering misslyckades. Försöker tvingad...'
+bb_cdrw_blank4='Tvingad formattering lyckades.'
+bb_cdrw_blank5='Formattering misslyckades. Du borde byta ut denna CD.'
+bb_cdrw_blank6='CD/DVD verkar vara oanvänd (Eller ingen CD i brännaren), formatterar inte...'
+
+bb_dvd_blank1='Snabb eller total formattering?'
+bb_dvd_blank2='Ange yes för snabb, '
+bb_dvd_blank3='eller no för total formattering.'
+bb_dvd_blank4='Tryck [ENTER] utan att skriva något'
+bb_dvd_blank5='För att avbryta.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

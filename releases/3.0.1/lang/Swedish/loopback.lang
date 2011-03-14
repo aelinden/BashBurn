@@ -1,0 +1,38 @@
+# loopback.lang - Swedish language
+
+bb_lb_noread='kunde inte läsas in.'
+bb_lb_no_lb_dir='Ingen loopback-katalog, skapar...'
+
+bb_lb_dir_c='Katalog skapad.'
+bb_lb_dir_cf='Katalog kunde inte skapas, avbryter.'
+
+bb_lb_no_im_dir='Ingen avbildningskatalog, skapar...'
+bb_lb_no_temp_dir='Ingen temporär katalog, skapar...'
+
+bb_lb_sudo1='Du måste tillhöra gruppen sudoers för att kunna montera avbildningen.'
+bb_lb_sudo2='Ange ditt lösenord nedan, om operationen misslyckas kanske du inte tillhör'
+bb_lb_sudo3='korrekt grupp. I sådant fall, justera detta och försök igen.'
+bb_lb_sudo4='Du måste också ha stöd för loopback-enheter'
+bb_lb_sudo5='inkompilerat i kärnan eller som modul,'
+bb_lb_sudo6='annars kommer nästa steg att misslyckas.'
+
+bb_lb_mount='Avbildning monterad.'
+bb_lb_mount_fail='Montering misslyckades, avbryter.'
+
+bb_lb_cp_cont='Kopierar innehåll, vänta...'
+
+bb_lb_in_file='Du är nu i avbildningens filsystem. Ändra vad du vill, skriv 'exit' för att återgå till menyn.'
+
+bb_lb_change1='Ändrade du någonting? (I sådant fall måste en ny avbildning'
+bb_lb_change2='skapas vilket kan ta en stund) (y/n)'
+bb_lb_change3='Data finns redan i'
+bb_lb_change4='den kommer raderas om du fortsätter.'
+bb_lb_change5='Vill du fortsätta? (y/n)'
+bb_lb_change6='Skapar ny avbildning, vänta...'
+bb_lb_change7='Ny avbildning skapad i'
+bb_lb_change8='Avbryter, tar ej bort data. Ändringar till avbildningen kastas bort.'
+bb_lb_change9='Inga ändringar gjorda, hoppas över skapande av ny avbildning.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

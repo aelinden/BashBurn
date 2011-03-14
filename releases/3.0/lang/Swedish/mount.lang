@@ -1,0 +1,42 @@
+# mount.lang - Swedish language
+
+bb_mnt_enter_1='Tryck [ENTER] för att återgå'
+
+bb_mnt_menu_title='Montera/Avmontera enhet'
+bb_mnt_menu_1='Montera enhet'
+bb_mnt_menu_2='Avmontera enhet'
+bb_mnt_menu_3='Mata ut enhet'
+bb_mnt_menu_0='Tillbaka'
+bb_mnt_menu_input='Ditt val? '
+
+bb_mnt_ch1_1='Vilken enhet vill du montera? Ange den som /mnt/cdrom'
+bb_mnt_ch1_2='(Du måste ange monteringspunkten, inte enhetsfilen. T.ex.'
+bb_mnt_ch1_3='/mnt/cdrom fungerar, men /dev/cdrom gör inte det. Bara tryck [ENTER]'
+bb_mnt_ch1_4='utan att ange någonting för att avbryta.'
+bb_mnt_ch1_5='Montering avbruten!'
+bb_mnt_ch1_6='Monterar '
+bb_mnt_ch1_7=' monterad.'
+bb_mnt_ch1_8='Montering misslyckades. Kanske har du inte rättighet att göra detta,'
+bb_mnt_ch1_9='enheten är redan monterad, det finns inget media i enheten'
+bb_mnt_ch1_10='eller du stavade sökvägen till enheten fel?'
+
+bb_mnt_ch2_1='Det verkar som om det inte finns några monterade enheter.'
+bb_mnt_ch2_2='Vilken enhet vill du avmontera? Ange den som /mnt/cdrom'
+bb_mnt_ch2_3=' avmonterad.'
+bb_mnt_ch2_4='Avmontering misslyckades. Du kanske inte har rättigheter att göra detta,'
+bb_mnt_ch2_5='eller du angav fel sökväg till enheten?'
+
+bb_mnt_ch3_1='Vilken enhet vill du mata ut? Ange den som /mnt/cdrom'
+bb_mnt_ch3_1b='eller tryck [ENTER] utan att mata in något för att avbryta.'
+bb_mnt_ch3_1c='Avbruten!'
+bb_mnt_ch3_2=' utmatad. (Om du inte märkte det ;-) )'
+bb_mnt_ch3_3='Utmatning misslyckades. Kanske har du inte rättigheter att göra detta,'
+bb_mnt_ch3_4='eller angav du fel sökväg till enheten?'
+
+bb_mnt_ch0='Tillbaka'
+
+bb_mnt_error='Var vänlig ange '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

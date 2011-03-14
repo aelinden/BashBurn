@@ -1,0 +1,47 @@
+# mount.lang - Nynorsk
+
+bb_mnt_enter_1="Trykk [ENTER] for å gå tilbake"
+
+bb_mnt_menu_title="Monter eller avmonter eining"
+bb_mnt_menu_1="Monter eining"
+bb_mnt_menu_2="Avmonter eining"
+bb_mnt_menu_3="Løys ut eining"
+bb_mnt_menu_0="Tilbake"
+bb_mnt_menu_input="Kva vel du? "
+
+bb_mnt_ch1_1="Kva eining vil du montera? Skriv inn eininga som /mnt/cdrom"
+bb_mnt_ch1_2="(Du må skriva inn monteringspunktet, ikkje einingsfila."
+bb_mnt_ch1_3="/mnt/cdrom vil verka, men ikkje /dev/cdrom. Berre trykk [ENTER]"
+bb_mnt_ch1_4="utan å skriva inn noko for å avbryta."
+bb_mnt_ch1_5="Montering avbroten!"
+bb_mnt_ch1_6="Monterer "
+bb_mnt_ch1_7=" er montert."
+bb_mnt_ch1_8="Greidde ikkje montera. Kanhende du ikkje har rette tilgangsløyve, "
+bb_mnt_ch1_9="eininga alt er montert, det ikkje er nokon cd i stasjonen,"
+bb_mnt_ch1_10="eller du skreiv inn feil sti til stasjonen?"
+
+bb_mnt_ch2_1="Det ser ikkje ut til at nokon einingar er monterte."
+bb_mnt_ch2_2="Kva eining vil du avmontera? Skriv inn eininga som /mnt/cdrom"
+bb_mnt_ch2_3=" er avmontert."
+bb_mnt_ch2_4="Greidde ikkje avmontera. Kanhende du ikkje har rette tilgangsløyve,"
+bb_mnt_ch2_5="eller du skreiv inn feil sti til stasjonen?"
+
+bb_mnt_ch3_1="Kva eining vil du løysa ut? Skriv inn eininga som /mnt/cdrom ,"
+bb_mnt_ch3_1b="eller berre trykk [ENTER] utan å skriva inn noko for å avbryta."
+bb_mnt_ch3_1c="Avbrote!"
+bb_mnt_ch3_2=" er løyst ut (om du ikkje såg det ;-) )"
+bb_mnt_ch3_3="Greidde ikkje løysa ut. Kanskje du ikkje har rette tilgangsløyve,"
+bb_mnt_ch3_4="eller du skreiv innn feil sti til stasjonen?"
+
+bb_mnt_ch0="Tilbake til hovudmenyen"
+
+bb_mnt_error="Ver god å velja "
+
+
+
+
+
+
+
+
+

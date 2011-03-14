@@ -1,0 +1,5 @@
+# convert_mp3s.lang - Swedish language
+
+bb_conv_mp3_1='konverterad(e)'
+bb_conv_mp3_2='och redo att brännas'
+bb_conv_mp3_3='kunde inte konverteras'

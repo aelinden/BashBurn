@@ -1,0 +1,38 @@
+# loopback.lang - English language
+
+bb_lb_noread='could not be read.'
+bb_lb_no_lb_dir='No loopback directory, creating...'
+
+bb_lb_dir_c='Directory created.'
+bb_lb_dir_cf='Creation failed, aborting.'
+
+bb_lb_no_im_dir='No image directory, creating...'
+bb_lb_no_temp_dir='No temporary file directory, creating...'
+
+bb_lb_sudo1='You must be in the sudoers group to mount the image.'
+bb_lb_sudo2='Enter your password below, if it fails you might not'
+bb_lb_sudo3='be in that group. In that case fix it and try again.'
+bb_lb_sudo4='You must also have support for loopback devices'
+bb_lb_sudo5='compiled into your kernel or as a module,'
+bb_lb_sudo6='or the next step will fail.'
+
+bb_lb_mount='Image mounted.'
+bb_lb_mount_fail='Mount failed, aborting.'
+
+bb_lb_cp_cont='Copying contents, please wait...'
+
+bb_lb_in_file="You are now in the image file system. Edit as you wish, 'exit' to return."
+
+bb_lb_change1='Did you change anything? (If you did, a new image'
+bb_lb_change2='must be created which will take a while) (y/n)'
+bb_lb_change3='Data already exists in'
+bb_lb_change4='it will be deleted if you continue.'
+bb_lb_change5='Do you wish to go ahead? (y/n)'
+bb_lb_change6='Creating new image, please wait...'
+bb_lb_change7='New image created at'
+bb_lb_change8='Aborting, not deleting data. Changes to image discarded.'
+bb_lb_change9='No changes made, skipping image recreation.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,193 @@
+# configure.lang - Italian language
+
+# Nick - this needs checking by a native speaker
+bb_conf_menu_writer="Masterizzatore"
+bb_conf_menu_cddev="File del dispositivo CD"
+bb_conf_menu_cdmnt="Punto di montaggio del lettore CD"
+bb_conf_menu_speed="Velocità "
+bb_conf_menu_blank="Tipo di cancellazione"
+bb_conf_menu_numdev="Numero dei dispositivi"
+bb_conf_menu_root="Directory Root"
+bb_conf_menu_burn="Directory del Masterizzatore"
+bb_conf_menu_label="Etichetta CD"
+#bb_conf_menu10="Copyright"
+bb_conf_menu_auth="Autore"
+#bb_conf_menu12="Editore"
+bb_conf_menu_desc="Descrizione"
+#bb_conf_menu14="Nome del pacchetto"
+bb_conf_menu_norm="Normalizza"
+bb_conf_menu_dropt="Opzioni del driver"
+bb_conf_menu_fifo="Directory FIFO"
+bb_conf_menu_deltmp="Elimina temp dopo la masterizzazione"
+bb_conf_menu_ob="Consenti overburn"
+#bb_conf_menu20="Protezione di copia"
+bb_conf_menu_bitrate="Modifica il bitrate"
+bb_conf_menu_lang="Lingua"
+bb_conf_menu_dtao="DAO/TAO"
+bb_conf_menu_gap="Spazio tra le tracce"
+bb_conf_menu_adv=Avanzato
+bb_conf_menu_apply="Applica modifiche"
+bb_conf_menu_default="Applica valori di default"
+bb_conf_menu_back="Indietro"
+bb_conf_menu_entry="Cosa scegli? "
+
+bb_conf_action_desc="Azioni"
+
+bb_conf_menu_toptext1="Configurazione"
+bb_conf_menu_toptext2="Valori attuali"
+bb_conf_default_is="Di default è"
+# End Nick
+# Everything below still needs fixing
+# ===================================
+
+
+bb_conf_ch1_1="Il masterizzatore si deve settare come 0,0,0 (Per SCSI)"
+bb_conf_ch1_2="ATAPI:0,0,0 o /dev/hdX (Per masterizzatori IDE)"
+bb_conf_ch1_3="(Dove hdX è l'unità  corrispondente, come hdc)"
+bb_conf_ch1_4="Puoi usare il nome del dispositivo es. yahama, sanyo, etc."
+bb_conf_ch1_5="se "
+bb_conf_ch1_6="la configurazione è corretta."
+bb_conf_ch1_7="(Possibile) Dispositivi SCSI:"
+bb_conf_ch1_8="(Possibile) Dispositivi IDE:"
+bb_conf_ch1_9="Inserisci la path per il masterizzatore: "
+bb_conf_ch1_10="Auto configurazione, inserisci auto"
+
+bb_conf_ch2_1="La path per il cdrom di solito è /dev/cdrom o /dev/dvd"
+bb_conf_ch2_2="Lista delle possibili unità cd (secondo /etc/fstab): "
+bb_conf_ch2_3="Inserisci la path del cdrom: "
+
+bb_conf_ch3_1="Il punto di montaggio per il cdrom di solito è /mnt/cdrom o /mnt/dvd"
+bb_conf_ch3_2="Elenco delle possibili unità cdrom (secondo /etc/fstab): "
+bb_conf_ch3_3="Inserisci il punto di montaggio: "
+
+bb_conf_ch4_1="Le versioni recenti di cdrecord non usano la velocità 1"
+bb_conf_ch4_2="di default. Per i dispositivi compatibili con MMC di"
+bb_conf_ch4_3="default si utlizza la velocità  massima, così che"
+bb_conf_ch4_4="non è necessario indicare una velocità di default."
+bb_conf_ch4_5="Salvo che non vi sia una buona ragione, usa la velocità -1 e lascia"
+bb_conf_ch4_6="che cdrecord usi i suoi valori di default."
+bb_conf_ch4_7="Inserisci la velocità del masterizzatore: "
+
+bb_conf_ch5_1="Inserisci il tipo di cancellazione. Per default è tutto il disco"
+bb_conf_ch5_2="Attualmente il valore è "
+
+bb_conf_ch6_1="Hai sia un lettore che un masterizzatore di cd?"
+bb_conf_ch6_2="Se così, inserisci 2. Altrimenti, inserisci 1"
+
+bb_conf_ch7_1="La directory root è dove si trovano gli script di shell di BashBurn."
+bb_conf_ch7_2="Cambiala solamente se sai quello che fai."
+bb_conf_ch7_3="Se vuoi cancellare, premi enter "
+bb_conf_ch7_4=" al prompt."
+
+bb_conf_ch8_1="La directory di masterizzazione è dove risiedono i file da masterizzare."
+bb_conf_ch8_2="Assicurati di avere il permesso di scrittura in questa directory."
+
+bb_conf_ch9_1="Questo è il nome del punto di montaggio usato dal"
+bb_conf_ch9_2="volume management system di Solaris e il nome che viene"
+bb_conf_ch9_3="assegnato al disco da Microsoft Win32 o dalla piattaforma Apple Mac."
+bb_conf_ch9_4="Attualmente l'etichetta è "
+bb_conf_ch9_4b="Se desideri che ti venga chiesto ogni volta quale etichetta preferisci"           # New in 1.6
+bb_conf_ch9_4c="inserisci <ask-me> come etichetta."                                  # New in 1.6 
+bb_conf_ch9_5="Inserisci l'etichetta del cd che preferisci:"
+
+bb_conf_ch10_1="Se desideri aggiungere il copyright al tuo cd, inseriscilo qui:"
+
+bb_conf_ch11_1="Questo dovrebbe descrivire il preparatore del cd, di solito"
+bb_conf_ch11_2="con un indirizzo di posta elettronica e un numero di telefono."
+bb_conf_ch11_3="C'è spazio per 128 caratteri di informazione nel disco."
+bb_conf_ch11_4="L'autore attuale è "
+bb_conf_ch11_5="Inserisci l'Autore/Proprietario del CD - hey, sei tu, no?"
+
+bb_conf_ch12_1="Questo dovrebbe descrivere il preparatore del cd, di solito"
+bb_conf_ch12_2="con un indirizzo di posta elettronica e un numero di telefono."
+bb_conf_ch12_3="C'è spazio per 128 caratteri di informazione nel disco."
+bb_conf_ch12_4="L'editore attuale è "
+bb_conf_ch12_5="Inserisci l'editore del cd (se c'è):"
+
+bb_conf_ch13_1="Questo dovrebbe descrivere il contenuto del"
+bb_conf_ch13_2="disco. C'è uno spazio nel disco per 128 caratteri"
+bb_conf_ch13_3="di informazione. La descrizione attuale è:"
+bb_conf_ch13_4="Descrivi il contenuto del cd:"
+
+bb_conf_ch14_1="Un pacchetto consiste di diversi cd, per esempio,"
+bb_conf_ch14_2="un sistema operativo che viene distribuito su più dischi."
+bb_conf_ch14_3="Questo è opzionale. Se lo usi devi configurare la quantità"
+bb_conf_ch14_4="di cd e il numero di ogni disco."
+bb_conf_ch14_5="Il nome del pacchetto attuale è "
+bb_conf_ch14_6="Inserisci il nome del pacchetto:"
+
+bb_conf_ch15_1="Normalizza è usato per regolare il volume dei file WAV a un livello di"
+bb_conf_ch15_2="volume standard. Questo è utile quando si vuole creare un album partendo da vari mp3,"
+bb_conf_ch15_3="presi da fonti diverse, in cui il diverso livello di volume di ciascuno"
+bb_conf_ch15_4="potrebbe cambiare sensibilmente da brano a brano. Attualmente il suo valore è "
+bb_conf_ch15_5="Inserisci yes solo se hai il programma per la normalizzazione installato, altrimenti inserisci no."
+
+bb_conf_ch16_1="Inserisci le opzioni del driver che desideri usare, separate"
+bb_conf_ch16_2="da una virgola. Se non sei sicuro, premi enter senza scrivere nulla."
+
+bb_conf_ch17_1="Inserisci l'indirizzo della directory FIFO. E' necessario solo per masterizzazione"
+bb_conf_ch17_2="reindirizzata, e il più delle volte va bene il valore di default."
+bb_conf_ch17_3="Se vuoi cancellare premi enter "
+bb_conf_ch17_4=" al prompt."
+bb_conf_ch17_5=" è la directory FIFO attuale"
+
+bb_conf_ch18_1="Cancellare i file in "
+bb_conf_ch18_2=" dopo che la masterizzazione è terminata?"
+bb_conf_ch18_3="Di default è no, che sarebbe l'opzione nel caso"
+bb_conf_ch18_4="si voglia masterizzare gli stessi file più di una volta... (yes/no)"
+
+bb_conf_ch19_1="Desideri che BashBurn permetta l'overburn? Il tuo"
+bb_conf_ch19_2="masterizzatore deve supportarlo e non è sicuro che"
+bb_conf_ch19_3="funzioni, dato che questo permette di scrivere sul cd"
+bb_conf_ch19_4="più di quello per cui è stato prodotto."
+bb_conf_ch19_5="Di default è no. (yes/no)"
+
+bb_conf_ch20_1="Questa opzione è per i cd audio. Il contenuto è protetto contro la copia?"
+bb_conf_ch20_2="Di default è no, diversamente inserisci yes "
+bb_conf_ch20_3="NOTA: "
+bb_conf_ch20_4="Questa opzione "
+bb_conf_ch20_5="non"
+bb_conf_ch20_6=" protegge contro la copia dei file audio"
+bb_conf_ch20_7="che saranno masterizzati, semplicemente informa cdrecord se esistono."
+
+bb_conf_ch21_1="Dal bitrate dipende maggiormente la qualità dei file audio."
+bb_conf_ch21_2="Più alto è il bitrate, maggiore è la qualità. Ovviamente un maggior bitrate"
+bb_conf_ch21_3="causa un aumento della dimensione dei file audio."
+bb_conf_ch21_4="Configurare il bitrate per i file audio MP3 e OGG."
+bb_conf_ch21_5="Di default è 128. "
+
+bb_conf_ch22_1="Qui si modifica la lingua di BashBurn, di default è Inglese."
+bb_conf_ch22_2="Lingue disponibili:"
+
+bb_conf_ch23_1="Questo è per indicare a cdrecord in che modo masterizzare:"
+bb_conf_ch23_2="SAO (Session at Once)"
+bb_conf_ch23_2b=" chiamato anche "
+bb_conf_ch23_2c="DAO (Disk at once)"
+bb_conf_ch23_3="o"
+bb_conf_ch23_4="TAO (Track at once)"
+bb_conf_ch23_5="Di default è TAO."
+bb_conf_ch23_6="Per maggiori informazioni consulta il manuale di cdrecord (man cdrecord)"
+bb_conf_ch23_7="Inserisci la tua scelta come -tao, -sao o -dao (SAO e DAO sono la stessa cosa)"
+
+# Added in BashBurn 2.1
+bb_conf_ch24_1="Questa opzione abilita o disabilita lo spazio (gap) tra le tracce."
+bb_conf_ch24_2="Se non vuoi che ci sia spazio tra le tracce, per esempio"
+bb_conf_ch24_3a="quando si masterizza un cd audio, inserisci"
+bb_conf_ch24_3b="per annullare questa opzione."
+bb_conf_ch24_4="(Enabled)." 
+
+bb_conf_apply_1="Modifiche applicate!"
+bb_conf_apply_2="Non si può scrivere in"
+bb_conf_apply_3="A volte occorre dare il comando chmod 666"
+
+bb_conf_def_1="Valore di default applicato!"
+bb_conf_def_2="(BBROOTDIR *non* ha un valore di default - devi cambiarlo!)"
+
+bb_conf_xit_1="Torna al menù principale"
+bb_conf_xit_2="Hai selezionato di applicare le modifiche prima di uscire, non sei sicuro?"
+
+bb_conf_err="Per favore inserisci "
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,41 @@
+# iso_menu.lang - Nynorsk
+
+bb_im_wait_1="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+
+bb_im_menu_title="ISO-meny"
+bb_im_menu_1="Brenn ISO-fil (cd-avtrykk)"
+bb_im_menu_2="Lag ISO-fil av filene i "
+bb_im_menu_3="Lag ISO-fil av cd"
+bb_im_menu_4="Brenn DVD-bilete"
+bb_im_menu_0="Tilbake"
+bb_im_menu_entry="Kva vel du? "
+
+bb_im_error_files="Ingen filer i "
+
+bb_im_ch2_1="Det finst ei ISO-fil i "
+bb_im_ch2_2=" Slett eller flytt ho"
+bb_im_ch2_3="før du prøver å laga ei ny fil."
+bb_im_ch2_4="Prøver å laga ISO-fil."
+
+bb_im_ch2_4b="Merkelapp for data-cden: "				# New in 1.6
+
+bb_im_ch2_5="Har laga ISO-fil"
+bb_im_ch2_6="Feil: Kunne ikkje laga ISO-fil!"
+bb_im_ch2_7="Kanskje du ikkje har skrivetilgang?"
+
+bb_im_ch3_1=" er ikkje montert! Gjer det fyrst..."
+bb_im_ch3_2="Lagar ISO-fil av cden i "
+
+bb_im_ch0="Går tilbake til meny..."
+
+bb_im_error="Skriv inn "
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+# German language file for advanced.lang
+
+# 
+# Number of tabs after each option text will vary between languages.
+#
+
+bb_adv_menutitle="Erweiterte Optionen"
+bb_adv_cdburncmd="CD Brenn-Befehl"
+bb_adv_dvdburncmd="DVD Brenn-Befehl"
+bb_adv_isocmd="ISO Erstellungs-Befehl"
+bb_adv_dvdblankcmd="DVD Loesch-Befehl"
+bb_adv_imgburncmd="CD Image Brenn-Befehl"
+bb_adv_audioripcmd="CD Audio Ripping Befehl"
+bb_adv_cdcopycmd="CD Kopier-Befehl"
+bb_adv_cdcopyopts="CD Kopier-Optionen"
+bb_adv_mp3enc="MP3 Encoder Befehl"
+bb_adv_mp3dec="MP3 Decoder Befehl"
+bb_adv_oggenc="Ogg Encoder Befehl"
+bb_adv_oggdec="Ogg Decoder Befehl"
+bb_adv_flac="FLAC Encoder/Decoder-Befehl"
+bb_adv_eject="Disk Auswurf-Befehl"
+bb_adv_norm="Audio Normalisations-Befehl"
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

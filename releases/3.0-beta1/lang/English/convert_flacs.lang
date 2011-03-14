@@ -1,0 +1,7 @@
+# convert_flacs.lang - English version
+
+bb_conv_flac_1='Flac-files converted and ready to be burnt'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

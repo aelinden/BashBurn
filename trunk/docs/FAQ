@@ -1,0 +1,117 @@
+FAQ for BashBurn (Magma):
+=================
+
+
+Q1:	Why?
+A1:	I felt like it. Well, I got sick of a program I used always failing
+	to burn audio cds, and since I don't know how to program C or something 
+	I decided to write a simple little shell script to do the job.
+
+Q2:	What can BashBurn do?
+A2:	BashBurn can burn data, music and multisession CDs/DVDs.  It can burn and
+	create ISO files. It can burn bin/cue files, create MP3s, OGGs and FLAC
+	files. Maybe even more :-) In short, it can do most things you need, and 
+	if it can't you're probably doing it wrong. ;-)
+
+Q3:	You/BashBurn/Ya mama/Vacuum machines suck!
+A3:	That's not a question.
+
+Q4:	Why the namechange?
+A4:	Apparently there already was a program named Magma, so a namechange was 
+	a must.	I agree BashBurn isnt really a kickass name, but hey! At least it 
+	can still get the work done...
+
+Q5:	Can I steal the code and base my own programs on it?
+A5:	Yes. Can't imagine why anyone would want to, but sure. Just remember
+	to release your program under the GPL, and leaving the credits would
+	be nice.
+
+Q6:	Can I help?
+A6:	Sure! Code away and send me the patch. If I find it worthy (Which I do most of the times)
+	I'll include it in the next release and add you to the credits file.
+
+Q7:	How do I install BashBurn?
+A7:	Read the INSTALL file dummy!
+
+Q8:	BashBurn often failes to write CDs.
+A8:	Well I bet it isn't really BashBurns fault. Could be that your system
+	isn't fast enough. Try to reduce the speed of your burner, or buy
+	higher quality CDs. If your burner supports it, try using 
+	burnfree/burnsafe. Of course it COULD be BashBurn failing, in which case 
+	it's a bug. Send me a mail with a description of the problem and I'll try
+	to fix it as soon as possible.
+
+Q9:	I try to create an ISO-file from files in my harddrive, but all files
+        from different directories end up in the root, not in their respective
+        directories!
+A9:	Yes, this is a known bug in Magma versions before 1.0. If you are using
+	a version that old you should be taken out back and put down.
+	You could also try to download a newer version.
+
+Q10:	Who are you?
+A10:	A little geek from Sweden, and thats all you need to know. :-)
+
+Q11:	How do I use driver options?
+A11:	You don't really have to, but if you want to try it out, here is how. 
+	Under configure, choose driver options and BashBurn will show what your 
+	burner supports. My burner supports burnfree, so I enter burnfree and 
+	press enter. The next time I burn a cd, BashBurn will enable burnfree to 
+	prevent buffer underruns. You can enter	several options by separating 
+	them with a comma.
+
+Q12:	BashBurn cannot find my cd-burner. What do I do?
+A12:	Make sure that you have support for your burner in the kernel. For IDE 
+	burners you can either use SCSI emulation or ATAPI mode. (Check Q18) If 
+	you don't know how to configure your kernel, use google (There is lots of 
+	good info on the web), tldp.org or #linuxhelp on irc.freenode.org
+
+Q13:	Where do I report bugs? Where do I find any help?
+A13:	Join the mailinglist and report it there, or send me a mail.
+
+Q14:	When will Magma 2 be released?
+A14:	It wont. Magma doesnt exist anymore, remember? We'll see what happens in 
+	the future, for now BashBurn is what you have to settle with.
+
+Q15:	Does BashBurn support for instance overburn?
+A15:	Yes, though it's not really tested that much. Try it out, and if it works, 
+	great, let me know. If it doesn't work, crap, let me know.
+
+Q16:	I can't mount my ISO and view it. What's wrong?
+A16:	Make sure you have support for loopback devices in your kernel
+	or compiled as a module and loaded. If you're not root, make sure
+	you are part of the sudoers group, since BashBurn uses sudo when 
+	mounting the image in that case.
+
+Q17:	I ran Install.sh as root, but I still cant start BashBurn as a regular user
+A17:	Download and install BashBurn 1.0 or later. In those versions the installation 
+	script is rewritten and works a lot better.
+
+Q18:	Does BashBurn support IDE burners natively, or do I need to use SCSI emulation?
+A18:	As from BashBurn 1.3, IDE burners should work just fine. I use this myself 
+	and have not experienced any problems so far. To be able to use this you 
+	will need a 2.6 Linux kernel, cdrtools version 2.0 or higher and 
+	BashBurn 1.3 or higher.
+
+Q19:	Running BashBurn in sudo gives me an error.
+A19:	The latest version of BashBurn should work fine in sudo. If it doesn't 
+	tell me about it and I'll try to find a workaround. 
+	
+Q20:	Where is this mailinglist I've been hearing so mych about?
+A20:	Go to http://bashburn.sf.net, click on the link that says "mailinglist" and
+	follow the instructions there on how to sign up.
+
+Q21:	Can BashBurn burn DVDs?
+A21:	See A2
+
+Q22:	How do I install BashBurn?
+A22:	Read the INSTALL file.
+
+Q23:	What are the requirements for BashBurn?
+A23:	Check the webpage at http://bashburn.sf.net for info. 
+	Once BashBurn is installed, you can also run option
+	8 in the main menu, Check program paths to see if you
+	need to install any programs for full functionality.
+	(Note: In Ubuntu normalize is called normalize-audio)
+
+
+Last updated: October 2008

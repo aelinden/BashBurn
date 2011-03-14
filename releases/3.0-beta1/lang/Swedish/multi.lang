@@ -1,0 +1,43 @@
+# multi.lang - Swedish language
+
+bb_multi_enter_1="Tryck [ENTER] för att återgå."
+bb_multi_enter_2="Tryck [ENTER] för att fortsätta."
+
+bb_multi_burn_1="ISO hittad..."
+bb_multi_burn_2=" om detta INTE är den första bränningen till en multisession-CD"
+bb_multi_burn_3=" så *MÅSTE* denna ISO blivit skapad med tidigare sessioners parametrar."
+bb_multi_burn_4=" Varför: Annars blir denna session osynlig och oanvändbar."
+bb_multi_burn_5="CD bränd..."
+bb_multi_burn_6=" Ingen ISO hittad, försöker skapa en..."
+bb_multi_burn_7="Hittade tidigare session med hjälp av -msinfo"
+bb_multi_burn_8="msinfo-info behövd för multisession är:"
+bb_multi_burn_9="om vinkelparenteser"
+bb_multi_burn_9b="har två nummer med ett komma - ALLT ÄR OK!"
+bb_multi_burn_10="ett felmeddelande som slutar med: \"cdrecord: Cannot read session offset\" betyder en blank CD"
+bb_multi_burn_11="ett felmeddelande som slutar med: \"cdrecord: No disk / Wrong disk!\" betyder ingen skiva i enheten"
+bb_multi_burn_12="hittade godkänd multisessiondata, lägger till argument:"
+bb_multi_burn_13="Första bränning till en multisession-CD behöver ingen tidigare sessionsdata"
+bb_multi_burn_14="Skapar ISO om möjligt..."
+
+bb_multi_burn_14b="CD-etikett: "
+
+bb_multi_burn_15="ISO skapad"
+bb_multi_burn_16="Fel: Kunde inte skapa ISO-fil."
+bb_multi_burn_17="Kanske...inga filer i"
+bb_multi_burn_18="Kanske har du inte skrivrättigheter?"
+
+bb_multi_menu_title="Multisession-CD"
+bb_multi_menu_1="Första bränning till en Multisession-CD"
+bb_multi_menu_2="Fortsätt Multisession-CD"
+bb_multi_menu_3="Slutför Multisession-CD"
+bb_multi_menu_0="Tillbaka"
+bb_multi_menu_entry="Ditt val "
+
+bb_multi_ch0="Tillbaka..."
+bb_multi_err="Var vänlig ange "
+
+
+
+
+
+

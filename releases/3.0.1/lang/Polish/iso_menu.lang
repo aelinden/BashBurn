@@ -1,0 +1,36 @@
+# iso_menu.lang - Polish language
+
+bb_im_wait_1="Naci¶nij [ENTER] aby powróciæ do menu."
+
+bb_im_menu_title="ISO Menu"
+bb_im_menu_1="Nagraj ISO"
+bb_im_menu_2="Nagraj ISO z plików w "
+bb_im_menu_3="Utwórz ISO z cd"
+bb_im_menu_4="Nagraj DVD z obrazu"
+bb_im_menu_5="Zamontuj obraz"
+bb_im_menu_0="Powrót"
+bb_im_menu_entry="Wybór? "
+
+bb_im_error_files="Brak plików w "
+
+bb_im_ch2_1="Obraz ISO istnieje w "
+bb_im_ch2_2=" Usuñ lub przenie¶ go"
+bb_im_ch2_3="przed prób± utworzenia nowego pliku."
+bb_im_ch2_4="Tworzenie pliku ISO."
+
+bb_im_ch2_4b="Nazwa dysku: "				# New in 1.6
+
+bb_im_ch2_5="ISO utworzone"
+bb_im_ch2_6="B³±d: nie mo¿na by³o utworzyæ pliku ISO!"
+bb_im_ch2_7="Mo¿e nie masz uprawnieñ do zapisu?"
+
+bb_im_ch3_1=" nie zamontowane! Zrób to najpierw..."
+bb_im_ch3_2="Tworzenie pliku ISO z p³yty w "
+
+bb_im_ch5_1="Wprowad¼ ¶cie¿kê do pliku obrazu:"
+bb_im_ch5_2="(lub naci¶nij Enter aby anulowaæ)"
+bb_im_ch5_3="Nie podano nazwy pliku, przerywam."
+
+bb_im_ch0="Powrót do menu..."
+
+bb_im_error="Wybierz "

@@ -1,0 +1,29 @@
+# data_menu.lang - Nynorsk
+
+bb_dm_newcd="Set inn ein tom cd og trykk [ENTER] for å gå vidare"
+
+bb_dm_wait="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+
+bb_dm_menu_title="Datameny"
+bb_dm_menu_1="Brenn data"
+bb_dm_menu_2="Kopier data-cd (cd til cd)"
+bb_dm_menu_3="Brenn data-DVD"
+bb_dm_menu_4="Slett CDRW"
+bb_dm_menu_5="Slett DVD"
+bb_dm_menu_0="Tilbake"
+bb_dm_menu_entry="Kva vel du? "
+
+bb_dm_ch2_1=" er ikkje montert! Monter han fyrst, er du snill..."
+bb_dm_ch2_2="Ei ISO-fil (cd-avtrykk) finst i "
+bb_dm_ch2_3=" Slett eller flytt ho"
+bb_dm_ch2_4="før du prøver å laga ei ny fil."
+bb_dm_ch2_5="Har kopiert cd!"
+bb_dm_ch2_6="Byrjar å brenna"
+
+bb_dm_ch0="Går tilbake til meny..."
+
+bb_dm_error="Skriv inn "
+
+bb_dm_cdcopy="Kopierer innhaldet på cden til "
+bb_dm_cdcopy_err1="Overføringsfeil. Er du sikker på at du har rett cd i stasjonen?"
+bb_dm_cdcopy_err2="(Sjekk feilmeldingane for tips)"

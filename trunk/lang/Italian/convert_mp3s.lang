@@ -1,0 +1,5 @@
+# convert_mp3s.lang - Italian language
+
+bb_conv_mp3_1="sono stati decompressi"
+bb_conv_mp3_2="e sono pronti per essere masterizzati"
+bb_conv_mp3_3="non possono essere decompressi"

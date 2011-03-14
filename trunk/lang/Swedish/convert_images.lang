@@ -1,0 +1,16 @@
+# convert_images.lang - Svenskt språk
+
+bb_conv_img_copied1a='Avbildningsfil måste kopieras/länkas till'
+bb_conv_img_copied1b='innan den kan konverteras till en ISO-file.'
+
+bb_conv_img_copied2='Har du gjhort det? (y/n): '
+
+bb_conv_img_copied3a='Var vänlig kopiera avbildningsfilen till'
+bb_conv_img_copied3b='innan du försöker bränna den.'
+
+bb_conv_img1='är nu konverterad till ISO-format.'
+bb_conv_img2='kunde inte konverteras.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

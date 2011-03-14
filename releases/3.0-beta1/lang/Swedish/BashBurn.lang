@@ -1,0 +1,53 @@
+# BashBurn.lang - Swedish language
+
+bb_conf_check1="BashBurn har inte konfigurerats. VÃ¤lj 'InstÃ¤llningar' och"
+bb_conf_check2='stÃ¤ll in BashBurn innan du fÃ¶rsÃ¶ker anvÃ¤nda det.'
+
+bb_quit1='Tack fÃ¶r att du anvÃ¤nder '
+bb_quit2='BesÃ¶k '
+bb_quit3='http://bashburn.sf.net '
+bb_quit4='fÃ¶r info och uppdateringar.'
+
+bb_press_enter='Tryck [ENTER] fÃ¶r att fortsÃ¤tta.'
+
+bb_no_temp_dir='Katalog fÃ¶r temporÃ¤ra filer finns inte. FÃ¶rsÃ¶ker skapa den...'
+
+bb_text_1='skapades!'
+bb_text_2='Konfigurera BashBurn innan du fÃ¶rsÃ¶ker anvÃ¤nda det.'
+bb_text_3='Du har inte skrivrÃ¤ttigheter fÃ¶r '
+bb_text_4='Ãndra detta vÃ¤rde i instÃ¤llningarna, annars kommer du inte kunna brÃ¤nna nÃ¥gonting.'
+bb_text_5='Katalogen'
+bb_text_6='existerar inte trots att du angett den i konfigurationsfilen'
+
+bb_text_7='SÃ¶ker efter CD-brÃ¤nnare ...'
+bb_text_8='Hittad: '
+
+bb_main_menu=MAIN
+
+bb_menu_1=Musik
+bb_menu_2=Data
+bb_menu_3=ISO
+bb_menu_4=Bin/Cue
+bb_menu_5=Multisession
+bb_menu_6=InstÃ¤llningar
+bb_menu_7='Montera/Avmontera CD'
+bb_menu_8='Hitta program'
+bb_menu_9='Definiera data'
+bb_menu_0=Avsluta
+bb_menu_adv="Avancerade instÃ¤llningar"
+bb_menu_input='Ditt val? '
+
+
+bb_burndir_view='InnehÃ¥ll i'
+bb_burndir_del1='Vill du verkligen ta bort alla filer i'
+bb_burndir_del1b='(y/n)'
+bb_burndir_del2='Ã¤r rensad.'
+bb_burndir_del3='Borttagning avbruten'
+
+bb_exit_error='Var vÃ¤nlig vÃ¤lj '
+
+bb_hit_any_key_to_continue='Tryck pÃ¥ en tangent fÃ¶r att fortsÃ¤tta'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

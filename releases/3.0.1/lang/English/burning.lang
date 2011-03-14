@@ -1,0 +1,43 @@
+# burning.lang - English language
+
+bb_press_enter='Press [ENTER] to return to main menu.'
+
+bb_no_ob='Not enabling overburn...'
+
+bb_burning_tmp_1='Temporary files in'
+bb_burning_tmp_1b='deleted...'
+bb_burning_tmp_2='not deleted...'
+
+bb_burning_audio_1=found
+bb_burning_audio_2='No audiofiles in'
+bb_burning_audio_3='Not using Normalize...'
+
+bb_burning_finish_1='Burning finished'
+bb_burning_finish_2='Burning failed.'
+bb_burning_finish_3='File(s) linked/copied to'
+
+bb_burning_error='No files in '
+
+bb_burning_iso_1='No ISO found in'
+
+bb_burning_data_1='Trying to create ISO-file'
+
+bb_burning_data_label='Label of your Data CD: '		# New in 1.6
+
+bb_burning_data_2='Error: Could not create an ISO-file.'
+bb_burning_data_3='Maybe you need write permissions?'
+
+bb_burning_fifo_1='No WAV files in'
+bb_burning_fifo_2='Going to burn'
+bb_burning_fifo_2b='tracks!'
+bb_burning_fifo3='Clean unused fifos'
+
+bb_burning_dvd_1='Is this the initial session of this DVD?'
+bb_burning_dvd_2='(Enter no if you want to merge a new session to'
+bb_burning_dvd_3='an already burnt DVD. To cancel this operation'
+bb_burning_dvd_4='press [ENTER] without entering anything)'
+bb_burning_dvd_5='(yes/no): '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

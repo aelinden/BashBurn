@@ -1,0 +1,12 @@
+# bincue.lang - Swedish language
+
+bb_press_enter='Tryck [ENTER] för att återgå till huvudmenyn.'
+
+bb_bincue_copy_1='Bin- och cue-fil måste kopieras/länkas till'
+bb_bincue_copy_1b='innan du försöker att bränna.'
+bb_bincue_copy_2='Har du gjort det? (y/n): '
+bb_bincue_copy_3='Var vänlig kopiera/länka bin- och cue-fil till'
+bb_bincue_copy3b='innan du försöker bränna.'
+
+bb_bincue_burn_1='Bränning avslutad'
+bb_bincue_burn_2='Bränning misslyckades. Kanske har du inte tillräckliga rättigheter?'

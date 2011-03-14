@@ -1,0 +1,44 @@
+So, you downloaded BashBurn and now you want to burn a lot of CDs?
+Well, if you've used BashBurn before, you can stop reading now and get
+going. If not, take your time to read this little HOWTO.
+
+INSTALLATION:
+
+Check the file INSTALL for details.
+
+CONFIGURATION:
+
+After installing BashBurn, start it up by typing 'bashburn'.
+The first time BashBurn will create a directory from where it will
+read which files to be burnt.  Default is /tmp/burn. 
+Now choose configure. You will be presented with a menu of options. 
+Don't understand what they all mean? Don't worry, there is an
+explanation for every one of them. If unsure, pick the default value,
+it's often fine.
+After you've gone through each option, choose Apply Settings. 
+(Remember to do this or nothing will be saved.) 
+Now choose Return to go back to the main menu.
+
+USAGE:
+
+BashBurn is designed to be as easy to understand as possible.
+Let's say you want to burn an audio CD. Where do you go?
+To Audio of course, and under Audio there are more options to choose from.
+Just remember that before attempting a burn you must copy or link the
+data or audio files to be burnt to the temporary burn directory,
+which again by default is /tmp/burn. 
+
+For example, let's say you want to burn an ISO file. 
+1: Start BashBurn, pick option 10, define data.
+2: Pick option 1, and follow instructions. Link the data 
+   with 'ln -s /path/to/myfile.iso .' 
+   (Without the ''. The dot is important)
+   (You can also copy the data if you prefer that, 
+   cp -Rf <data> <destination>)
+3: Return to the main menu, choose ISO and pick the Burn ISO option. 
+4: Done!
+
+Any problems with BashBurn, suggestions or complaints mail me at
+anders.linden@gmail.com or post on the BashBurn mailinglist.
+
+Have fun using BashBurn

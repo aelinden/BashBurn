@@ -1,0 +1,51 @@
+# BashBurn.lang - German language
+
+bb_conf_check1='BashBurn wurde noch nicht konfiguriert. Konfiguriere BashBurn '
+bb_conf_check2="vor der Benutzung ueber das Menue 'BashBurn konfigurieren'."
+
+bb_quit1='Danke fuer die Benuetzung von '
+bb_quit2='Besuche '
+bb_quit3='http://bashburn.sf.net/ '
+bb_quit4='fuer Informationen und Updates.'
+
+bb_press_enter="Druecke 'ENTER' um weiterzukommen."
+
+bb_no_temp_dir='Fehlendes Verzeichnis fuer temporaere Dateien! Versuche es zu erstellen.'
+
+bb_text_1='erfolgreich erstellt!'
+bb_text_2="Konfiguriere BashBurn vor dem Brennen von CD's."
+bb_text_3='Du hast keine Schreibberechtigung fuer'
+bb_text_4='Aendere diesen Wert im Konfigurationsdialog oder Du wirst nichts brennen koennen.'
+bb_text_5='Das Verzeichnis'
+bb_text_6='existiert nicht, obwohl Du es in die Konfigurationsdatei eingegeben hast'
+
+bb_text_7='Suche CD Brenner....'
+bb_text_8='Gefunden: '
+
+bb_main_menu='Hauptmenue'
+
+bb_menu_1=Audio
+bb_menu_2=Daten
+bb_menu_3=ISO
+bb_menu_4=Bin/Cue
+bb_menu_5=Multisession
+bb_menu_6='BashBurn konfigurieren'
+bb_menu_7='CD ein-/aushaengen (mount)'
+bb_menu_8='Programmpfade ueberpruefen'
+bb_menu_9='Definieren der Brenndateien'
+bb_menu_0='Beenden'
+bb_menu_input='Was moechtest Du tun? '
+
+bb_burndir_view='Inhalt von'
+bb_burndir_del1='Moechtest Du wirklich alle Dateien loeschen in'
+bb_burndir_del1b="('y'=ja/'n'=nein)"
+bb_burndir_del2='ist geloescht.'
+bb_burndir_del3='Loeschen abgebrochen'
+
+bb_exit_error='Bitte waehle '
+
+bb_hit_any_key_to_continue='Hit any key to continue'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

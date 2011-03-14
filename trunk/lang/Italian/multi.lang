@@ -1,0 +1,37 @@
+# multi.lang - Italian language
+
+bb_multi_enter_1="Premi [ENTER] per tornare al menù principale."
+bb_multi_enter_2="Premi [ENTER] per continuare."
+
+bb_multi_burn_1="Trovato ISO..."
+bb_multi_burn_2=" se questa NON è la prima masterizzazione di un cd multisessione"
+bb_multi_burn_3=" allora questo file ISO *DEVE* essere stato creato usando delle impostazioni corrette di una sessione precedente"
+bb_multi_burn_4=" Perchè? Altrimenti le impostazioni di questa sessione sarebbero invisibili e inutilizzabili"
+bb_multi_burn_5="CD masterizzato..."
+bb_multi_burn_6=" Non è stata trovata una immagine ISO, sto cercando di crearne una..."
+bb_multi_burn_7="Sto prendendo le impostazioni della sessione precedente usando -msinfo"
+bb_multi_burn_8=" i dati msinfo necessari per una multisessione sono:"
+bb_multi_burn_9="se le parentesi"
+bb_multi_burn_9b="contengono due numeri con una virgola - TUTTO OK PER CONTINUARE!"
+bb_multi_burn_10="un messaggio di errore che finisce con: \"cdrecord: Cannot read session offset\" significa che c'è un cd vergine vuoto"
+bb_multi_burn_11="un messaggio di errore che finisce con: \"cdrecord: No disk / Wrong disk!\" significa che non c'è un disco nel dispositivo"
+bb_multi_burn_12="sono state ottenute informazioni di una multisessione valida, aggiungo args:"
+bb_multi_burn_13="La prima masterizzazione multisessione di un cd non richiede informazioni da una sessione precedente"
+bb_multi_burn_14="Allora, crea il file ISO se possibile..."
+
+bb_multi_burn_14b="Etichetta del tuo cd di dati: "							# New in 1.6
+
+bb_multi_burn_15="ISO creato"
+bb_multi_burn_16="Errore: non si può creare un file ISO."
+bb_multi_burn_17="Forse... non ci sono file in "
+bb_multi_burn_18="Forse non hai i permessi di scrittura?"
+
+bb_multi_menu_title="CD multisessione"
+bb_multi_menu_1="Prima masterizzazione di un cd multisessione"
+bb_multi_menu_2="Continua cd multisessione"
+bb_multi_menu_3="Termina cd multisessione"
+bb_multi_menu_0="Indietro"
+bb_multi_menu_entry="Cosa scegli? "
+
+bb_multi_ch0="Torna al menù principale..."
+bb_multi_err="Per favore inserisci "

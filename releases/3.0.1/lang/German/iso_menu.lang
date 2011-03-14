@@ -1,0 +1,40 @@
+# iso_menu.lang - German language
+
+bb_im_wait_1="Druecke 'ENTER' um zum Menue zurueckzukehren."
+
+bb_im_menu_title='ISO Menue'
+bb_im_menu_1='Brenne ISO'
+bb_im_menu_2='Generiere ISO von den Dateien in '
+bb_im_menu_3='Generiere ISO von CD'
+bb_im_menu_4='Brenne DVD Image'
+bb_im_menu_5='Haenge Image ein (mounten)'
+bb_im_menu_0='Zurueck'
+bb_im_menu_entry='Deine Wahl? '
+
+bb_im_error_files='Keine Dateien in '
+
+bb_im_ch2_1='Ein ISO existiert in '
+bb_im_ch2_2=' Loesche oder verschiebe es'
+bb_im_ch2_3='bevor Du versuchst ein neues zu erstellen.'
+bb_im_ch2_4='Versuche eine ISO-Datei zu erstellen'
+
+bb_im_ch2_4b='Bezeichner (Label) Deiner CD: '
+
+bb_im_ch2_5='ISO erstellt'
+bb_im_ch2_6='Fehler: Konnte keine ISO-Datei erstellen!'
+bb_im_ch2_7='Vielleicht hast Du keine Schreibrechte?'
+
+bb_im_ch3_1=" nicht gemounted! Mach' das als erstes..."
+bb_im_ch3_2='Erstelle ISO von der CD in '
+
+bb_im_ch5_1='Gib Pfad zu der Image Datei die eingehaengt (gemountet) werden soll ein:'
+bb_im_ch5_2="(Oder druecke 'Enter' um abzubrechen)"
+bb_im_ch5_3='Kein Dateinamen eingegeben, breche ab.'
+
+bb_im_ch0='Kehre zurueck zum Menue...'
+
+bb_im_error='Bitte bestaetige '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

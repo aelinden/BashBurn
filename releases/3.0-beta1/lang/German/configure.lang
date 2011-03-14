@@ -1,0 +1,226 @@
+# configure.lang - German language
+
+bb_conf_menu_writer='CD-Brenner'
+bb_conf_menu_cddev='CD-Leser (Geraete-Datei)'
+bb_conf_menu_cdmnt='CD-Leser (Mount-Punkt)'
+bb_conf_menu_speed='Brenngeschwindigkeit'
+bb_conf_menu_blank='Loeschart (CDRW)'
+bb_conf_menu_numdev='Anzahl der Geraete'
+bb_conf_menu_root='Wurzel-Verzeichnis'
+bb_conf_menu_burn='Brenn-Verzeichnis'
+bb_conf_menu_label='CD Bezeichner (Label)'
+bb_conf_menu_auth='Autor'
+bb_conf_menu_desc='Beschreibung'
+bb_conf_menu_norm='Normalisieren (Audio)'
+bb_conf_menu_dropt='Treiberoptionen'
+bb_conf_menu_fifo='FIFO Verzeichnis'
+bb_conf_menu_deltmp='Aufraeumen nach Brennen'
+bb_conf_menu_ob='Erlaube ueberbrennen'
+bb_conf_menu_bitrate='Setze Bitrate'
+bb_conf_menu_lang='Sprache'
+bb_conf_menu_dtao='DAO/TAO'
+bb_conf_menu_gap='Luecken zwischen Spuren'
+bb_conf_menu_adv='Erweiterte Konfiguration'
+bb_conf_menu_apply='Einstellungen anwenden'
+bb_conf_menu_default='Standardeinstellungen anwenden'
+bb_conf_menu_revert='Aenderungen zuruecksetzen'
+bb_conf_menu_back='Zurueck'
+bb_conf_menu_entry='Deine Eingabe?'
+
+bb_conf_action_desc='Aktionen'
+
+bb_conf_menu_toptext1='Einstellung'
+bb_conf_menu_toptext2='Aktueller Wert'
+bb_conf_default_is='Standardwert ist'
+
+bb_conf_cancel_quote='Um abzubrechen druecke [ENTER].'
+
+
+bb_conf_ch_writer=\
+"Das Brenngeraet muss in der Form ${BBOPTIONCOLOR}0,0,0${BBCOLOROFF} (fuer SCSI)
+oder '/dev/hdX' (fuer IDE Brenngeraete, wobei 'hdX' das Brenngeraet ist, wie
+z.B. 'hdc') eingegeben werden.
+Zum automatischen Erkennen gib 'auto' ein. ${bb_conf_cancel_quote}
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBCDWRITER}${BBCOLOROFF}, und unten ist eine
+Liste von moeglichen Brenngeraeten auf diesem System (nach '/etc/fstab')."
+
+
+bb_conf_ch_cddev=\
+"Der Pfad zur CDROM-Geraete-Datei ist oft z.B. ${BBOPTIONCOLOR}/dev/cdrom${BBCOLOROFF}
+oder ${BBOPTIONCOLOR}/dev/dvd${BBCOLOROFF}.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBCDROM}${BBCOLOROFF}, und unten ist eine
+Liste von moeglichen CDROM-Geraeten (nach der Datei '/etc/fstab').
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_cdmnt=\
+"Der Mount-Punkt zur CDROM ist meistens z.B.
+${BBOPTIONCOLOR}/mnt/cdrom${BBCOLOROFF} oder ${BBOPTIONCOLOR}/mnt/dvd${BBCOLOROFF}.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBCDMNT}${BBCOLOROFF}, und unten ist eine
+Liste von moeglichen Lesegeraeten des Systems (nach der Datei '/etc/fstab').
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_speed=\
+"Solange Du keine Probleme mit dem CD Brennen hast, solltest
+Du diese Option als ${BBOPTIONCOLOR}-1${BBCOLOROFF} lassen, und somit die
+laufwerkspezifischen Standardeinstellungen nutzen. Fuer die meisten Brenner ist
+dies das Brennen mit maximaler Geschwindigkeit.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBSPEED}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_blanking=\
+"Hier stellst Du die Standardmethode fuers Loeschen ein. Die Standardeinstellung ist
+${BBOPTIONCOLOR}fast${BBCOLOROFF}. Das loescht die ganze CD und kann deswegen einige Zeit
+dauern.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBBLANKING}${BBCOLOROFF}, und es folgt eine
+Liste von moeglichen Loeschmethoden. ${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_numdev=\
+"Hier gibst Du die Anzahl der CD Geraete in Deinem System an.
+Wenn Du ein Geraet als Lese- und Schreibgeraet benutzt, gieb ${BBOPTIONCOLOR}1${BBCOLOROFF} ein,
+ansonsten gieb ${BBOPTIONCOLOR}2${BBCOLOROFF} ein.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBNUMDEV}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_root=\
+"Diese Einstellung definiert den Speicherort der BashBurn Systemdateien.
+Du solltest diese Einstellung eigentlich nicht aendern muessen,
+und wenn solltest Du wissen was Du tust.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBROOTDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_burndir=\
+"Diese Option definiert wo BashBurn nach Brenndaten sucht.
+Du brauchst Schreibrechte fuer dieses Verzeichnis.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBBURNDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_label=\
+"Diese Option gibt den Namen der Disk an die gebrannt werden soll.
+Es kann jede Text-Zeichenkette mit bis zu 32 Zeichen sein wie z.B.
+${BBOPTIONCOLOR}Meine Bilder${BBCOLOROFF} oder ${BBOPTIONCOLOR}Urlaubs Videos${BBCOLOROFF}.
+Wenn Du jedesmal fuer solch einen Bezeichner gefragt werden willst
+gieb ${BBOPTIONCOLOR}<ask-me>${BBCOLOROFF} als Bezeichner ein.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBLABEL}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_author=\
+"Das sollte den Autor der CDROM beschreiben, gewoehnlich
+mit einer e-mail Adresse und Telefonnummer.
+Auf der CD ist Platz fuer 128 Zeichen Information.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBAUTHOR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_desc=\
+"Diese Option sollte die Daten die auf der CD sind beschreiben.
+Auf der CD ist Platz fuer 128 Zeichen Information.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBDESCRIPTION}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_norm=\
+"Normalisierung ermoeglicht die 'Glaettung' der Lautstaerke von Audiodateien.
+Das ist nuetzlich fuer Dinge wie das Erstellen von Audio-Mix Cd's, wo
+unterschiedliche Aufnahmepegel verschiedenerer Alben in der Lautstaerke
+sehr von Lied zu Lied schwanken.
+Diese Option aktiviert ${BBHEADCOLOR}(yes)${BBCOLOROFF} oder deaktiviert
+${BBTABLECOLOR}(no)${BBCOLOROFF} diese Funktion.
+Aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBNORMALIZE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_dropts=\
+"Diese Option spezifiert die Treiberoption(en) zum Brennen.
+Ein Beispiel ist ${BBOPTIONCOLOR}burnfree${BBCOLOROFF} um Pufferspeicherunterschreitungen
+(buffer underruns) zu vermeiden. Du kannst mehrere Optionen mit einem Komma trennen.
+Wenn Du unsicher bist, ueberspringe diese Option (sie ist keine Pflicht).
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBDRIVEROPT}${BBCOLOROFF}. Es folgt eine Liste
+von moeglichen Optionen. ${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_fifo=\
+"Gib den Ort des FIFO-Verzeichnisses ein. Das wird nur fuer das Brennen
+per Pipe benoetigt, und meistens ist der Standardwert passend.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBFIFODIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_tempdel=\
+"Wenn Du moechtest das BashBurn die Dateien in ${BBBURNDIR} loescht
+nachdem eine CD gebrannt wurde, gieb ${BBHEADCOLOR}yes${BBCOLOROFF} ein.
+Anderenfalls gieb ${BBTABLECOLOR}no${BBCOLOROFF} ein um die Dateien zu behalten.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBDELTEMPBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_ob=\
+"'Overburn' versucht mehr auf eine CD zu brennen als fuer was sie konstruiert wurde.
+Das wird nicht immer funktionieren, und wenn sind es nur ein paar MB.
+Dein Brenner muss 'Overburn' unterstuetzen, und es ist selbst dann nicht sicher
+ob die Disk dann von allen Lesegeraeten gelesen werden kann.
+Diese Option aktiviert ${BBHEADCOLOR}(yes)${BBCOLOROFF} oder deaktiviert
+${BBTABLECOLOR}(no)${BBCOLOROFF} diese Funktion.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBOVERBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_bitrate=\
+"Die Bitrate ist ein Haupteinfluss auf die Qualitaet von Audio-Dateien.
+Je hoeher die Bitrate, desto hoeher ist die Qualitaet.
+Hoehere Bitrate bedeutet natuerlich auch groessere Audio-Dateien.
+Die Einheit ist in 'kbit' und sollte in vielfachen von 32 eingegeben werden.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBBITRATE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_lang=\
+"Diese Option stellt die Sprache ein in welcher BashBurn's Bedienung erfolgt.
+Die aktuelle Einstellung ist: ${BBOPTIONCOLOR}${BBLANG}${BBCOLOROFF}, und unten
+ist eine Liste der auswaehlbaren Sprach(e/n).  ${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_dtao=\
+"Diese Option teilt BashBurn mit im SAO (Session at Once) oder TAO (Track at
+once) Modus zu brennen. Der Defaultwert TAO ${BBOPTIONCOLOR}(-tao)${BBCOLOROFF}
+ist gewoehnlich passend, aber in einigen Faellen muss SAO
+${BBOPTIONCOLOR}(-sao)${BBCOLOROFF} benutzt werden.  Die aktuelle Einstellung
+ist ${BBOPTIONCOLOR}${BBDTAO}${BBCOLOROFF}.  ${bb_conf_cancel_quote}"
+
+
+bb_conf_ch_pad=\
+"Diese Option aktiviert ${BBHEADCOLOR}(-pad)${BBCOLOROFF} oder deaktiviert
+${BBTABLECOLOR}(-nopad)${BBCOLOROFF} Luecken zwischen Audiospuren. Wenn Du eine
+Audio-CD ohne Luecken zwischen den Spuren willst (z.B. eine Live-Aufnahme),
+deaktiviere diese Option.
+Die aktuelle Einstellung ist ${BBOPTIONCOLOR}${BBPADDING}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+
+bb_conf_apply_1='Eingaben uebernommen!'
+bb_conf_apply_2='Konnte nicht schreiben in'
+bb_conf_apply_3="Du koenntest 'chmod 666' ausfuehren wollen..."
+
+
+bb_conf_def_1='Standardwerte angewendet!'
+bb_conf_def_2="('BBROOTDIR' hat *KEINE* Standardeinstellung - Du musst das eingeben!)"
+
+
+bb_conf_xit_1='Zurueck zum Hauptmenue'
+bb_conf_xit_2=\
+"Es scheint Du hast eine Option veraendert aber noch nicht explizit angewendet.
+Hier kannst Du '${BBTABLECOLOR}n${BBCOLOROFF}' waehlen um zurueckzugehen und
+das zu tun; wenn Du Deine Aenderungen verwerfen moechtest waehle '${BBHEADCOLOR}y${BBCOLOROFF}'.\n"
+
+bb_conf_err='Bitte nur eingeben:'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

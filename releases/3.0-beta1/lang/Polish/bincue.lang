@@ -1,0 +1,12 @@
+# bincue.lang - Polish language
+
+bb_press_enter="Naci¶nij [ENTER] aby powróciæ do g³ównego menu."
+
+bb_bincue_copy_1="Pliki bin i cue musz± byæ skopiowane/podlikowane do"
+bb_bincue_copy_1b="przed nagraniem.."
+bb_bincue_copy_2="Czy to zrobi³e¶ (y/n): "
+bb_bincue_copy_3="Skopiuj pliki bin/cue do "
+bb_bincue_copy3b="przed nagraniem."
+
+bb_bincue_burn_1="Nagrywanie zakoñczone."
+bb_bincue_burn_2="Nagrywanie przerwane. Sprawd¼ uprawnienia."

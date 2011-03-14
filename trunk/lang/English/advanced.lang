@@ -1,0 +1,101 @@
+# English language file for advanced.lang
+
+bb_adv_menutitle='Advanced Options'
+bb_adv_cdburncmd='CD burning command'
+bb_adv_dvdburncmd='DVD burning command'
+bb_adv_dvdburncmdopts='DVD burning options'
+bb_adv_isocmd='ISO creation command'
+bb_adv_dvdblankcmd='DVD blanking command'
+bb_adv_imgburncmd='CD image burn command'
+bb_adv_audioripcmd='CD audio ripping command'
+bb_adv_cdcopycmd='CD copying command'
+bb_adv_cdcopyopts='CD copying options'
+bb_adv_mp3enc='MP3 encoder command'
+bb_adv_mp3dec='MP3 decoder command'
+bb_adv_oggenc='Ogg encoder command'
+bb_adv_oggdec='Ogg decoder command'
+bb_adv_flac='FLAC encoder/decoder command'
+bb_adv_eject='Disc eject command'
+bb_adv_norm='Audio normalization command'
+bb_adv_nrg2iso='NRG to ISO convert command'
+bb_adv_back=Back
+bb_adv_action_desc=Actions
+bb_adv_error='Please enter'
+
+bb_this_is_the_cmd="This is the command used to"
+bb_curr_cmd="The current command is:"
+
+bb_adv_cdburncmd_help=\
+"${bb_this_is_the_cmd} burn a CD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmd_help=\
+"${bb_this_is_the_cmd} burn a DVD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmdopts_help=\
+"These are the DVD burning options used. Only change these if you know
+what you are doing. In almost all cases the defaults should be fine.
+The current options are: ${BBOPTIONCOLOR}${BB_DVDBURNCMDOPTS}${BBCOLOROFF}"
+
+bb_adv_isocmd_help=\
+"${bb_this_is_the_cmd} create ISO-images.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_ISOCMD}${BBCOLOROFF}"
+
+bb_adv_dvdblankcmd_help=\
+"${bb_this_is_the_cmd} blank DVDs.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBLANK}${BBCOLOROFF}"
+
+bb_adv_imgburncmd_help=\
+"${bb_this_is_the_cmd} burn CD images.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDIMAGECMD}${BBCOLOROFF}"
+
+bb_adv_audioripcmd_help=\
+"${bb_this_is_the_cmd} rip audio CDs.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDAUDIORIP}${BBCOLOROFF}"
+
+bb_adv_cdcopycmd_help=\
+"${bb_this_is_the_cmd} copy data CDs.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_READCD}${BBCOLOROFF}"
+
+bb_adv_cdcopyopts_help=\
+"These are the options used when copying a data CD.
+Only change these options if you know what you are doing. 
+In almost all cases the defaults should be fine.
+The current options are: ${BBOPTIONCOLOR}${BB_READ_OPTS}${BBCOLOROFF}"
+
+bb_adv_mp3enc_help=\
+"${bb_this_is_the_cmd} encode MP3 files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3ENC}${BBCOLOROFF}"
+
+bb_adv_mp3dec_help=\
+"${bb_this_is_the_cmd} decode MP3 files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3DEC}${BBCOLOROFF}"
+
+bb_adv_oggenc_help=\
+"${bb_this_is_the_cmd} encode Ogg files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGENC}${BBCOLOROFF}"
+
+bb_adv_oggdec_help=\
+"${bb_this_is_the_cmd} decode Ogg files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGDEC}${BBCOLOROFF}"
+
+bb_adv_flac_help=\
+"${bb_this_is_the_cmd} encode/decode FLAC files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_FLACCMD}${BBCOLOROFF}"
+
+bb_adv_eject_help=\
+"${bb_this_is_the_cmd} eject the disc.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_EJECT}${BBCOLOROFF}"
+
+bb_adv_norm_help=\
+"${bb_this_is_the_cmd} normalize audio files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NORMCMD}${BBCOLOROFF}"
+
+bb_adv_nrg2iso_help=\
+"${bb_this_is_the_cmd} convert NRG-files to ISO-files.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NRG2ISO}${BBCOLOROFF}"
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

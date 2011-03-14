@@ -1,0 +1,11 @@
+# image_menu.lang - English version
+
+bb_image_menu_title='Image menu'
+bb_image_menu1='ISO-menu'
+bb_image_menu2='Burn bin/cue-files'
+bb_image_menu3='Convert NRG-files'
+bb_image_menu_back=Back
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

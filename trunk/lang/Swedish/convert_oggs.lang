@@ -1,0 +1,7 @@
+# convert.lang - Swedish language
+
+bb_conv_ogg='Ogg-fil(er) konverterad(e) och redo att brännas.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

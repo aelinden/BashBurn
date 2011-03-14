@@ -1,0 +1,597 @@
+BashBurn ChangeLog:
+=================
+
+BashBurn 3.0 (Tara)
+- Major rewrites and cleanups. BashBurn should be faster, smaller
+  and most of all cleaner.
+- BashBurn now only uses a local configuration file.
+- Advanced configuration menu added.
+- Removed certain configuration options most people probably find 
+  unnecessary.
+- Default installation directory changed.
+- Due to the rewrites, ~/.bashburnrc must be removed before starting
+  BashBurn after installation. A new config file will be automatically
+  created in the users home directory.
+- Rewritten script for reading M3U playlists. Now supports several
+  formats, not just MP3s.
+- Added 'BashBurn_on_Fire' splash - kudos to http://ascii.mastervb.net/ for the template creation
+- .bashburnrc now has a version line, checked at start up.  Version 2.x .bashburnrc will
+  not work with BashBurn 3.x re-write.
+- BashBurn now has a MAN page ( bashburn(1) )
+
+BashBurn 2.1.2 (Scotty)
+- Added DVD blanking (Santiago)
+- Moved CDRW blanking to data menu
+- Added missing commonfunctions.lang for czech translation (Santiago)
+- Small enhancement in init_bashburn() (paddor)
+- Languages included: English, Swedish, German, Spanish
+
+BashBurn 2.1.1 (Picard)
+- Bugfix in local config file usage (Artur)
+- Bugfix in audio functions
+
+BashBurn 2.1 (Enterprise)
+- BashBurn now uses a local config file (Artur Kruszewski)
+- Updated installation script for Frugalware (VMiklos)
+- Small update in writer detection
+- Added option to enable/disable gaps between tracks
+- Replaced cdda2wav with cdparanoia. CD copying rewritten
+  in places due to this.
+- Added simple cancel feature in configuration. Function check_length()
+  checks if argument given is of length 0. If so, configure restores
+  the old saved value. This way, one can simply press enter without entering
+  anything and the configure script will interpret that as a cancellation.
+- Added italian translation (Amedeo Grazia)
+
+BashBurn 2.0 (Next Generation)
+- Functionality split from interface to ensure
+  that BashBurn and fork MyBashBurn can use same core code.
+- Added display to data define menu that shows how data
+  is linked/copied to burn directory. Only appears if there
+  is any data there.
+- Attempt at making some code more readable
+- Removed some sleeps that were not supposed to be there
+- Small edit in device mounting code
+- Bugfix in CD copying
+- Small improvements in audiofunc (casper)
+
+BashBurn 1.8.5 (Wedding Bells)
+- German translation updated
+- Swedish translation updated
+- Added file for mounting image files in a loopback
+  device to be edited.
+- Lots of bugfixes.
+- Internal updates
+- Installer updated for Slackware 11 (Nick)
+- Anders is now married
+
+BashBurn 1.8.0 (Pookie)
+- Fixed unmounting bug (Thanks Nick for spotting)
+- Minor graphical touchups (Nick)
+- ISO detection should work properly
+- Readcd command messing up application detection fixed
+- Audio file detection updated
+- Install script updated for Slackware users (Nick)
+- Created common functions file to reduce code duplication
+- Fix in datadefine.sh for data detection
+- Changed from dev=ATAPI to dev=ATA in IDE burner detection
+- Bugfix in CDRW blanking, blanking moved to commonfunctions.sh
+- Small graphical changes
+- Small bugfix in install script
+- Added feature to detect if media is already written to.
+  If it is, a chance to blank the media is given. Not yet added for rewritable DVDs.
+  (Thanks to SÃ¶ren for the suggestion)
+- Swedish translation updated
+- Polish translation updated
+- German translation updated
+
+BashBurn 1.7.1 (Tigger)
+- Multisession burning should now work (Knock on wood)
+- Changed setterm -clear to plain old clear
+- Made sure menu text is shown if background is white
+  (Granted, it looks pretty crappy but at least it works)
+- Support for burning .img-files added
+  (Worked before as well, but you'd have to change the file extension from
+   .img to .iso)
+- Edited readcd command
+
+BashBurn 1.7 (Gloria)
+- Let menus call functions 
+- Let files that need to read in variable list from external file
+  instead of having the same variable read function in several files
+- Moved apply settings and reset settings to own files
+- DVD support
+  Supports burning data DVDs (New sessions and merging sessions)
+  and burning DVD images
+- Changed from mkisofs to readcd when creating ISOs from CDs
+- A truckload of cleanups and rewrites
+- As with variables, put all commands into one file
+- Added czech language (Santiago)
+- Added swedish translation
+- Updated polish translation
+- Updated german translation
+	
+BashBurn 1.6.1 (TDDI68)
+- Finally fixed "erase config file"-bug. (Guillermo)
+- Fixed configuration bug (Nick Warne)
+- Added norwegian translation (Eivind)
+- Added -r 44100 for mp3 to wav conversion (Filip)
+- Fixed mistake in xmmsread.sh
+- BashBurn now has a SVN server at https://svn.inf.sgsp.edu.pl/svn/bashburn
+- Small update on install script
+
+BashBurn 1.6 (Yo Mama)
+- Added function to ask for CD label (Fabian Stietzel)
+- Fixed a bunch of bugs regarding file detection
+- Added french translation (Miguel Ross)
+  (Will be added as soon as it is updated)
+- Updated polish translation
+- Added german translation (Markus Kollmar)
+- New spanish translation (Guillermo Bonvehi)
+- Moved delete/view contents of $BURNDIR options from main menu
+  to datadefine menu.
+- Fixed bug in creating ISO from CD (Guillermo Bonvehi)
+- Fixed bug in xmms playlist script (Råbbinn)
+- Added function to copy/link data to burndir from main menu.
+  (No need to link/copy data before you start BashBurn)
+- Fixed bug in cd mounting/unmounting (Markus Kollmar)
+- Fixed translation bug in iso_menu.sh (Markus Kollmar)
+- Cosmetic change in check_path.sh
+- Fixed minor mistake in configure.sh (Markus Kollmar)
+#------------------#
+# For translators: #
+#------------------#
+Changed files: BashBurn.lang, datadefine.lang
+
+BashBurn 1.5.2.1 (Ve Have Vayz Ov Making Yu Talk)
+- Added Polish translation (Jakub Krajniak)
+- Fixed bug in install script. (Thanks a lot of people for reporting)	
+	
+BashBurn 1.5.2 (Quantum Physics)
+- Fixed a small mistake in audio_menu.sh (David Hall)
+
+BashBurn 1.5.1 (I Am The Walrus)
+- Fixed two little bugs, one with iso detection and one with multisession.
+  (Some code really is a mess. When I have time one day a big cleanup is happening)  
+
+BashBurn 1.5 (Gulledavid)
+- CD copying in large parts rewritten with help from Jim. 
+  Should work just fine (Does for me) but report any bugs you might find.
+- Changed -P to -publisher for mkisofs. (Jim)
+- data_menu.lang and configure.lang updated
+- Removed some pretty useless options in the config script.
+- Spanish translation removed since it's not updated. I will make it
+  and all other translations available on the BashBurn homepage when I get them.
+
+BashBurn 1.5 Beta 2 (Almost there)
+- Moved some english text in BashBurn.sh to BashBurn.lang so it can be translated.
+- DAO/TAO support. (Whether it works properly or not is another question)
+- Changed single quotation marks to double quotation marks in translation files.
+  Single ones caused some errors which double ones will probably prevent.
+- Misc fixes
+
+BashBurn 1.5 Beta 1 (Willy Nilly)
+- Fix in burning.sh (Thanks to Justin for spotting it and Michele for the fix).
+- Spanish translation added.
+- Added check in BashBurn.sh to find out if BashBurn has ever been configured.
+- BashBurn now supports different languages!
+- Bug in install script fixed, plus some graphic touchups.
+- Bug in data cd copying fixed.
+- Misc other small fixes.
+
+BashBurn 1.4 Final (Top of the foodchain)
+- ISO mounting/editing removed. I didn't get it to work right and
+  there is no point having something non-functioning there.
+  If anyone desperately needs it, you write it!
+- Minor change with mkisofs.
+- Bugfix in the normalize function.
+- Small bugfix in configure.sh (Wilmer).
+- Mp3 encoding now uses the bitrate set in configuration (Wilmer).
+- Some default values in bashburnrc changed.
+- Fixed permissions issue with the config file.
+- Rewrote install script. Now you don't have to keep the directory
+  you unpacked BashBurn in.
+- Removed files that were not supposed to be there.
+- CD ripping now supports spaces in filenames (Wilmer).
+- Documentation updates.
+
+BashBurn 1.4 rc1
+- After version 1.4 is released I'm going slow down BashBurn development for 
+  a while. I have too much schoolwork at the moment. Version 1.4 will not have 
+  any new features, only bugfixes if I (or you) find any. New features will have
+  to wait until version 1.5
+- Added option in configure.sh. Just to make things difficult, certain apps
+  needed the cdrom device to be entered as /dev/blah and others needed it to
+  be entered as /mnt/blah. So, to avoid forcing the user to go back and forth
+  to the configure menu and change this, I added a new option. Now we have
+  cdrom device file (/dev/blah) and cdrom mount point (/mnt/blah).
+- Made some improvements to the mount.sh script.
+- Small graphics touchup in the application checking script
+
+BashBurn 1.3 - 1.4a2
+- Removed the bash executable detection. According to Nicol Schraudolph this
+  does not work at all. All of you that has your bash executable located in 
+  a different place than /bin/bash might need to edit Install.sh and BashBurn.sh
+  and enter the correct path manually. Once these changes are made however,
+  everything should work fine.
+- Small bugfix to the cd ripping.
+- Update to delete files in BURNDIR function.
+- FILES updated.
+- Misc graphic touchups (Wilmer Jaramillo, Jim Shofstall).
+- Added functions in audio_menu (Wilmer Jaramillo).
+- Added nice "interactive mode" to name the tracks when ripping oggs and mp3s.
+  Still cannot handle spaces in names, but that will come later (Wilmer Jaramillo).
+- alpha1 missed flac in check_path.sh. This is added now.
+- Added option to set bitrate of audio files in configure (Wilmer Jaramillo).
+- Added a application search function in main menu. (Thanks Wilmer Jaramillo).
+- Fixed a typo in configure.
+- Once again, better audiofile handling. And this time it REALLY takes care of
+  annoying error messages.
+- Preliminary flac file support. If more advanced support is required, post a feature request
+  or write a patch yourself and I'll apply it.
+
+BashBurn 1.3
+- Added confirmation when deleting files in BURNDIR
+- Lots of small improvements on audio file handling
+- "Graphic" touchups
+- FAQ updated
+- convert_oggs and convert_mp3s rewritten (Somewhat) and audio_menu changed. 
+  This takes care of some rather annoying error messages that occured when trying
+  to burn a music cd. (Happy now Matte?! Are you?)
+- Lots of small fixes thanks to Jim Shofstall
+- Changes in version display in several files
+- Changed BashBurn homepage in BashBurn.sh
+- Fixed misc bugs (Including the installation bug from 1.2)
+- Replaced lots of references to Magma with BashBurn is various files.
+- Writer device detection now supports IDE devices (New in Linux 2.6)
+- Changed so that every script detects where the bash executable is located.
+  This should make BashBurn work on for instance *BSD with bash installed.
+  (I know that OpenBSD for one does not use the bash shell by default. However
+  since BashBurn is a bash script, it would mean a more or less complete rewrite
+  to make it work in other shells. If someone feels up to it, go ahead and do it
+  and I will make that version available on the BashBurn homepage. In the meantime
+  install bash)
+- Some minor edits here and there
+
+BashBurn 1.2
+- BashBurn now also comes in Perl flavor. Thanks to 
+  John Minson for writing it. (Well its not here yet, but hopefully soon)
+- Replaced bincue.sh with rewritten one. (Thanks Pat)
+- Minor fix in BashBurh.sh
+- Added option to mount/unmount cdrom device in main menu
+- Added file misc/mount.sh that takes care of the (un)mounting
+- Fixed typo in iso_menu.sh that caused it to fail (Thanks Peter)
+- Added some info in configure.sh. Apparently to use IDE burners without
+  SCSI emulation you can just enter your burner as ATAPI:0,1,0 or similar
+  to get BashBurn to use it. Thanks to Peter again for the info
+  (Requires a version 2.6 Linux kernel and cdrtools 2.0+)
+- Fixed some typos in multi.sh that caused it to fail
+- Renamed .bashburnrc to bashburnrc in "source" directory. Dunno
+  Why I had it hidden really...
+
+BashBurn 1.1
+- Changed some dd commands into mkisofs
+  (This means you most likely have to configure BashBurn again and set your reader device
+   to something like /mnt/dvd or /mnt/cdrom instead of the previous /dev/cdrom*)
+- Removed some sleep commands and replaced them with wait_for_enter
+- Big overhaul of data_menu.sh. Now it should actually work.
+- Removed missed Magma.iso in multi.sh and replaced it with BashBurn.iso
+- FAQ updated
+- PLAN file removed
+
+BashBurn 1.0
+- Renamed project to BashBurn since there already was a program named Magma.
+- Increased quality of encoded ogg-files
+- Rewrote large parts of installation script. You must now run this
+  as root first to install global config file. (/etc/bashburnrc)
+- BashBurn.sh updated to reflect changes in installation script
+NOTE: The installation script set permissions to rwrwrw on
+      the config file.
+
+Magma 1.4r3 (Dawn)
+- Added a few more missed wait for enter functions in Magma.sh
+- Documentation updates
+- Removed some lines of code that did nothing
+
+Magma 1.4r2 (Dawn)
+- Some small bugfixes concerning finding ISO-files.
+- Missed the -J option in some files. Now fixed.
+- Added missed wait for enter funtions in some files.
+
+Magma 1.4.0 (Dawn)
+- Critical bugfix in Magma.sh (Thanks Jim)
+- Added -J to mkisofs command to produce a joliet directory
+  (For windows people)
+- Minor change in listing files in $BURNDIR
+- A bunch of code cleanups
+- Updated installation script
+- bin/cue script enhanced
+
+Magma 1.3.1 (Dez)
+- Slight edit in configure.sh
+- Added preliminary support for burning bin/cue files. (Requires cdrdao)
+  Not tested much, so if things don't work right send me a mail, 
+  or if you feel like it send me a patch.
+
+Magma 1.3.0 (Loco)
+- Added file FILES and moved all id tags from other files to that one.
+- Switched places between View BURNDIR and Clear BURNDIR.
+  (Makes more sense this way)
+- Fixed some issues with ISO creation.
+- Moved the shellscripts into directories: configure.sh into config, 
+  xmmsread.sh and mount_loop into misc, burning.sh and multi.sh into burning,
+  convert_oggs.sh and convert_mp3s.sh into convert and finally menu files
+  into menus. 
+- Fixed issue in multi.sh
+- Took care of another bug in direct audio burning that was forgotten in 1.2.4
+- Added an option to configure.
+- Made some improvements (IMHO) to configure.sh
+- Fixed some bugs in mount_loop.sh that caused Magma to be unable to create
+  a new ISO if the original ISO was changed. 
+- Some updates here and there.
+
+Magma 1.2.4 (Still Going Strong)
+- Made driveroptions a little easier to understand.
+- Updated audio_menu.sh. Newer version of cdrtools/cdrecord might be needed now.
+- Fixed a typo that caused direct audio burning to fail. 
+- And yeah, you might have noticed that even though I said that Magma 1.2.0 would be the
+  the last release, I keep on releasing newer versions of Magma 1.x. This is because:
+--> 1# I have no idea when M2 will be released.
+--> 2# I have recieved a lot of mails lately from people telling me
+       how much they like Magma. Thanks a lot, I didn't really think
+       that many used this little app, but it seems like it's quite popular.
+       With this in mind it would be kinda mean to just stop developing 
+       something a lot of people use, so I guess I'll keep on releasing new
+       versions a little now and then. 
+
+Magma 1.2.3 (New World Order)
+- Bugfix for the Install.sh bugfix. (Doh!)
+- The Magma config file is now called .magmarc
+- Code cleanups
+
+Magma 1.2.2.2 (Blast off)
+- Another small fix. This release takes care of a bug in Install.sh
+  If you have no problems with 1.2.2.1, there is no need to upgrade.
+	
+Magma 1.2.2.1 (Bigger Bang)
+- A small fix in xmmsread.sh (Thanks to Page for the fix.)
+
+Magma 1.2.2 (Big Bang)
+- Fixed some issues with file removal after burning.
+- Higher quality when encoding .ogg files. (1.0 released! Hooray!)
+- Ogg-file decompression now uses oggdec instead of the clumpsy ogg123 version.
+- Added overburn functionality. Tell me if it works (Or not...)
+- MagmaChangelog renamed to ChangeLog
+- Some cleanups. Since my trusty CDRW disc crapped out on me, I can't check if something is broken.
+  Send me a bugreport if something doesn't work.
+
+Magma 1.2.1 (Quasar)
+- Minor code enhancements
+- Added option in configure
+- Ok, I was supposed to add these features into 1.2.0 but somehow
+  I forgot them. Anyways, THIS should be the final release in the
+  1.x series.
+
+Magma 1.2.0 (Galactica)
+- Added function to create Mp3s and oggs from a CD, without having to first
+  rip the cd and then compress the files.
+- Some documentation updates.
+- Code cleanup again...
+- This is probably the last release in the 1.x series. Please report any bugs
+  to connyosis@gmx.net so I or Tobias can fix them before the 2.0 release.
+
+Magma 1.1.5 (Starburst)
+- Install script rewritten.
+- HOWTO added to website
+- INSTALL updated
+- Added function to create .ogg-files from wavs.
+  (Yes again, not what Magma is supposed to do, but what the hell...)
+- Added function to create audio cds from .ogg-file.
+  (Changed the audio menu script a little and added a file.)  
+
+Magma 1.1.4 (Supernova)
+- Rewrote some parts of the xmms playlist script. It's a little smarter now.
+- New multi.sh replaced the old one. This one (Written by Angles) is better.
+- Removed the 10 second grace period before burning. Pretty useless since cdrecord
+  itself has this.
+- Some things easier to understand.
+- A small and VERY simple installation script included. 
+- HOWTO is rewritten.
+- Magmas homepage is now http://freebits.de/magma
+
+Magma 1.1.3 (Cap in Ya Dome)
+- Added function to create Mp3s from Wavs. (Requires lame to be installed.)
+  (Yes I know, this isn't what Magma is supposed to be doing, but MadMaN convinced me.)
+- Made some options in configure easier to understand.
+- Some minor code cleanups
+- Added function to burn Xmms playlists. (This is a VERY simple script that for
+  now pretty much sucks. You need write permissions to the directory where the
+  mp3s are stored, and it's not very well written. I will rewrite this some day.
+  Anyone want to rewrite it for me, please do.)
+- RPM available of Magma 1.1.2
+
+Magma 1.1.2 (Moulin Rouge must die)
+- Removed some silly little checks that didn't work. Hopefully the average
+  Magma user is intelligent enough to have a cd in the drive before attempting
+  to burn something. Checks might be added into M2.
+- Added option in main menu to view BURNDIR. Useful for making sure no vital files
+  are accidently removed when clearing BURNDIR.
+- Small documentation updates.
+- Magmas homepage is now http://magma.dk3.com (Or http://medlem.spray.se/connymute)
+
+Magma 1.1.1 (Elvis was Alive)
+- Fixed an error in burning.sh that freaked out if more then one wav-file
+  was present in BURNDIR. When will I learn to test this thing before releasing...
+
+Magma 1.1 Final (Elvis is alive)
+- Edited some parts of burning.sh that didn't work at all.
+  Sorry about that, gotta be more careful when accepting patches.
+  Something screwed up Magma so it found the files, but didn't actually
+  burn anything. Fixed now.
+- Removed the useless cddb lookup feature. Didn't work right anyways.
+  If anyone wants to implement it, go ahead and then send me a patch,
+  otherwise this will wait for Magma 2.0
+- Commented code some more
+- Changed a break to continue in iso_menu.sh
+- Rewrote multi.sh, now it might actually work...
+- Fixed an issue in Magma.sh that wouldn't remove files in BURNDIR when
+  the option Clear BURNDIR was chosen.
+- Fixed mistake in burning.sh
+- The config-file .mconf mysteriously disappeared from ALPHA3. Now it's back.
+- PLAN-file updated.
+- Rewrite of Magma.sh and some new files added.
+- Typo in mount_loop.sh taken care of
+- Fixed a bug in convert_mp3s.sh that wouldn't find any files in BURNDIR
+  if they were linked there, not copied.
+- After adding some new functions we've decided to go in a
+  new sub-version-tree.
+- Some tuning up again and again.
+
+
+Magma 1.0 020215
+- Added function to copy cd to harddrive.
+- Fixed issue with driver options (Thanks Christoffer Bruun).
+- Added funtion for cddb lookup when copying cd audio to hd.
+- Minor adjustments and code tuned up in various files.
+- Bug in mount_loop.sh fixed. Now you can view
+  the contents of several ISOs simultaneously.
+
+Magma 1.0 (Hot Stuff)
+- Freaking mkisofs bug is finally eliminated. Woohoo!
+- Multisession supported.
+- Support for driver options (for instance burnfree).
+- Support for normalize.
+- Changed new convert_mp3s.sh to old one. Works better.
+- Support for forced blanking of CDRWs, if normal blanking should fail.
+- Direct mp3 + wav burning added. (thanks Jean-François Deverge)
+- Documentation updated.
+- COPYING added
+- Various small fixes and tune-ups.
+
+###################################################################################
+#WARNING: All version of Magma pre 1.0 has a nasty bug with mkisofs. It will cause#
+#all files to end up in the same directory, instead of their respective one. We	  #
+#strongly recommend you to use version 1.0 or later.				  #
+###################################################################################
+
+Magma 0.9.5 (Bugs R Us):
+- We jumped to 0.9.5 directly.
+- Issue with creating ISOs fixed. (mkisofs no longer cuts filenames.)
+- More Issues with creating ISOs fixed.
+- New function added to burn additional informations on a CD.
+  (e.g. copyright, author, name of package and much more)
+
+Magma 0.9.2pre2:
+- README updated
+- Some minor bugs fixed.
+- New function added to view and modify the content of an ISO-file.
+  (mount_loop.sh)
+- Some minor things changed and added.
+
+Magma 0.9.2pre1:
+- Totally freaking rewritten by Tobias Rittweiler 
+  (nice...does this mean I suck or what?)
+- The configfile (mconf) has to be moved to the home-directory of
+  the user who has execute Magma. So it has a firm location,
+  I think it's better..
+- That's why I changed all the $WORKDIR variable (in the beginning) to $HOME.
+  And I changed the filename, so it's now '.mconf', because then it's
+  hidden (like all the other configfiles)
+- And I introduce a new variable $ROOTDIR - it's the path to the dir
+  in that the shellscripts are. (so the installation is also different) 
+- Also I changed the directory of temporary files. It's now '/tmp/burn' and
+  so it's a real temp-dir, i think.
+- I add also a small sed-liner, so now you can write spaces between the variables
+  and the options in the conf-file. (the number of them doesn't matter.)
+- Then I changed the colors of the table. And yeah, it looks fine.. :-) 
+- The file convert_mp3.sh was absolutly written again by myself.
+- I put all burn_*.sh files together in only one, because too much different
+  files suck! So we've one that can all.. and that file is really bash!
+- All files were rewritten, I tuned the code of them up, but i didn't write
+  any extensions for it. That will coming soon..
+- Rewrote the INSTALLATION, this ChangeLog, the HOWTO and the README.
+- create_iso.sh and burning.sh now follows symlinks and allows more than one
+  dot in the filenames when creating ISO-files.
+- Burning is more verbose
+
+Magma 0.9.1 (Titanic) 
+- Added function to copy Audio and Data cds
+- Added option to create ISO from files in BURNDIR
+
+Magma 0.9.1pre3:
+- Added option in configure menu
+- Code cleanup
+
+Magma 0.9.1pre2: 
+- Changed from using cdparanoia for ripping audio cds to cdda2wav.
+- Fixed audio-cd copying mistake. Forgot to sleep for 20 secs.
+- Added cd-check for create_iso. No fake ISO is created if no cd
+  is present in drive.
+- Fixed small issue with main menu
+
+Magma 0.9.0 (Everclear)
+- Magma almost totally rewritten with a lot of help from Joel Wiesmann.
+- Configuration menu added, now you don't have to edit the script yourself,
+  enter your values in a simple menu.
+- An option to clear BURNDIR was added. 
+
+Magma 0.3.0/2 (Ringwraith)
+- Menu redone again. Thanx to Joel Wiesmann for letting
+  me test his nice program menubuilder.
+
+Magma 0.3.0 (Phat Beat)
+- Spaces in mp3-files bug fixed. (Thanks Olav Vitters)
+- Menu redone
+
+Magma 0.2.7/2 (Looney)
+- Added a HOWTO for newbies
+
+Magma 0.2.7 (Looney)
+- Added option to create ISO-files from a cd.
+
+Magma 0.2.6 (Katie) Dreamhack Edition
+- Only some code cleanups and some documentation added.
+  No need to get this one really if you're happy with 0.2.6 standard.
+
+Magma 0.2.6 (Katie)
+- Removed some silly things from burn_data and burn_iso that wasn't supposed 
+  to be there in the first place.  
+- It is now possible to blank CDRWs. Check top of Magma.sh for details.
+
+Magma 0.2.5 (Idiot Box)
+- Issues in 0.2.4 fixed. Code a little more commented.
+
+Magma 0.2.4 (Slacker)
+- Fixes some issues in 0.2.2 and adds the option to burn ISO-files directly.
+
+Magma 0.2.2 (Mental)
+- Magma can now burn data cds. Put all you data into BURNDIR, choose to burn a data cd 
+  and voila! 
+
+Magma 0.2.0/2 (Phreak)
+- Silly little me forgot to remove -dummy from burn_audio_wav.sh
+  This release includes that fix and some updates to the README file.
+
+Magma 0.2.0 (Doodle)
+- Deleted file burn.sh and updated burn_audio_wav.sh
+- Fixed stupid bug where Magma would start burnprocess, even if no audiofiles
+  where present in BURNDIR (Thanks Hampus Ram)
+- Also Magma won't bail out if no Mp3s are present in BURNDIR. It simply
+  continues and checks if wavs are there instead. 
+  You could say this is the first version that is actually useful.
+
+Magma 0.1.3
+- New file, convert_mp3s.sh and removed burn_audio_mp3s.sh. 0.1.2 had a 
+  nasty bug. To many Mp3s in BURNDIR caused Magma to spit out an error 
+  message and quit, without burning.
+
+Magma 0.1.2
+- Magma can now burn audio cds directly with wav-files.
+- burn.sh is divided into two files: burn_audio_mp3.sh and burn_audio_wav.sh
+
+Magma 0.1.1
+- First public release. Now divided into two files.
+
+Magma 0.1.0
+- First release. Well, never released really. Only for internal testing
+

@@ -1,0 +1,42 @@
+# mount.lang - English language
+
+bb_mnt_enter_1='Press [ENTER] to return'
+
+bb_mnt_menu_title='Mount/Unmount Device'
+bb_mnt_menu_1='Mount device'
+bb_mnt_menu_2='Unmount device'
+bb_mnt_menu_3='Eject device'
+bb_mnt_menu_0=Back
+bb_mnt_menu_input='Your Choice? '
+
+bb_mnt_ch1_1='Which device do you want to mount? Enter it like /mnt/cdrom'
+bb_mnt_ch1_2='(You must enter the mount point, not the device file. For instance'
+bb_mnt_ch1_3='/mnt/cdrom will work fine, but /dev/cdrom will not. Just press enter'
+bb_mnt_ch1_4='without writing anything to abort.'
+bb_mnt_ch1_5='Mounting aborted!'
+bb_mnt_ch1_6='Mounting '
+bb_mnt_ch1_7=' mounted.'
+bb_mnt_ch1_8='Mounting failed. Maybe you do not have the right permissions,'
+bb_mnt_ch1_9='the device is already mounted, there is no media in the drive'
+bb_mnt_ch1_10='or you misspelt the path to the drive?'
+
+bb_mnt_ch2_1='There does not seem to be any devices mounted.'
+bb_mnt_ch2_2='Which device do you want to unmount? Enter it like /mnt/cdrom'
+bb_mnt_ch2_3=' unmounted.'
+bb_mnt_ch2_4='Unmounting failed. Maybe you do not have the right permissions'
+bb_mnt_ch2_5='or you entered the wrong path to the drive?'
+
+bb_mnt_ch3_1='Which device do you want to eject? Enter it like /mnt/cdrom'
+bb_mnt_ch3_1b='or just press enter without writing anything to abort.'
+bb_mnt_ch3_1c='Aborted!'
+bb_mnt_ch3_2=' ejected. (Incase you did not notice ;-) )'
+bb_mnt_ch3_3='Eject failed. Maybe you do not have the right permissions'
+bb_mnt_ch3_4='or you entered the wrong path to the drive?'
+
+bb_mnt_ch0='Back to main'
+
+bb_mnt_error='Please choose '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

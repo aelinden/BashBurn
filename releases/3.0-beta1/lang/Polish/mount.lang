@@ -1,0 +1,47 @@
+# mount.lang - Polish language
+
+bb_mnt_menu_title="Zamontuj/odmontuj urz±dzenie"
+bb_mnt_menu_1="Zamontuj"
+bb_mnt_menu_2="Odmontuj"
+bb_mnt_menu_3="Wysuñ"
+bb_mnt_menu_0="Powrót"
+bb_mnt_menu_input="Wybierz? "
+
+bb_mnt_ch1_1="Które urz±dzenie chcesz zamontowaæ? Wpisz np. /mnt/cdrom"
+bb_mnt_ch1_2="(Musisz wybraæ punkt montowania, nie plik urz±dzenia. Na przyk³ad"
+bb_mnt_ch1_3="/mnt/cdrom bêdzie prawid³owe, ale /dev/cdrom nie. Poprostu naci¶nij enter"
+bb_mnt_ch1_4="bez wpisywania czegokolwiek ¿eby przerwaæ"
+bb_mnt_ch1_5="Montowanie przerwane"
+bb_mnt_ch1_6="Montowanie "
+bb_mnt_ch1_7=" zamontonowe."
+bb_mnt_ch1_8="Montowanie nieudane. Mo¿e nie masz prawid³owych uprawnieñ,"
+bb_mnt_ch1_9="lub urz±dzenie jest ju¿ zamontowane, nie ma no¶nika w napêdzie"
+bb_mnt_ch1_10="lub pomyli³e¶ ¶cie¿ke do napêdu?"
+
+bb_mnt_ch2_1="Wydaje siê ¿e nie ma zamontowanych ¿adnych urz±dzeñ."
+bb_mnt_ch2_2="Jakie urz±dzenie chcesz odmontowaæ? Wpisz np. /mnt/cdrom."
+bb_mnt_ch2_3=" odmontowane."
+bb_mnt_ch2_4="Odmontowanie nieudane. Mo¿e nie masz prawid³owych uprawnieñ"
+bb_mnt_ch2_5="lub wpisa³e¶ nieprawid³ow± ¶cie¿kê do napêdu."
+
+bb_mnt_ch3_1="Jakie urz±dzenie chcesz wysun±æ? Wpisz np. /mnt/cdrom."
+bb_mnt_ch3_1b="lub naci¶nij enter bez wpisywania niczego aby anulowaæ."
+bb_mnt_ch3_1c="Anulowane!"
+bb_mnt_ch3_2=" wysuniête."
+bb_mnt_ch3_3="Wysuwanie nieudane. Mo¿e nie masz prawid³owych uprawnieñ"
+bb_mnt_ch3_4="lub wpisa³e¶ nieprawid³ow± ¶cie¿kê do napêdu."
+
+bb_mnt_enter_1="Naci¶nij [ENTER] aby powróciæ"
+
+bb_mnt_ch0="Powrót do g³ównego menu"
+
+bb_mnt_error="Wybierz "
+
+
+
+
+
+
+
+
+

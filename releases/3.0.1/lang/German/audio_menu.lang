@@ -1,0 +1,74 @@
+# audio_menu.lang - German language
+
+bb_am_enter_1="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+bb_am_enter_2="Lege eine leere CD ein und dann druecke 'ENTER' um fortzufahren"
+
+bb_am_nomp3s='Keine mp3s in '
+bb_am_nooggs='Keine Oggs in '
+bb_am_noflacs='Keine Flacs in '
+
+bb_am_norm_1=' Normalisieren '
+
+bb_am_err_1='[FEHLER]: Tut mir Leid :( BashBurn kann die CD nicht lesen!'
+
+bb_am_conf_1=' Du waehltest folgende Spuren (tracks) zum Rippen aus: '
+bb_am_conf_2="Ist das in Ordnung? ('y' = ja / 'n' = nein): "
+
+bb_am_named_1='Disk Information...'
+bb_am_named_2="Druecke 'ENTER' um fortzufahren oder"
+bb_am_named_3='Gib eine Spurennummer zum Rippen ein '
+bb_am_named_4='Spaces in Namen werden jetzt unterstuetzt!'
+bb_am_named_5='z.B. Artist - Song, Artist_Song, Artist-Song.'
+bb_am_named_6='Wie lautet der Name der Spur (Track) '
+
+bb_am_rip_1=' Rippe Spur (Track) '
+bb_am_rip_2='Spuren (Tracks) gerippt!'
+
+bb_am_encfilt=' Encode Filter Befehl...'
+
+bb_am_menu_title='Audio Menue'
+bb_am_menu_1='Brenne Audio von Mp3s/Oggs/Wavs/Flacs'
+bb_am_menu_2='Brenne Audio direkt'
+bb_am_menu_3='Kopiere Audio CD (CD nach CD)'
+bb_am_menu_4='Kopiere Audio CD (CD nach Festplatte)'
+bb_am_menu_5='Brenne Xmms-Playlist'
+bb_am_menu_6='Erstelle MP3s von WAVs'
+bb_am_menu_7='Erstelle Oggs von WAVs'
+bb_am_menu_8='Erstelle Flacs von WAVs'
+bb_am_menu_9='Erstelle MP3s von CD'
+bb_am_menu_10='Erstelle Oggs von CD'
+bb_am_menu_11='Erstelle Flacs von CD'
+bb_am_menu_0=Zurueck
+bb_am_menu_input='Was moechtest Du tun? '
+
+bb_am_ch3_1='Brennen abgeschlossen - Danke dass Du BashBurn benutzt hast'
+bb_am_ch3_2='Ein Fehler ist aufgetreten! Konnte die CD nicht brennen.'
+bb_am_ch3_3='Ein Fehler ist aufgetreten! Konnte nicht die Spuren (Tracks) rippen von '
+
+bb_am_ch4_1='Spuren (Tracks) gerippt und gespeichert in '
+bb_am_ch4_2=' Wenn Du MP3s, Oggs'
+bb_am_ch4_3='oder Flacs erstellen moechtest, benutze die jeweilige Funktion des Menues.'
+
+bb_am_ch5='Lesen der Liederliste (playlist) fehlgeschlagen! Versuche Brennen nicht.'
+
+bb_am_ch6_1=' erstellt...'
+bb_am_ch6_2=' konnte nicht komprimiert werden'
+bb_am_ch6_3='Keine WAV-Dateien in '
+
+bb_am_ch7_1='Datei erstellt...'
+
+bb_am_ch9_1=' Erstelle MP3s...'
+bb_am_ch9_2='MP3s erstellt. Dateien befinden sich in '
+
+bb_am_ch10_1=' Erstelle Oggs...'
+bb_am_ch10_2='Oggs erstellt. Dateien befinden sich in '
+
+bb_am_ch11_1='Flacs erstellt. Dateien befinden sich in '
+
+bb_am_ch0='Kehre zum Hauptmenue zurueck'
+
+bb_am_error='Bitte waehle '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

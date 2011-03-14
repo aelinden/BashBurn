@@ -1,0 +1,28 @@
+# datadefine.lang - Polish language
+
+
+bb_mnt_menu_title="Wybierz dane do nagrania"
+
+bb_wfe_1="Naci¶nij [ENTER] aby powróciæ do g³ównego menu."
+
+bb_dc_menu_1=" Skopiuj/Podlinkuj dane do "
+bb_dc_menu_2=" Zobacz dane w "
+bb_dc_menu_3=" Usuñ dane z "
+bb_dc_menu_0=" Powrót"
+
+bb_dc_explain1="Zosta³e¶ przeniesiony do pow³oki. Jeste¶"
+bb_dc_explain2a="w katalogu "
+bb_dc_explain2b=" Aby BashBurn móg³"
+bb_dc_explain3="co¶ nagraæ, musisz podlinkowaæ lub skopiowaæ twoje"
+bb_dc_explain4="dane do tego katalogu. Zrobisz to u¿ywaj±c poleceñ cp lub ln"
+bb_dc_explain5="Na przyk³ad, ¿eby podlinkow±c dane tutaj, wpisujesz:"
+bb_dc_explain6=" 'ln -s <¶cie¿ka do danych> ./' (Bez '')"
+bb_dc_explain7="a je¶li chcesz skopiowaæ zamieñ ln -s na cp."
+bb_dc_explain8="Kiedy skoñczysz, wpisz exit aby powróciæ do menu."
+
+bb_dc_ch3_1="Czy napewno chcesz usun±æ te pliki? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2="Pliki usuniête."
+bb_dc_ch3_3="Pliki nie zosta³y usuniête"
+bb_dc_ch3_4="Brak plików w "
+
+bb_dc_menu_err="B³ad. Wybierz opcje."

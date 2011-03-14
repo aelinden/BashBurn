@@ -1,0 +1,23 @@
+README of BashBurn:
+=================
+BashBurn is released under the GNU GPL.
+
+Once upon a time, or more exaclty sometime around December year 2001
+if I'm not misaken, a young little nerd named Anders Lindén was trying
+to burn some CDs with his recently bought CD-burner. He tried a lot of 
+different programs, but for some reason it would just not work
+properly. So, the little nerd thought to himself: "I guess I just have to do
+something about this myself". And so he did...
+
+The first versions of his program were not very good, or to be honest, 
+they sucked. Bigtime. With time however more and more people found out 
+about this little project of his and started to send in patches and 
+suggestions to the little nerd. All was well.
+
+Today, after lots of help from people all over 
+(Check out the CREDITS-file for which ones) BashBurn is actually
+pretty usable. It's not the most advanced cd burning app out there, but
+it generally does it's job. A lot of people use BashBurn for simpler 
+CD-burnings tasks and like it, so I hope you will as well. 
+
+

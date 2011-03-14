@@ -1,0 +1,9 @@
+Package: BashBurn
+Version: 3.0-1
+Section: otherosfs
+Priority: optional
+Architecture: all
+Depends: bash (>= 3.0-4ubuntu1), cdrdao (>= 1.2.2-16), wodim (>= 1.1.8-1ubuntu1), dvd+rw-tools (>= 7.1-2ubuntu1), cdparanoia (>= 3.10.0+debian-1), lame (>= 3.98-0.0), vorbis-tools (>= 1.2.0-5), flac (>= 1.2.1-1.2), eject (>= 2.1.5-9ubuntu2), normalize-audio (>= 0.7.7-2), mpg123 (>= 1.4.3-3), sudo (>= 1.6.9p17-1ubuntu2)
+Maintainer: Anders Lindén <anders.linden@gmail.com>
+Description: A collection of Bash scripts for burning CDs/DVDs
+ in a Linux console or terminal.

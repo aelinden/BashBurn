@@ -1,0 +1,28 @@
+# datadefine.lang - Spanish language
+
+
+bb_mnt_menu_title="Definir datos a grabar"
+
+bb_wfe_1="Presione [ENTER] volver al menú."
+
+bb_dc_menu_1=" Copiar/Linkear datos a "
+bb_dc_menu_2=" Ver datos en "
+bb_dc_menu_3=" Eliminar datos en "
+bb_dc_menu_0=" Volver al menú principal"
+
+bb_dc_explain1="Ahora serás puesto en una terminal. Su posición actual"
+bb_dc_explain2a="es en el directorio "
+bb_dc_explain2b=" . Para que BashBurn sea"
+bb_dc_explain3="capaz de grabar algo, debes copiar o linkear tus datos"
+bb_dc_explain4="a este directorio. Puedes hacer esto usando los comandos"
+bb_dc_explain5="cp o ln. Por ejemplo, para linkear datos aquí, ingresas:"
+bb_dc_explain6=" 'ln -s <ruta a los datos> ./' (Sin los '')"
+bb_dc_explain7="y para copiar datos reemplazas ln -s con cp. Cuando finalices, "
+bb_dc_explain8="ingresa el comando 'exit' (Sin '') para volver al menú principal."
+
+bb_dc_ch3_1="Esta seguro que desea eliminar estos archivos? '${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}': "
+bb_dc_ch3_2="Archivos eliminados."
+bb_dc_ch3_3="Archivos no eliminados"
+bb_dc_ch3_4="No hay archivos en "
+
+bb_dc_menu_err="Error. Por favor elija"

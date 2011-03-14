@@ -1,0 +1,52 @@
+# BashBurn.lang - Polish language
+
+bb_conf_check1="BashBurn nie zosta³ skonfigurowany. Wejd¼ do 'Konfiguracja' i"
+bb_conf_check2="skonfiguruj BashBurn przed u¿yciem."
+
+bb_quit1="Dziêkuje za korzystanie "
+bb_quit2="Informacji i poprawek szukaj na "
+bb_quit3="http://bashburn.sf.net "
+bb_quit4=""
+
+bb_press_enter="Naci¶nij [ENTER] aby kontynuowaæ."
+
+bb_no_temp_dir="Katalog dla plików tymczasowych nie istnieje. Próba utworzenia go."
+
+bb_text_1="utworzony pomy¶lnie!"
+bb_text_2="Skonfiguruj BashBurn przed u¿yciem."
+bb_text_3="Nie masz prawa do zapisu dla"
+bb_text_4="Zmieñ t± warto¶æ w konfiguracji w celu umo¿liwienia nagrywania p³yt"
+bb_text_5="Katalog"
+bb_text_6="nie istnieje, mimo ¿e ustawi³e¶ go w czasie konfiguracji"
+
+bb_text_7="Wykrywanie nagrywarki..."
+bb_text_8="Wykryto: "
+
+bb_main_menu=MAIN
+
+bb_menu_1="Audio"
+bb_menu_2="Dane"
+bb_menu_3="ISO"
+bb_menu_4="Bin/Cue"
+bb_menu_5="Multisesyjna"
+bb_menu_6="Konfiguracja BashBurn"
+bb_menu_7="Zamontuj/odmontuj CD"
+bb_menu_8="Sprawd¼ ¶cie¿ki do programów"
+bb_menu_9="Wybierz dane do nagrania"
+bb_menu_0="Wyj¶cie"
+bb_menu_input="Twój wybór? "
+
+
+bb_burndir_view="Zawarto¶æ"
+bb_burndir_del1="Czy napewno chcesz usun±æ wszystkie pliki w"
+bb_burndir_del1b="(y/n)"
+bb_burndir_del2="jest czysty."
+bb_burndir_del3="Usuwanie przerwane"
+
+bb_exit_error="Wybierz "
+
+bb_hit_any_key_to_continue='Hit any key to continue'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

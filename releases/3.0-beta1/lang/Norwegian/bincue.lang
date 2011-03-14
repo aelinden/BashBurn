@@ -1,0 +1,12 @@
+# bincue.lang - Nynorsk
+
+bb_press_enter="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+
+bb_bincue_copy_1="Bin- og cue-fil må vera kopiert eller lenka til"
+bb_bincue_copy_1b="før du prøver å brenna."
+bb_bincue_copy_2="Har du gjort det? (y/n): "
+bb_bincue_copy_3="Ver god å kopiera bin- og cue-fil til"
+bb_bincue_copy3b="før du prøver å brenna."
+
+bb_bincue_burn_1="Ferdig å brenna"
+bb_bincue_burn_2="Greidde ikkje å brenna. Kanskje du ikkje har rette tilgangsløyve."

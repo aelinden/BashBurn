@@ -1,0 +1,290 @@
+.TH BASHBURN 1 "6th October 2008" "" "BashBurn - Bash CD writer/burner"
+NAME
+BashBurn (a bash script CD Burner Writer)
+DESCRIPTION
+Once upon a time, or more exactly sometime around December year 2001
+if I'm not misaken, a young little nerd named Anders Lindén was trying
+to burn some CDs with his recently bought CD-burner. He tried a lot of
+different programs, but for some reason it would just not work
+properly. So, the little nerd thought to himself: "I guess I just have to do
+something about this myself". And so he did...
+.br
+
+11111
+INFORMATION
+
+So, you downloaded BashBurn and now you want to burn a lot of CDs?
+Well, if you've used BashBurn before, you can stop reading now and get
+going. If not, take your time to read this manpage.
+
+UPDATES
+
+INSTALLATION
+
+1. Unpack the file (And if you are reading this I guess you already did)
+2. Cd into the directory and run the installation script (Install.sh)
+   For options, run Install.sh --help
+   (To do a global install that will affect all users on a system
+    you will have to be root or have global write permissions)
+3. Start the program by running 'bashburn' and configure it.
+4. Enjoy!
+
+For those that have systems where the bash executable isn't located
+in /bin/bash, you might need to edit the scripts so they contain the
+correct path, or create a symlink from the executable to /bin/bash.
+(Like cd /bin && ln -s /path/to/bash ./bash)
+Newer BashBurn versions should be able to handle systems where bash is
+located somewhere else, if not then let me know.
+
+Gentoo Linux users can install BashBurn by running 'emerge bashburn'.
+Mandrake Linux users can find BashBurn in the contrib repository.
+Damn Small Linux has BashBurn included on the cd.
+The latest version can always be downloaded from http://bashburn.dose.se/.
+(If BashBurn is packaged for more distros, let me know and I'll add it here)
+
+Any problems mail me on anders.linden@gmail.com or post
+on the BashBurn mailinglist.
+
+CONFIGURATION
+
+After installing BashBurn, start it up by typing 'bashburn'.
+The first time BashBurn will create a directory from where it will
+read which files to be burnt.  Default is /tmp/burn. 
+Now choose configure. You will be presented with a menu of options. 
+Don't understand what they all mean? Don't worry, there is an
+explanation for every one of them. If unsure, pick the default value,
+it's often fine.
+After you've gone through each option, choose Apply Settings. 
+(Remember to do this or nothing will be saved.) 
+Now choose Return to go back to the main menu.
+
+USAGE
+
+BashBurn is designed to be as easy to understand as possible.
+Let's say you want to burn an audio CD. Where do you go?
+To Audio of course, and under Audio there are more options to choose from.
+Just remember that before attempting a burn you must copy or link the
+data or audio files to be burnt to the temporary burn directory,
+which again by default is /tmp/burn. 
+
+For example, let's say you want to burn an ISO file. 
+1: Start BashBurn, pick option 10, define data.
+2: Pick option 1, and follow instructions. Link the data 
+   with 'ln -s /path/to/myfile.iso .' 
+   (Without the ''. The dot is important)
+   (You can also copy the data if you prefer that, 
+   cp -Rf <data> <destination>)
+3: Return to the main menu, choose ISO and pick the Burn ISO option. 
+4: Done!
+
+Any problems with BashBurn, suggestions or complaints mail me at
+anders.linden@gmail.com or post on the BashBurn mailinglist.
+
+Have fun using BashBurn
+
+TRANSLATION
+BashBurn translation rules for translators
+##########################################
+
+There are 2 steps in translation process we must distinguish:
+
+- ADD     (new) translation
+- UPDATE  (existing) translation
+
+Both steps are described below and each translator should know this.
+
+
+1. ADD translation process
+--------------------------
+
+1.1
+---
+CONTACT a bashburn developer and tell what you want translate. He will do the
+necessary things to provide you a language directory with different skeleton
+files. (Hint: You can also do this by yourself - but you need a little
+knowledge of the bashburn translation structure and you should only do this if
+you KNOW what you do! Otherwise you may "damage" all other translations!)
+
+
+1.2
+---
+Edit with a text editor the file "TRANSLATOR" in the language directory of the
+language you want to translate and encode it in unicode UTF8. It contains 4
+lines which you should correctly edit:
+
+  First Name: Name
+  Surname   : Another_name
+  E-Mail    : mymail@xy.loc
+  Exit-Date : ?
+
+The first lines should be clear.
+The "EXIT-DATE" is the date which you know that you can't do the translation
+anymore. There are 2 types of this:
+
+  12. August 2009
+  ?
+
+-> In the first case you will leave the translation project at 12. August 2009
+(please use the shown date-format!).
+-> If you don't know a date - just enter '?'. This means you don't plan to exit bashburn
+translation now - but you may do it and contact us if you wish so.
+
+This is not to nerve you. This information is help us to ensure good
+translations: We can contact you in case of questions and we can welcome
+another translator for your language in case you want not do it anymore.
+
+In any case:
+- We contact you in case you should update a translation.
+- If we don't hear anything from you over a longer period of time AND we have a
+new interested translator - this person can starting updating translation. You
+will be deleted from TRANSLATOR file (but maybe mentioned in "CREDITS" file).
+
+Now goto description of UPDATE translation (step 2).
+
+
+2. UPDATE translation process
+-----------------------------
+
+2.1
+---
+You need a (text) editor which supports Unicode UTF8 encoding of the
+translation text files. Bashburn translation files must be ENCODED in UTF8 (see
+"http://www.utf-8.com/")!
+
+Bashburn uses the GNU "gettext" translation system for translation (see
+"http://www.gnu.org/software/gettext/"). If you don't know this, you should
+read more about it.
+
+Now you can begin to translate the ".po" files in your language directory.
+There also graphical programms like "KBabel" which can support you by this step.
+
+
+2.2
+---
+After finishing translation and you think all it's done, edit the file
+"STATE" in your language directory. Delete the message in it (e.g.):
+
+  "Your language directory need updating translation!"
+
+and write in:
+
+  "UPDATED".
+
+After this, we know that we can use "savely" your translation.
+
+
+2.3
+---
+Contact a bashburn developer to complete your translation technically (this
+involves creating of ".mo" files and some file coying). (You can do this also
+manually with "make MO <language>" and "make install <language>".
+
+TRANSLATOR MASTER
+
+22222
+FAQ
+
+Q1:	Why?
+.br
+A1:	I felt like it. Well, I got sick of a program I used always failing to burn audio cds, and since I don't know how to program C or something I decided to write a simple little shell script to do the job.
+
+Q2:	What can BashBurn do?
+.br
+A2:	BashBurn can burn data, music and multisession CDs/DVDs.  It can burn and create ISO files. It can burn bin/cue files, create MP3s, OGGs and FLAC files. Maybe even more :-) In short, it can do most things you need, and if it can't you're probably doing it wrong. ;-)
+
+Q3:	You/BashBurn/Ya mama/Vacuum machines suck!
+.br
+A3:	That's not a question.
+
+Q4:	Why the name change?
+.br
+A4:	Apparently there already was a program named Magma, so a namechange was a must.  I agree BashBurn isnt really a kickass name, but hey! At least it  can still get the work done...
+
+Q5:	Can I steal the code and base my own programs on it?
+.br
+A5:	Yes. Can't imagine why anyone would want to, but sure. Just remember to release your program under the GPL, and leaving the credits would be nice.
+
+Q6:	Can I help?
+.br
+A6:	Sure! Code away and send me the patch. If I find it worthy (Which I do most of the times) I'll include it in the next release and add you to the credits file.
+
+Q7:	How do I install BashBurn?
+.br
+A7:	Read the INSTALL file dummy!
+
+Q8:	BashBurn often failes to write CDs.
+.br
+A8:	Well I bet it isn't really BashBurns fault. Could be that your system isn't fast enough. Try to reduce the speed of your burner, or buy higher quality CDs. If your burner supports it, try using burnfree/burnsafe. Of course it COULD be BashBurn failing, in which case it's a bug. Send me a mail with a description of the problem and I'll try to fix it as soon as possible.
+
+Q9:	I try to create an ISO-file from files in my harddrive, but all files from different directories end up in the root, not in their respective directories!
+.br
+A9:	Yes, this is a known bug in Magma versions before 1.0. If you are using a version that old you should be taken out back and put down.  You could also try to download a newer version.
+
+Q10:	Who are you?
+.br
+A10:	A little geek from Sweden, and thats all you need to know. :-)
+
+Q11:	How do I use driver options?
+.br
+A11:	You don't really have to, but if you want to try it out, here is how.  Under configure, choose driver options and BashBurn will show what your burner supports. My burner supports burnfree, so I enter burnfree and press enter. The next time I burn a cd, BashBurn will enable burnfree to prevent buffer underruns. You can enter	several options by separating them with a comma.
+
+Q12:	BashBurn cannot find my cd-burner. What do I do?
+.br
+A12:	Make sure that you have support for your burner in the kernel. For IDE burners you can either use SCSI emulation or ATAPI mode. (Check Q18) If you don't know how to configure your kernel, use google (There is lots of good information on the web), tldp.org or #linuxhelp on irc.freenode.org
+
+Q13:	Where do I report bugs? Where do I find any help?
+.br
+A13:	Join the mailinglist and report it there, or send me a mail.
+
+Q14:	When will Magma 2 be released?
+.br
+A14:	It wont. Magma doesnt exist anymore, remember? We'll see what happens in the future, for now BashBurn is what you have to settle with.
+
+Q15:	Does BashBurn support for instance overburn?
+.br
+A15:	Yes, though it's not really tested that much. Try it out, and if it works, great, let me know. If it doesn't work, crap, let me know.
+
+Q16:	I can't mount my ISO and view it. What's wrong?
+.br
+A16:	Make sure you have support for loopback devices in your kernel or compiled as a module and loaded. If you're not root, make sure you are part of the sudoers group, since BashBurn uses sudo when mounting the image in that case.
+
+Q17:	I ran Install.sh as root, but I still cant start BashBurn as a regular user
+.br
+A17:	Download and install BashBurn 1.0 or later. In those versions the installation script is rewritten and works a lot better.
+
+Q18:	Does BashBurn support IDE burners natively, or do I need to use SCSI emulation?
+.br
+A18:	As from BashBurn 1.3, IDE burners should work just fine. I use this myself and have not experienced any problems so far. To be able to use this you  will need a 2.6 Linux kernel, cdrtools version 2.0 or higher and  BashBurn 1.3 or higher.
+
+Q19:	Running BashBurn in sudo gives me an error.
+.br
+A19:	The latest version of BashBurn should work fine in sudo. If it doesn't tell me about it and I'll try to find a workaround. 
+
+Q20:	Where is this mailinglist I've been hearing so mych about?
+.br
+A20:	Go to http://bashburn.dose.se/, click on the link that says "mailinglist" and follow the instructions there on how to sign up.
+
+Q21:	Can BashBurn burn DVDs?
+.br
+A21:	See A2
+
+Q22:	How do I install BashBurn?
+.br
+A22:	Read the INSTALL file.
+
+Q23:	What are the requirements for BashBurn?
+.br
+A23:	Check the webpage at http://bashburn.dose.se/ for information.  Once BashBurn is installed, you can also run option 8 in the main menu, Check program paths to see if you need to install any programs for full functionality. (Note: In Ubuntu normalize is called normalize-audio)
+
+		faqs last updated: October 2008
+
+SEE ALSO
+	files located under docs/ directory in the bashburn package.
+
+CONTACTS
+
+LICENSE
+
+MANPAGE
+
+AUTHORs

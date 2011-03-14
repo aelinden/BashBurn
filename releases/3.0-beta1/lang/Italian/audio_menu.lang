@@ -1,0 +1,71 @@
+# audio_menu.lang - Italian language
+
+bb_am_enter_1="Premere [ENTER] per tornare al menù principale"
+bb_am_enter_2="Inserire un CD vuoto e premere [ENTER] per continuare"
+
+bb_am_nomp3s="Non ci sono mp3 nel "
+bb_am_nooggs="Non ci sono OGG nel "
+bb_am_noflacs="Non ci sono FLAC nel "
+
+bb_am_norm_1=" Normalizzando "
+
+bb_am_err_1="[ERRORE]: Spiacente :( BashBurn non può leggere il CD!"
+
+bb_am_conf_1=" Hai scelto di estrarre queste tracce: "
+bb_am_conf_2="E' corretto? (y/n): "
+
+bb_am_named_1="Informazione del disco..."
+bb_am_named_2="Premere [ENTER] per continuare o"
+bb_am_named_3="Inserire un numero di traccia da estrarre "
+bb_am_named_4="Adesso si possono usare spazi nei nomi!"
+bb_am_named_5="es. Artista - Titolo, Artista_Titolo, Artista-Titolo."
+bb_am_named_6="Qual'è il nome della traccia "
+
+bb_am_rip_1=" Estraggo la traccia "
+bb_am_rip_2="Traccia estratta!"
+
+bb_am_encfilt=" Comando del filtro di codifica..."
+
+bb_am_menu_title="Menù Audio"
+bb_am_menu_1="Masterizza Audio da mp3/OGG/WAV/FLAC"
+bb_am_menu_2="Masterizza Audio Direttamente"
+bb_am_menu_3="Copia Audio CD (da CD a CD)"
+bb_am_menu_4="Copia Audio CD (da CD al disco rigido)"
+bb_am_menu_5="Masterizza una playlist da Xmms"
+bb_am_menu_6="Crea Mp3 da WAV"
+bb_am_menu_7="Crea OGG da WAV"
+bb_am_menu_8="Crea FLAC da WAV"
+bb_am_menu_9="Crea Mp3 da CD"
+bb_am_menu_10="Crea OGG da CD"
+bb_am_menu_11="Crea FLAC da CD"
+bb_am_menu_0="Indietro"
+bb_am_menu_input="Cosa scegli? "
+
+bb_am_ch3_1="Masterizzazione completata - Grazie per aver scelto BashBurn"
+bb_am_ch3_2="C'è un errore! Non si può masterizzare il cd."
+bb_am_ch3_3="C'è un errore! Non si possono estrarre le tracce da "
+
+bb_am_ch4_1="Tracce estratte e salvate in "
+bb_am_ch4_2=" Se vuoi creare"
+bb_am_ch4_3="mp3,OGG o FLAC, usa la relativa funzione del menù."
+
+bb_am_ch5="Lettura della playlist non riuscita. Non si può masterizzare."
+
+bb_am_ch6_1=" creato..."
+bb_am_ch6_2=" non si può comprimere"
+bb_am_ch6_3="Non ci sono WAV in "
+
+bb_am_ch7_1="File creato..."
+
+bb_am_ch9_1=" Sto creando mp3..."
+bb_am_ch9_2="Mp3 creati. I file si trovano in "
+
+bb_am_ch10_1=" Sto creando OGG..."
+bb_am_ch10_2="OGG creati. I file si trovano in "
+
+bb_am_ch11_1=" Sto creando FLAC..."
+bb_am_ch11_2="FLAC creati. I file si trovano in "
+
+bb_am_ch0="Tornare al menù principale"
+
+bb_am_error="Per favore scegli "

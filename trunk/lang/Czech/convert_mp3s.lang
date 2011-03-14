@@ -1,0 +1,5 @@
+# convert_mp3s.lang - Czech language
+
+bb_conv_mp3_1="rozbaleno"
+bb_conv_mp3_2="a pripraveno pro vypalovani"
+bb_conv_mp3_3="nemohu rozbalit"

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd /usr/lib/BashBurn/lib
+sed -e "s%@@BBROOTDIR@@%$/usr/lib/BashBurn/lib%" BashBurn.sh > newbb-$$.sh
+mv newbb-$$.sh BashBurn.sh
+sed -e "s/normalize/normalize-audio/" BashBurn.sh > newbb-$$.sh
+mv newbb-$$.sh BashBurn.sh
+chmod +x BashBurn.sh

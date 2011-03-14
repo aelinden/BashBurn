@@ -1,0 +1,76 @@
+# audio_menu.lang - Czech language
+
+bb_am_enter_1="Stisknout klavesu [ENTER] pro navrat do hlavniho menu."
+bb_am_enter_2="Vlozit ciste CD a stisknout klavesu [ENTER] pro pokracovani"
+
+bb_am_nomp3s="Zadne mp3 v "
+bb_am_nooggs="Zadne Oggs v "
+bb_am_noflacs="Zadne Flacs v "
+
+bb_am_norm_1=" Normalizuji "
+
+bb_am_err_1="[ERROR]: Sorry :( BashBurn nemuze precist cd!"
+
+bb_am_conf_1=" Byly zvoleny pro Ripovani tyto Tracky: "
+bb_am_conf_2="Vse v poradku? (y/n): "
+
+bb_am_named_1="Diskove informace..."
+bb_am_named_2="Stlaceni klavesy [ENTER] pro pokracovani nebo"
+bb_am_named_3="Zvolte cislo tracku pro ripovani "
+bb_am_named_4="Rozlozeni nazvu ktere je podporovano!"
+bb_am_named_5="napr. Zpevak - Pisen, Zpevak_Pisen, Zpevak-Pisen."
+bb_am_named_6="Jake je jmeno tracku "
+
+bb_am_rip_1=" Ripuji track "
+bb_am_rip_2="Tracks byl zripovan!"
+
+bb_am_encfilt=" Prikaz kodovaciho filtru ..."
+
+bb_am_menu_title="Audio Menu"
+bb_am_menu_1="Vytvorit hudebni CD z Mp3s/Oggs/Wavs/Flacs"
+bb_am_menu_2="Prime vytvoreni hudebniho CD"
+bb_am_menu_3="Kopirovani hudebniho CD (CD to CD)"
+bb_am_menu_4="Kopirovani hudebniho CD (CD to harddrive)"
+bb_am_menu_5="Vypaleni Xmms Playlist"
+bb_am_menu_6="Vytvorit Mp3 z Wav"
+bb_am_menu_7="Vytvorit Ogg z Wav"
+bb_am_menu_8="Vytvorit Flac z Wav"
+bb_am_menu_9="Vytvorit Mp3 z CD"
+bb_am_menu_10="Vytvorit Ogg z CD"
+bb_am_menu_11="Vytvorit Flac z CD"
+bb_am_menu_0="Zpet"
+bb_am_menu_input="Vase volba? "
+
+bb_am_ch3_1="Vypalovani bylo dokonceno - dekuji za uzivani BashBurn"
+bb_am_ch3_2="Chyba!!! Nelze vypalit CD."
+bb_am_ch3_3="Chyba!!! Nelze ripnout track z "
+
+bb_am_ch4_1="Track byl ripnuty a ulozeny v "
+bb_am_ch4_2=" Pro vytvoreni"
+bb_am_ch4_3="mp3, ogg or flac, je nutne pouzit spravnou polozku menu."
+
+bb_am_ch5="Neuspesne naciteni playlistu. Preruseno vypalovani."
+
+bb_am_ch6_1=" vytvoren..."
+bb_am_ch6_2" nelze komprimovat"
+bb_am_ch6_3="Zadne Wav v "
+
+bb_am_ch7_1="Soubor vytvoren..."
+
+bb_am_ch9_1=" Vytvoreny Mp3..."
+bb_am_ch9_2="Mp3 vytvoreny. Soubory jsou ulozeny v  "
+
+bb_am_ch10_1=" Vytvoreny Oggs..."
+bb_am_ch10_2="Ogg vytvoreny. Soubory jsou ulozeny v "
+
+bb_am_ch11_1="Flac vytvoreny. Soubory jsou ulozeny v "
+
+bb_am_ch0="Probiha navrat do hlavniho menu"
+
+bb_am_error="Zvolte "
+
+
+
+
+
+

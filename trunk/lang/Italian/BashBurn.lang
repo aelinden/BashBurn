@@ -1,0 +1,52 @@
+# BashBurn.lang - Italian language
+
+bb_conf_check1="BashBurn non è stato configurato. Inserisci 'Configure' e"
+bb_conf_check2="modifica le informazioni necessarie prima di usarlo."
+
+bb_quit1="Grazie per aver scelto "
+bb_quit2="Visita "
+bb_quit3="http://bashburn.sf.net "
+bb_quit4="per informazioni e aggiornamenti."
+
+bb_press_enter="Premi [ENTER] per continuare."
+
+bb_no_temp_dir="La directory per i file temporanei non esiste. Proviamo a crearla..."
+
+bb_text_1="creata con successo!"
+bb_text_2="Configura BashBurn prima di masterizzare"
+bb_text_3="Non hai il permesso in scrittura per"
+bb_text_4="Cambia questo valore nella configurazione o non potrai masterizzare."
+bb_text_5="La directory"
+bb_text_6="non esiste, sebbene l'hai scritto nel file di configurazione"
+
+bb_text_7="Sto cercando il masterizzatore cd ...."
+bb_text_8="Trovato: "
+
+bb_main_menu=MAIN
+
+bb_menu_1="Audio"
+bb_menu_2="Dati"
+bb_menu_3="ISO"
+bb_menu_4="Bin/Cue"
+bb_menu_5="Multisessione"
+bb_menu_6="Configura BashBurn"
+bb_menu_7="Monta/Smonta cd"
+bb_menu_8="Controlla la path del programma"
+bb_menu_9="Definisci i file da masterizzare"		# Edited once again in 1.6
+bb_menu_0="Esci"
+bb_menu_input="Cosa scegli? "
+
+
+bb_burndir_view="Il contenuto di "
+bb_burndir_del1="Vuoi veramente cancellare i file in"
+bb_burndir_del1b="(y/n)"
+bb_burndir_del2="è vuoto."
+bb_burndir_del3="Cancellazione interrotta"
+
+bb_exit_error="Per favore scegli "
+
+bb_hit_any_key_to_continue='Hit any key to continue'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

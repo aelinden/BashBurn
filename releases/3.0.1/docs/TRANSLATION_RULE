@@ -1,0 +1,100 @@
+BashBurn translation rules for translators
+##########################################
+
+There are 2 steps in translation process we must distinguish:
+
+- ADD     (new) translation
+- UPDATE  (existing) translation
+
+Both steps are described below and each translator should know this.
+
+
+1. ADD translation process
+--------------------------
+
+1.1
+---
+CONTACT a bashburn developer and tell what you want translate. He will do the
+necessary things to provide you a language directory with different skeleton
+files. (Hint: You can also do this by yourself - but you need a little
+knowledge of the bashburn translation structure and you should only do this if
+you KNOW what you do! Otherwise you may "damage" all other translations!)
+
+
+1.2
+---
+Edit with a text editor the file "TRANSLATOR" in the language directory of the
+language you want to translate and encode it in unicode UTF8. It contains 4
+lines which you should correctly edit:
+
+  FIRST NAME: Name
+  SURNAME   : Another_name
+  E-MAIL    : mymail@xy.loc
+  EXIT-DATE : ?
+
+The first lines should be clear.
+The "EXIT-DATE" is the date which you know that you can't do the translation
+anymore. There are 2 types of this:
+
+  12. August 2009
+  ?
+
+-> In the first case you will leave the translation project at 12. August 2009
+(please use the shown date-format!).
+-> If you don't know a date - just enter '?'. This means you don't plan to exit bashburn
+translation now - but you may do it and contact us if you wish so.
+
+This is not to nerve you. This informations help us to ensure good
+translations: We can contact you in case of questions and we can welcome
+another translator for your language in case you want not do it anymore.
+
+In any case:
+- We contact you in case you should update a translation.
+- If we don't hear anything from you over a longer period of time AND we have a
+new interested translator - this person can starting updating translation. You
+will be deleted from TRANSLATOR file (but maybe mentioned in "CREDITS" file).
+
+Now goto description of UPDATE translation (step 2).
+
+
+2. UPDATE translation process
+-----------------------------
+
+2.1
+---
+You need a (text) editor which supports Unicode UTF8 encoding of the
+translation text files. Bashburn translation files must be ENCODED in UTF8 (see
+"http://www.utf-8.com/")!
+
+Bashburn uses the GNU "gettext" translation system for translation (see
+"http://www.gnu.org/software/gettext/"). If you don't know this, you should
+read more about it.
+
+Now you can begin to translate the ".po" files in your language directory.
+There also graphical programms like "KBabel" which can support you by this step.
+
+
+2.2
+---
+After finishing translation and you think all it's done, edit the file
+"STATE" in your language directory. Delete the message in it (e.g.):
+
+  "Your language directory need updating translation!"
+
+and write in:
+
+  "UPDATED".
+
+After this, we know that we can use "savely" your translation.
+
+
+2.3
+---
+Contact a bashburn developer to complete your translation technically (this
+involves creating of ".mo" files and some file coying). (You can do this also
+manually with "make MO <language>" and "make install <language>".
+
+
+
+# END
+# Editor: Markus Kollmar

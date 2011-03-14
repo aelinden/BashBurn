@@ -1,0 +1,41 @@
+# multi.lang - German language
+
+bb_multi_enter_1="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+bb_multi_enter_2="Druecke 'ENTER' um fortzufahren."
+
+bb_multi_burn_1='ISO9660 gefunden...'
+bb_multi_burn_2=' wenn das NICHT der erste Brennvorgang einer Mutisession-CD ist, dann *MUSS*'
+bb_multi_burn_3='dieses ISO9660 mit vorhergehenden Session-Offset-Parameter erstellt worden sein!'
+bb_multi_burn_4=' Warum: Weil diese Session sonst unsichtbar und nutzlos sein wird...'
+bb_multi_burn_5='CD gebrannt...'
+bb_multi_burn_6=' Kein ISO9660 gefunden, versuche eines zu erstellen...'
+bb_multi_burn_7="Verschaffe vorhergehende Session-Offset Daten mithilfe '-msinfo'"
+bb_multi_burn_8="'msinfo'-Information die fuer die Multisession gebraucht wird ist:"
+bb_multi_burn_9='wenn die Klammern'
+bb_multi_burn_9b='zwei Nummern mit einem Komma umschliessen, IST ALLES OK!'
+bb_multi_burn_10='Die Meldung "cdrecord: Cannot read session offset" bedeutet: Unbeschriebene CD.'
+bb_multi_burn_11='Die Meldung "cdrecord: No disk / Wrong disk!" bedeutet: Keine CD im Laufwerk!'
+bb_multi_burn_12='habe gueltige Multisession-Daten erhalten, und fuege folgende Argumente hinzu:'
+bb_multi_burn_13='Erster Brennvorgang einer Multisession-CD braucht keine vorhergehenden Session-Offset Daten'
+bb_multi_burn_14='Mache jetzt das ISO9660, wenn es moeglich ist...'
+
+bb_multi_burn_14b='Bezeichner (Label) Deiner CD: '
+
+bb_multi_burn_15='ISO9660 erstellt'
+bb_multi_burn_16='Fehler: Konnte keine ISO9660-Datei erstellen.'
+bb_multi_burn_17='Vielleicht... Keine Dateien in'
+bb_multi_burn_18='Vielleicht hast Du keine Schreibrechte?'
+
+bb_multi_menu_title='Multisession-CD'
+bb_multi_menu_1='Erster Brennvorgang einer Multisession-CD'
+bb_multi_menu_2='Brennvorgang einer Multisession-CD fortsetzen'
+bb_multi_menu_3='Multisession-CD fertigstellen (letzter Brennvorgang)'
+bb_multi_menu_0=Zurueck
+bb_multi_menu_entry='Deine Wahl '
+
+bb_multi_ch0='Zurueck zum Hauptmenue...'
+bb_multi_err='Bitte bestaetige '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

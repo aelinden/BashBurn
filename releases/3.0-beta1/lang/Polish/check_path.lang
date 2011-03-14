@@ -1,0 +1,14 @@
+# check_path.lang - Polish language
+
+bb_cp_1="Aplikacja znaleziona"
+bb_cp_2="w"
+bb_cp_3="Aplikacja NIE ZNALEZIONA!"
+bb_cp_4="Zainstaluj to lub wszystkie opcje nie bêd± dostêpne."
+bb_cp_5="Sprawdzanie ¶cie¿ek..."
+bb_cp_6=" Narzêdzia do nagrywania"
+bb_cp_7=" Rippers"
+bb_cp_8=" Kodeki"
+bb_cp_9=" Inne"
+bb_cp_10="UWAGA: Zainstaluj programy, które nie zosta³y znalezione"
+bb_cp_11="lub BashBurn nie bêdzie dzia³a³ prawid³owo."
+bb_cp_12="Naci¶nij [ENTER] aby powróciæ do g³ównego menu."

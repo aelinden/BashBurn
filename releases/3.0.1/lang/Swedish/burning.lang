@@ -1,0 +1,43 @@
+# burning.lang - Swedish language
+
+bb_press_enter='Tryck [ENTER] för att återgå.'
+
+bb_no_ob='Använder inte overburn...'
+
+bb_burning_tmp_1='Temporära filer i '
+bb_burning_tmp_1b='borttagna...'
+bb_burning_tmp_2='ej borttagna...'
+
+bb_burning_audio_1='hittade'
+bb_burning_audio_2='Inga ljudfiler i'
+bb_burning_audio_3='Använder inte normalisering...'
+
+bb_burning_finish_1='Bränning avslutad.'
+bb_burning_finish_2='Bränning misslyckades.'
+bb_burning_finish_3='Fil(er) länkade/kopierade till'
+
+bb_burning_error='Inga filer i '
+
+bb_burning_iso_1='Ingen ISO-fil i'
+
+bb_burning_data_1='Försöker skapa en ISO-fil'
+
+bb_burning_data_label='CD-etikett: '
+
+bb_burning_data_2='Fel: Kunde inte skapa ISO-fil.'
+bb_burning_data_3='Du kanske inte har skrivrättigheter?'
+
+bb_burning_fifo_1='Inga Wav-filer i'
+bb_burning_fifo_2='Kommer att bränna'
+bb_burning_fifo_2b='spår!'
+bb_burning_fifo3='Rensar oanvända fifos'
+
+bb_burning_dvd_1='Är detta den första sessionen på denna DVD?'
+bb_burning_dvd_2='(Ange 'no' om du vill sammanfoga en ny session till'
+bb_burning_dvd_3='en redan påbörjad DVD. För att avbryta'
+bb_burning_dvd_4='tryck [ENTER] utan att skriva någonting)'
+bb_burning_dvd_5='(yes/no): '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

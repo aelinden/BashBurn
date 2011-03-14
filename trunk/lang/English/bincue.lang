@@ -1,0 +1,17 @@
+# bincue.lang - English language
+
+bb_press_enter='Press [ENTER] to return to main menu.'
+
+bb_bincue_copy_1='Bin and Cue file must be copied/linked to'
+bb_bincue_copy_1b='before attempting to burn.'
+bb_bincue_copy_2='Have you done that? (y/n): '
+
+bb_bincue_copy_3='Please copy bin/cue file to'
+bb_bincue_copy3b='before trying to burn.'
+
+bb_bincue_burn_1='Burning finished'
+bb_bincue_burn_2='Burning failed. Maybe you do not have the right permissions?'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

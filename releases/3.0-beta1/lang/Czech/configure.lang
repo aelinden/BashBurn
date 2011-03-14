@@ -1,0 +1,188 @@
+# configure.lang - Czech language
+
+# Nick - this needs checking by a native speaker
+bb_conf_menu_writer="CD-Writer"
+bb_conf_menu_cddev="CD-Reader Device File"
+bb_conf_menu_cdmnt="CD-Reader Mount Point"
+bb_conf_menu_speed="Rychlost"
+bb_conf_menu_blank="Typ vymazani"
+bb_conf_menu_numdev="Cislo od zarizeni"
+bb_conf_menu_root="Root adresár"
+bb_conf_menu_burn="Vypalovaci adresár"
+bb_conf_menu_label="CD nálepka"
+#bb_conf_menu10="Copyright"
+bb_conf_menu_auth="Autor"
+#bb_conf_menu12="vydavatel"
+bb_conf_menu_desc="Popis"
+#bb_conf_menu14="Nazev balicku"
+bb_conf_menu_norm="Normalizace"
+bb_conf_menu_dropt="Ovlada nastaveni"
+bb_conf_menu_fifo="FIFO adresár"
+bb_conf_menu_deltmp="Smazat temp po skonceni vypalovani"
+bb_conf_menu_ob="Povolit overburn"
+#bb_conf_menu20="Ochrana kopirovani"
+bb_conf_menu_bitrate="Nastaveni Bitrate"
+bb_conf_menu_lang="Jazyk"
+bb_conf_menu_dtao="DAO/TAO"
+bb_conf_menu_gap="Prurva mezi koleje"
+bb_conf_menu_adv=progresivní
+bb_conf_menu_apply="Nanáset zmeny"
+bb_conf_menu_default="Obnov defaultni"
+bb_conf_menu_back="Zpet"
+bb_conf_menu_entry="Vase volba?"
+
+bb_conf_action_desc="Akce"
+
+bb_conf_menu_toptext1=Nastavení
+bb_conf_menu_toptext2='Stávající cenit'
+bb_conf_default_is='Nezaplatit dluh je'
+# End Nick
+# Everything below still needs fixing
+# ===================================
+
+
+bb_conf_ch1_1="Vypalovacka predpoklada otevreni na 0,0,0 (For SCSI)"
+bb_conf_ch1_2="ATAPI:0,0,0 or /dev/hdX (Pro IDE vypalovacky)"
+bb_conf_ch1_3="(Kde hdX je zarizeni, napr. hdc)"
+bb_conf_ch1_4="Lze pouzit jmeno zarizeni napr, yahama, sanyo, atd."
+bb_conf_ch1_5="jestlize "
+bb_conf_ch1_6="je spravne nakonfigurovano."
+bb_conf_ch1_7="(Mozne) SCSI DEVICES:"
+bb_conf_ch1_8="(Mozne) IDE DEVICES:"
+bb_conf_ch1_9="Zadat cestu k vypalovacce: "
+bb_conf_ch1_10="Autodetekce mod: napis auto"
+
+bb_conf_ch2_1="Cesta k cdrom zarizeni je obvykle neco jako /dev/cdrom or /dev/dvd"
+bb_conf_ch2_2="Seznam moznych cdrom zarizeni (Podle /etc/fstab): "
+bb_conf_ch2_3="Zadat cestu k cdrom souboru: "
+
+bb_conf_ch3_1="Mountovana cdrom je obvykle neco jako /mnt/cdrom or /mnt/dvd"
+bb_conf_ch3_2="Seznam moznych cdrom zarizeni (Podle /etc/fstab): "
+bb_conf_ch3_3="Zadat cestu k cdrom mount bodu: "
+
+bb_conf_ch4_1="Poznamka: novejsi cdrecord verze neni defaultni"
+bb_conf_ch4_2="na speed=1. Pro MMC vyhovujici zarizeni, defaultne"
+bb_conf_ch4_3="je zapis na maximalni rychlosti, coz neni hlavni"
+bb_conf_ch4_4="pro nastaveni defaultni rychlosti."
+bb_conf_ch4_5="Doporucene nastaveni je speed == -1 a nechat"
+bb_conf_ch4_6="cdrecord aby pouzil interni nastaveni."
+bb_conf_ch4_7="Zadat rychlost vypalovacky: "
+
+bb_conf_ch5_1="Zadat typ mazani CD. Defaultne je all nebo disc"
+bb_conf_ch5_2="Soucasne nastaveno "
+
+bb_conf_ch6_1="Je pouzivan cdreader a cdwriter?"
+bb_conf_ch6_2="Jestlize ano, stlac 2. Jestlize ne, stlac 1"
+
+bb_conf_ch7_1="Root adresar je lokace BashBurnovych shellscriptu."
+bb_conf_ch7_2="Men, jen kdyz vis co delas."
+bb_conf_ch7_3="Pro zruseni, "
+bb_conf_ch7_4=" stiskni enter."
+
+bb_conf_ch8_1="Vypalovaci adresar je odkud budou vypalovany soubury."
+bb_conf_ch8_2="Ujisti se ze mas prava zapisu v tomto adresari."
+
+bb_conf_ch9_1="Jmeno, ktere bude pouzito jako mountovaci bod, pouziva"
+bb_conf_ch9_2="Solaris volume management system a jmeno ktere je"
+bb_conf_ch9_3="prirazeno disku jako v Microsoft Win32 nebo Apple Mac platform."
+bb_conf_ch9_4="Soucasny oznaceni je "
+bb_conf_ch9_4b="Jestlize chcete byt pokazde dotazovani na jmeno"           # New in 1.6
+bb_conf_ch9_4c="zadejte <ask-me> jako nazev."                                         # New in 1.6 
+bb_conf_ch9_5="Zvolte nazev CD:"
+
+bb_conf_ch10_1="Jestlize chcete zadat copyright na vase CD, napiste ho:"
+
+bb_conf_ch11_1="Je mozne zadat udaje o zhotoviteli CD, obvykle"
+bb_conf_ch11_2="s mailem a telefonem.  Je dispozici"
+bb_conf_ch11_3="128 znaku pro informace."
+bb_conf_ch11_4="Soucasny autor je "
+bb_conf_ch11_5="Zvolte Autora CD - hey, to si ty, ne?"
+
+bb_conf_ch12_1="Je mozne zadat informace o vydavateli CD,"
+bb_conf_ch12_2="obvykle mail a telefon."
+bb_conf_ch12_3="Je k dispozici 128 znaku pro informace."
+bb_conf_ch12_4="Soucasny vydavatel je "
+bb_conf_ch12_5="Zvol vydavatele CD:"
+
+bb_conf_ch13_1="Je mozne zadat popis aplikace"
+bb_conf_ch13_2="Je k dispozici 128 znaku pro informace"
+bb_conf_ch13_3="Soucasny popis je:"
+bb_conf_ch13_4="Zadej popis obsahu CD:"
+
+bb_conf_ch14_1="Balicek se sklada z nekolika CDs, napriklad,"
+bb_conf_ch14_2="OS se softwarem je rozlezen na nekolik disku."
+bb_conf_ch14_3="Zde je vyber.  Jestlize zadas pocet"
+bb_conf_ch14_4="CDcek and cislo kazdeho disku."
+bb_conf_ch14_5="Soucasny balicek se jmenuje"
+bb_conf_ch14_6="Zadej jmeno balicku:"
+
+bb_conf_ch15_1="Normalizace je pouzivana pro nastaveni hlasitosti wav audio souboru na standardni"
+bb_conf_ch15_2="zvukovou hladinu. Pouziva se pro vytvareni mp3 mixu, kde"
+bb_conf_ch15_3="je rozdilna hlasitost songu na ruznych albumech."
+bb_conf_ch15_4="Soucasne nastaveni "
+bb_conf_ch15_5="Pouze zadat yes jeslize je normalizacni program nainstalovan, jinak zadat no."
+
+bb_conf_ch16_1="Mozno zadat volby driveru, oddelene"
+bb_conf_ch16_2="carkou. Jestlize si nejsi jisty, stiskni enter bez zapisu."
+
+bb_conf_ch17_1="Zvol umisteni FIFO-adresare. Nutne pouze"
+bb_conf_ch17_2="pro vypalovani rourou, a vetsina standardnich hodnotot je spravna."
+bb_conf_ch17_3="Pro ukonceni stiskni enter, "
+bb_conf_ch17_4=" sup."
+bb_conf_ch17_5=" je soucasny FIFO-adresar)"
+
+bb_conf_ch18_1="Smazat soubory v "
+bb_conf_ch18_2=" po skonceni vypalovani?"
+bb_conf_ch18_3="Defaultne je nastaveno no, jestlize stisknes enter "
+bb_conf_ch18_4="muzes opet vypalovat tyto soubory..."
+
+bb_conf_ch19_1="Povolit BashBurnu overburn? Tva"
+bb_conf_ch19_2="vypalovacka to musi popdporovat, a neni jiste"
+bb_conf_ch19_3="ze to bude pracovat spravne, protoze to muze"
+bb_conf_ch19_4="vypalit vice dat na CD nez pro kolik je urceno."
+bb_conf_ch19_5="Defaultne je nastaveno no. (yes/no)"
+
+bb_conf_ch20_1="Nastaveni pro audio cds. Obsahuje kopie ochranu?"
+bb_conf_ch20_2="Defaultne je nastaveno no. "
+bb_conf_ch20_3="Poznamka: "
+bb_conf_ch20_4="Neni "
+bb_conf_ch20_5="nastavena"
+bb_conf_ch20_6=" ochrana kopie audio souboru"
+bb_conf_ch20_7="behem vypalovani, je pouze indikovana cdrecordem."
+
+bb_conf_ch21_1="Bitrate je hlavni cinitelem kvality audio souboru."
+bb_conf_ch21_2="Cim vyssi bitrate, tim vysssi je kvalita. Vyssi bitrate"
+bb_conf_ch21_3="znamena vetsi velikost audio souboru."
+bb_conf_ch21_4="Konfigurace bitrate pro mp3 a ogg audio soubory."
+bb_conf_ch21_5="Defaultne je 128. "
+
+bb_conf_ch22_1="Nastaveni jazyka BashBurnu, defaultne je nastaveno English."
+bb_conf_ch22_2="Dostupne jazyky:"
+
+bb_conf_ch23_1="Nastaveni typu vypalovani cdrecordem:"
+bb_conf_ch23_2="SAO (Session at Once)"
+bb_conf_ch23_2b=" take nazyvano "
+bb_conf_ch23_2c="DAO (Disk at once)"
+bb_conf_ch23_3="nebo"
+bb_conf_ch23_4="TAO (Track at once)"
+bb_conf_ch23_5=" mode. Defaultne je TAO."
+bb_conf_ch23_6="Pro dalsi informace, zkus cdrecord manual. (man cdrecord)"
+bb_conf_ch23_7="Zadej volbu -tao, -sao nebo -dao (SAO a DAO je stejne)"
+
+
+
+bb_conf_apply_1="Zmeny aplikovany!"
+bb_conf_apply_2="Nelze zapsat do"
+bb_conf_apply_3="Mozna pridat chmod 666"
+
+bb_conf_def_1="Obnoveno default nastaveni!"
+bb_conf_def_2="(BBROOTDIR je *no* defaultne - zmen adresar!)"
+
+bb_conf_xit_1="Navrat do hlavniho menu"
+bb_conf_xit_2="Zvolil jsi APLIKOVAT ZMENY pred opustenim, ze?"
+
+bb_conf_err="Stiskni enter "
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

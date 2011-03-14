@@ -1,0 +1,70 @@
+# audio_menu.lang - Spanish language
+
+bb_am_enter_1="Presione [ENTER] para volver al menú principal"
+bb_am_enter_2="Inserte CD en blanco y presione [ENTER] para continuar"
+
+bb_am_nomp3s="No hay mp3s en "
+bb_am_nooggs="No hay OGGs en "
+bb_am_noflacs="No hay FLACs en "
+
+bb_am_norm_1=" Normalizando "
+
+bb_am_err_1="[ERROR]: Lo siento :( BashBurn no puede leer el CD!"
+
+bb_am_conf_1=" Eligió Extraer estas Pistas: "
+bb_am_conf_2="Es esto correcto? (y/n): "
+
+bb_am_named_1="Información del Disco..."
+bb_am_named_2="Presione [ENTER] para continuar o"
+bb_am_named_3="Ingrese un numero de pista a extraer "
+bb_am_named_4="Ahora se pueden usar espacios en los nombres!"
+bb_am_named_5="ej. Artista - Tema, Artista_Tema, Artista-Tema."
+bb_am_named_6="Cual es el nombre de la pista "
+
+bb_am_rip_1=" Extrayendo pista "
+bb_am_rip_2="Pistas extraídas!"
+
+bb_am_encfilt=" Comando de Filtro Codificador..."
+
+bb_am_menu_title="Menú de Audio"
+bb_am_menu_1="Grabar Audio desde Mp3s/OGGs/WAVs/FLACs"
+bb_am_menu_2="Grabar Audio Directamente"
+bb_am_menu_3="Copiar Audio CD (CD a CD)"
+bb_am_menu_4="Copiar Audio CD (CD al disco rígido)"
+bb_am_menu_5="Grabar Lista de Xmms"
+bb_am_menu_6="Crear Mp3s desde WAVs"
+bb_am_menu_7="Crear OGGs desde WAVs"
+bb_am_menu_8="Crear FLACs desde WAVs"
+bb_am_menu_9="Crear Mp3s desde CD"
+bb_am_menu_10="Crear OGGs desde CD"
+bb_am_menu_11="Crear FLACs desde CD"
+bb_am_menu_0="Atrás"
+bb_am_menu_input="Su opción? "
+
+bb_am_ch3_1="Grabación completa - Gracias por usar BashBurn"
+bb_am_ch3_2="Ha ocurrido un Error! No se pudo grabar el CD."
+bb_am_ch3_3="Ha ocurrido un Error! No se pudo extraer las pistas desde "
+
+bb_am_ch4_1="Pistas extraídas y grabadas en "
+bb_am_ch4_2=" Si desea crear"
+bb_am_ch4_3="mp3s,OGGs o FLACs, use la respectiva función del menú."
+
+bb_am_ch5="Lectura de la lista fallida. No se intenta grabar."
+
+bb_am_ch6_1=" creado..."
+bb_am_ch6_2=" no pudo ser comprimido"
+bb_am_ch6_3="No hay WAVs en "
+
+bb_am_ch7_1="Archivo creado..."
+
+bb_am_ch9_1=" Creando Mp3s..."
+bb_am_ch9_2="Mp3s creados. Los archivos se encuentran en "
+
+bb_am_ch10_1=" Creando OGGs..."
+bb_am_ch10_2="OGGs creados. Los archivos se encuentran en "
+
+bb_am_ch11_1="FLACs creados. Los archivos se encuentran en "
+
+bb_am_ch0="Volviendo al menú principal"
+
+bb_am_error="Por favor elija "

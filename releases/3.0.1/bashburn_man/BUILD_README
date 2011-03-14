@@ -1,0 +1,32 @@
+bashburn.template is the master template file with the text and MARKS for
+formatting.
+bashburn.sed is the script that creates the MAN page from bashburn.template
+  this file contains the MARKS information that get created (it is pretty
+  easy to understand when reading it).
+
+So, to just edit text information, edit the text (not MARKS) in
+bashburn.template.
+
+To change any format (i.e. add sections, create sub-sections etc.) edit both
+bashburn.template and bashburn.sed accordingly.
+
+When all changes are done, issue:
+
+make bashburn.1 
+or just
+make
+
+You will now be looking at raw text of the man page in 'less'.  sed will report 
+any errors so you can go back and fix them.
+
+Additional targets include make clean, make bashburn.man and make bashburn.ps
+
+The ps file is PostScript, suitable for printing. It can be viewed
+with a PostScript viewer like evince or gv, etc. The .man file would be 
+the same as if you ran the command:
+
+man ./bashburn.1
+
+As a note, this all looks a bit over the top, but by using this method,
+anyone can maintain/correct the file text without having to know anything
+about MAN macros and tags.

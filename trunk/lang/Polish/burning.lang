@@ -1,0 +1,35 @@
+# burning.lang - Polish language
+
+bb_press_enter="Naci¶nij [ENTER] aby powróciæ do g³ównego menu."
+
+bb_no_ob="Nie w³±czono nadpisywania..."
+
+bb_burning_tmp_1="Pliki tymczasowe w"
+bb_burning_tmp_1b="usuniête..."
+bb_burning_tmp_2="nie usuniête..."
+
+bb_burning_audio_1="znaleziono"
+bb_burning_audio_2="Brak plików audio w"
+bb_burning_audio_3="Nie w³±czona Normalizacja..."
+
+bb_burning_finish_1="Nagrywanie zakoñczone pomy¶lnie."
+bb_burning_finish_2="Nagrywanie przerwane. Zobacz dokumentacje."
+
+bb_burning_iso_1="Nie znaleziono ISO w"
+
+bb_burning_data_1="Tworzenie pliku ISO"
+bb_burning_data_label="Nazwa dysku: "
+
+bb_burning_data_2="B³±d: Plik nie móg³ byæ utworzony."
+bb_burning_data_3="Mo¿liwe, ¿e potrzebujesz uprawnieñ do zapisu?"
+
+bb_burning_fifo_1="Brak plików Wav z Mp3 w"
+bb_burning_fifo_2="Nagrywanie"
+bb_burning_fifo_2b="¦cie¿ek!"
+bb_burning_fifo3="Usuwanie nieu¿ywanych plików tymaczasowych"
+
+bb_burning_dvd_1="Czy to jest pierwsza sesja na tym DVD?"
+bb_burning_dvd_2="(Wpisz 'no' je¶li chcesz dodaæ now± sesje do"
+bb_burning_dvd_3="ju¿ istniej±cej sesji DVD. Aby przerwaæ operacje"
+bb_burning_dvd_4="naci¶nij [ENTER] bez wpisywania czegokolwiek)"
+bb_burning_dvd_5="(yes/no): "

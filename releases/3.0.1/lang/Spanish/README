@@ -1,0 +1,10 @@
+BashBurn translation HOWTO
+
+Es bastante sencillo, abres los archivos con un editor de textos, y
+traduces las oraciones en ingles a tu lenguaje. Cuando terminas de
+traducir todos los archivos, copialos en un directorio con el nombre
+de tu lenguaje, y crea un archivo tar.gz/bzip2/zip de él.
+
+Cualquier pregunta enviame un mail a anders.linden@gmail.com
+
+/Anders

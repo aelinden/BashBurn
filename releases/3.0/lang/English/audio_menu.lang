@@ -1,0 +1,70 @@
+# audio_menu.lang - English language
+
+bb_am_enter_1='Press [ENTER] to return to main menu.'
+bb_am_enter_2='Insert blank CD and then press [ENTER] to go on : '
+
+bb_am_nomp3s='No mp3s in '
+bb_am_nooggs='No Oggs in '
+bb_am_noflacs='No Flacs in '
+
+bb_am_norm_1=' Normalizing '
+
+bb_am_err_1='[ERROR]: Sorry :( BashBurn can not read the cd!'
+
+bb_am_conf_1=' You selected to Rip these Tracks: '
+bb_am_conf_2='Is this Correct? (y/n): '
+
+bb_am_named_1='Disc information...'
+bb_am_named_2='Press [ENTER] to continue or'
+bb_am_named_3='Enter a track number to rip '
+bb_am_named_4='Spaces in names is now supported!'
+bb_am_named_5='ie. Artist - Song, Artist_Song, Artist-Song.'
+bb_am_named_6='What is the name of track '
+
+bb_am_rip_1=' Ripping track '
+bb_am_rip_2='Tracks ripped!'
+
+bb_am_encfilt=' Encode Filter Command...'
+
+bb_am_menu_title='Audio Menu'
+bb_am_menu_1='Burn Audio from Mp3s/Oggs/Wavs/Flacs'
+bb_am_menu_2='Burn Audio Directly'
+bb_am_menu_3='Copy Audio CD [CD to CD]'
+bb_am_menu_4='Copy Audio CD [CD to harddrive]'
+bb_am_menu_5='Burn M3U Playlist'
+bb_am_menu_6='Create Mp3s from Wavs'
+bb_am_menu_7='Create Oggs from Wavs'
+bb_am_menu_8='Create Flacs from Wavs'
+bb_am_menu_9='Create Mp3s from CD'
+bb_am_menu_10='Create Oggs from CD'
+bb_am_menu_11='Create Flacs from CD'
+bb_am_menu_0=Back
+bb_am_menu_input='Your Choice? '
+
+bb_am_ch3_1='Burning complete - Thanks for using BashBurn'
+bb_am_ch3_2='Error occurred! Could not burn the CD.'
+bb_am_ch3_3='Error occurred! Could not rip the tracks from '
+
+bb_am_ch4_1='Tracks ripped and stored in '
+bb_am_ch4_2=' If you want to create'
+bb_am_ch4_3='mp3s, oggs or flacs, use the respective function from the menu.'
+
+bb_am_ch5='Read of playlist failed. Not attempting to burn.'
+
+bb_am_ch6_1=' created...'
+bb_am_ch6_2=' could not be compressed'
+bb_am_ch6_3='No Wavs in '
+
+bb_am_ch7_1='File created...'
+
+bb_am_ch9_1=' Creating Mp3s...'
+bb_am_ch9_2='Mp3s created. Files are located under '
+
+bb_am_ch10_1=' Creating Oggs...'
+bb_am_ch10_2='Oggs created. Files are located under '
+
+bb_am_ch11_1='Flacs created. Files are located under '
+
+bb_am_ch0='Returning to main menu'
+
+bb_am_error='Please choose '

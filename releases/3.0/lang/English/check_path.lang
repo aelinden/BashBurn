@@ -1,0 +1,18 @@
+# check_path.lang - English language
+
+bb_cp_1='Application Found'
+bb_cp_2=in
+bb_cp_3='Application NOT FOUND!'
+bb_cp_4='Install it or all the features may not work.'
+bb_cp_5='Checking Paths...'
+bb_cp_6=' Burning Tools'
+bb_cp_7=' Rippers'
+bb_cp_8=' Encoders and Decoders'
+bb_cp_9=' Misc'
+bb_cp_10='NOTE: Install the programs that were not found'
+bb_cp_11='or BashBurn may not work correctly.'
+bb_cp_12='Press [ENTER] to return to main menu.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

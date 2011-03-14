@@ -1,0 +1,98 @@
+# Swedish language file for advanced.lang
+# 
+
+
+bb_adv_menutitle='Avancerade inställningar'
+bb_adv_cdburncmd='CD-brännarprogram'
+bb_adv_dvdburncmd='DVD-brännarprogram'
+bb_adv_isocmd='ISO-skaparprogram'
+bb_adv_dvdblankcmd='DVD-formatteringsprogram'
+bb_adv_imgburncmd='ISO-brännarprogram'
+bb_adv_audioripcmd='Ljud-CD kopieringsprogram'
+bb_adv_cdcopycmd='CD-kopieringsprogram'
+bb_adv_cdcopyopts='CD-kopieringsinställningar'
+bb_adv_mp3enc='MP3-kodningsprogram'
+bb_adv_mp3dec='MP3-avkodningsprogram'
+bb_adv_oggenc='Ogg-kodningsprogram'
+bb_adv_oggdec='Ogg-avkodningsprogram'
+bb_adv_flac='FLAC kod/avkodningsprogram'
+bb_adv_eject='Skivutmatningsprogram'
+bb_adv_norm='Ljudbalanseringsprogram'
+bb_adv_back=Tillbaka
+bb_adv_action_desc=Aktioner
+bb_adv_error='Var vänlig ange'
+
+bb_this_is_the_cmd="Detta kommando används för att"
+bb_curr_cmd="Det nuvarande kommandot är:"
+
+bb_adv_cdburncmd_help=\
+"${bb_this_is_the_cmd} bränna en CD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmd_help=\
+"${bb_this_is_the_cmd} bränna en DVD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmdopts_help=\
+"Detta är de DVD-bränningsinställningar som används. Ändra endast dessa
+om du vet vad du gör. I de flesta fall är standardinställningarna ok.
+Nuvarande inställningar är: ${BBOPTIONCOLOR}${BB_DVDBURNCMDOPTS}${BBCOLOROFF}"
+
+bb_adv_isocmd_help=\
+"${bb_this_is_the_cmd} skapa ISO-avbildningar.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_ISOCMD}${BBCOLOROFF}"
+
+bb_adv_dvdblankcmd_help=\
+"${bb_this_is_the_cmd} formattera DVD:er.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBLANK}${BBCOLOROFF}"
+
+bb_adv_imgburncmd_help=\
+"${bb_this_is_the_cmd} bränna CD-avbildningar.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDIMAGECMD}${BBCOLOROFF}"
+
+bb_adv_audioripcmd_help=\
+"${bb_this_is_the_cmd} kopiera ljud-CD:er.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDAUDIORIP}${BBCOLOROFF}"
+
+bb_adv_cdcopycmd_help=\
+"${bb_this_is_the_cmd} kopiera data-CD:er.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_READCD}${BBCOLOROFF}"
+
+bb_adv_cdcopyopts_help=\
+"Detta är de inställningar som används när du kopierar en data-CD.
+Ändra endast dessa om du vet vad du gör. I de flesta fall är
+standardinställningarna ok.
+Nuvarande inställningar är: ${BBOPTIONCOLOR}${BB_READ_OPTS}${BBCOLOROFF}"
+
+bb_adv_mp3enc_help=\
+"${bb_this_is_the_cmd} skapa MP3-filer.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3ENC}${BBCOLOROFF}"
+
+bb_adv_mp3dec_help=\
+"${bb_this_is_the_cmd} avkoda MP3-filer.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3DEC}${BBCOLOROFF}"
+
+bb_adv_oggenc_help=\
+"${bb_this_is_the_cmd} skapa Ogg-filer.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGENC}${BBCOLOROFF}"
+
+bb_adv_oggdec_help=\
+"${bb_this_is_the_cmd} avkoda Ogg-filer.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGDEC}${BBCOLOROFF}"
+
+bb_adv_flac_help=\
+"${bb_this_is_the_cmd} skapa/avkoda FLAC-filer.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_FLACCMD}${BBCOLOROFF}"
+
+bb_adv_eject_help=\
+"${bb_this_is_the_cmd} mata ut skivan.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_EJECT}${BBCOLOROFF}"
+
+bb_adv_norm_help=\
+"${bb_this_is_the_cmd} normalisera ljudfiler.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NORMCMD}${BBCOLOROFF}"
+
+bb_menu_error_range="${BBTABLECOLOR}Fel${BBCOLOROFF}: Inmatning måste vara inom gränsen"
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,45 @@
+# multi.lang - Czech language
+
+bb_multi_enter_1="Stisknout klavesu [ENTER] pro navrat do hlavniho menu."
+bb_multi_enter_2="Stisknout klavesu [ENTER] pro pokracovani."
+
+bb_multi_burn_1="ISO nalezen..."
+bb_multi_burn_2=" jestlize NENI prvni session vypalena na multisession CD"
+bb_multi_burn_3=" toto ISO *MUSI* byt vytvoreno za funkcni predchozi session"
+bb_multi_burn_4=" Proc? protoze tato session muze byt nevidetelna anebo jinak nepouzitelna"
+bb_multi_burn_5="CD bylo vypaleno..."
+bb_multi_burn_6=" ISO nebylo nalezeno, zkuste vytvorit jine..."
+bb_multi_burn_7="Pro ziskani inforamci o predchozi session je mozne pomoci -msinfo"
+bb_multi_burn_8="informace msinfo jsou potrebne pro:"
+bb_multi_burn_9="jestlize zavorky"
+bb_multi_burn_9b="obsahuji dve cisla oddelene carkou - VSE JE OK!"
+bb_multi_burn_10="chybove hlaseni konci: \"cdrecord: Cannot read session offset\" znamena ze nove CD je prazdne"
+bb_multi_burn_11="chybove hlaseni: \"cdrecord: No disk / Wrong disk!\" znamena prazdnou mechaniku"
+bb_multi_burn_12="obdrzena spravna multisession data, pridavani parametru:"
+bb_multi_burn_13="Prvni paleni na multisession CD nepotrebuje predchozi session"
+bb_multi_burn_14="Now, make the ISO if possible..."
+
+bb_multi_burn_14b="Nazev Data CD: "						
+
+# New in 1.6
+
+bb_multi_burn_15="ISO vytvoreno"
+bb_multi_burn_16="Chyba: Nemohu vytvorit iso-soubor."
+bb_multi_burn_17="Mozna... Neni soubor v"
+bb_multi_burn_18="Mozna chybi prava zapisu???"
+
+bb_multi_menu_title="Multisession CD"
+bb_multi_menu_1="Prvni paleni na Multisession CD"
+bb_multi_menu_2="Pokracovani Multisession CD"
+bb_multi_menu_3="Ukonceni Multisession CD"
+bb_multi_menu_0="Zpet"
+bb_multi_menu_entry="Vase volba "
+
+bb_multi_ch0="Navrat do hlavniho menu..."
+bb_multi_err="Stisknout enter "
+
+
+
+
+
+

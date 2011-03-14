@@ -1,0 +1,41 @@
+# iso_menu.lang - Czech language
+
+bb_im_wait_1="Stisknout klavesu [ENTER] pro navrat do hlavniho menu."
+
+bb_im_menu_title="ISO Menu"
+bb_im_menu_1="Vypalit ISO"
+bb_im_menu_2="Vytvorit ISO ze souboru v "
+bb_im_menu_3="Vytvorit ISO z CD"
+bb_im_menu_4="Vypalit DVD obraz"
+bb_im_menu_0="Zpet"
+bb_im_menu_entry="Vase volba? "
+
+bb_im_error_files="Zadne soubory v "
+
+bb_im_ch2_1="ISO se nachazi v "
+bb_im_ch2_2=" Vymazat nebo presunout"
+bb_im_ch2_3="pres vytvorenim noveho."
+bb_im_ch2_4="Vytvarim ISO-soubor"
+
+bb_im_ch2_4b="Nazev Data CD: "				# New in 1.6
+
+bb_im_ch2_5="ISO vytvoreno"
+bb_im_ch2_6="Chyba: Nemohu vytvorit iso-soubor!"
+bb_im_ch2_7="Mozna nejsou nastavena prava?"
+
+bb_im_ch3_1=" neprimountovano! Nejprve namountuj..."
+bb_im_ch3_2="Vytvarim ISO z CD v "
+
+bb_im_ch0="Probiha navrat do hlavniho menu..."
+
+bb_im_error="Stisknout enter "
+
+
+
+
+
+
+
+
+
+

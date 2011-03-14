@@ -1,0 +1,197 @@
+# configure.lang - Swedish language
+
+# Nick - this needs checking by a native speaker
+bb_conf_menu_writer=CD-brännare
+bb_conf_menu_cddev='CD-läsarens enhetsfil'
+bb_conf_menu_cdmnt='CD-läsarens monteringspunkt'
+bb_conf_menu_speed=Hastighet
+bb_conf_menu_blank=Rensningstyp
+bb_conf_menu_numdev='Antal enheter'
+bb_conf_menu_root=Rotkatalog
+bb_conf_menu_burn=Datakatalog
+bb_conf_menu_label=CD-etikett
+bb_conf_menu_auth=Skapare
+bb_conf_menu_desc=Beskrivning
+bb_conf_menu_norm=Normalisera
+bb_conf_menu_dropt=Brännarval
+bb_conf_menu_fifo=FIFO-katalog
+bb_conf_menu_deltmp='Radera temp efter bränning'
+bb_conf_menu_ob='Tillåt overburn'
+bb_conf_menu_bitrate='Ställ in bitrate'
+bb_conf_menu_lang=Språk
+bb_conf_menu_dtao=DAO/TAO
+bb_conf_menu_gap='Paus mellan spår'
+bb_conf_menu_adv=Avancerat
+bb_conf_menu_apply='Spara ändringar'
+bb_conf_menu_default=Återställ
+bb_conf_menu_revert='Ångra ändringar'
+bb_conf_menu_back=Tillbaka
+bb_conf_menu_entry='Ditt val?'
+
+bb_conf_action_desc=Val
+
+bb_conf_menu_toptext1=Inställning
+bb_conf_menu_toptext2='Nuvarande inställning'
+bb_conf_default_is='Standardvärdet är'
+
+bb_conf_cancel_quote='För att avbryta, tryck bara [ENTER].'
+
+bb_conf_ch_writer=\
+"Brännarenheten ska anges som ${BBOPTIONCOLOR}0,0,0${BBCOLOROFF} för SCSI
+eller ${BBOPTIONCOLOR}/dev/hdX${BBCOLOROFF} för IDE-brännare (Där X är en bokstav).
+För automatisk sökning, skriv auto. ${bb_conf_cancel_quote}
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBCDWRITER}${BBCOLOROFF}, och nedan finns en lista
+på möjliga brännare i ditt system (Enligt /etc/fstab)."
+
+bb_conf_ch_cddev="Enhetsfilen för din läsare är vanligtvis något liknande
+${BBOPTIONCOLOR}/dev/cdrom${BBCOLOROFF} eller ${BBOPTIONCOLOR}/dev/dvd${BBCOLOROFF}.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBCDROM}${BBCOLOROFF}, och nedan är en lista
+med möjliga läsare i ditt system (Enligt /etc/fstab).
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_cdmnt="Monteringspunkten för din läsare är vanligtvis något liknande
+${BBOPTIONCOLOR}/mnt/cdrom${BBCOLOROFF} eller ${BBOPTIONCOLOR}/mnt/dvd${BBCOLOROFF}.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBCDMNT}${BBCOLOROFF}, och nedan är en lista
+på möjliga läsare i ditt system (Enligt /etc/fstab).
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_speed="Om du inte har problem med att bränna skivor borde du lämna
+detta val som ${BBOPTIONCOLOR}-1${BBCOLOROFF} och använda din enhets standardvärde.
+De flesta brännare bränner i maxhastighet som standard.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBSPEED}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_blanking=\
+"Här ställer du in hur en skiva ska formatteras. Standardvärdet är
+${BBOPTIONCOLOR}fast${BBCOLOROFF}. Detta formatterar hela skivan och kan därför ta en stund.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBBLANKING}${BBCOLOROFF}.
+Se 'man cdrecord' eller 'man wodim' för andra alternativ.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_numdev=\
+"Här anger du antal skivenheter i ditt system.
+Om du använder en enhet som båda läsare och skrivare, skriv ${BBOPTIONCOLOR}1${BBCOLOROFF},
+annars skriver du ${BBOPTIONCOLOR}2${BBCOLOROFF}.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBNUMDEV}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_root="Detta val anger var BashBurns skript finns.
+Det finns vanligtvis ingen som helst anledning att ändra detta värde,
+gör så bara om du verkligen vet vad du håller på med.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBROOTDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_burndir=\
+"Detta val anger var BashBurn förväntar sig data att bränna ska finnas.
+Var säker på att du har skrivrättigheter till detta plats.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBBURNDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_label="Detta val anger vad skivan som ska brännas ska kallas.
+Det kan vara en sträng text upp till 32 tecken lång så som
+${BBOPTIONCOLOR}Mina Bilder${BBCOLOROFF} eller ${BBOPTIONCOLOR}Semesterfilmer${BBCOLOROFF}.
+Om du vill bli omfrågad varje gång du bränner en skiva,
+ange ${BBOPTIONCOLOR}<ask-me>${BBCOLOROFF} som beskrivning.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBLABEL}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_author="Detta val anger skivberedaren, vanligtvis med e-mail och telefon.
+Det finns plats för 128 tecken.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBAUTHOR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_desc=\
+"Detta val anger vad som ska brännas till skivan.
+Det finns plats för 128 tecken.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBDESCRIPTION}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_norm=\
+"Normalisering innebär att ljudnivån på musikfilen balanseras till en jämn nivå.
+Detta är användbart t.ex. när man skapar en mix-CD där olika
+musikfiler vanligvis har olika hög volym.
+Detta val slår på ${BBHEADCOLOR}(yes)${BBCOLOROFF}
+eller slår av ${BBTABLECOLOR}(no)${BBCOLOROFF} denna funktionalitet.
+Nuvarande val är: ${BBOPTIONCOLOR}${BBNORMALIZE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+    
+bb_conf_ch_dropts=\
+"Detta val anger särskilda brännarinställningar som används
+när en skiva bränns. Ett exempel är ${BBOPTIONCOLOR}burnfree${BBCOLOROFF} för att
+undvika buffer underruns (Brännaren får slut på data att bränna och bränningen avbryts).
+Du kan ange flera olika val och separera dessa med ett komma.
+Denna inställning är frivillig och kan hoppas över.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBDRIVEROPT}${BBCOLOROFF}.
+Se 'man cdrecord' eller 'man wodim' för fler inställningar.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_fifo=\
+"Detta val anger sökvägen till FIFO-katalogen som används
+för strömmad musikbränning. Vanligtvis finns inget skäl
+att ändra på detta värde. Standardvärden bör fungera bra i det flesta lägen.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBFIFODIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_tempdel=\
+"Om du vill att BashBurn ska ta bort filer i ${BBBURNDIR}
+efter en skiva har brännts, ange ${BBHEADCOLOR}yes${BBCOLOROFF} här.
+Om inte ange ${BBTABLECOLOR}no${BBCOLOROFF} för att låta filer vara kvar.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBDELTEMPBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_ob="Overburn är att försöka bränna mer till en skiva än den
+är gjord för. Detta fungerar inte alltid och när det fungerar kommer bara
+ett fåtal MB extra att få plats. Din brännare måste stödja overburn och
+det det kan inte garanteras att skivan kommer vara läsbar i alla läsare.
+Detta val aktiverar ${BBHEADCOLOR}(yes)${BBCOLOROFF} eller
+deaktiverar ${BBTABLECOLOR}(no)${BBCOLOROFF} denna funktion.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBOVERBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_bitrate=\
+"Bitrate är vad som spelar mest roll för kvalitet på ljudfiler.
+Högre bitrate innebär bättre kvalitet, men också större filer.
+Detta val anger vilken bitrate som ska användas vid kodning av musikfiler.
+Enheten är i kbit och ska anges i multiplar av 32 (32, 64, 96 osv.).
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBBITRATE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_lang=\
+"Detta val ställer in vilket språk BashBurn ska använda.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBLANG}${BBCOLOROFF}, och nedan finns en lista
+över tillgängliga språk.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_dtao="Detta val säger åt BashBurn att bränna i SAO (Session at Once)
+eller TAO (Track at Once). Standardvärdet TAO ${BBOPTIONCOLOR}(-tao)${BBCOLOROFF} är
+vanligtvis ok, men i vissa fall måste SAO ${BBOPTIONCOLOR}(-sao)${BBCOLOROFF} användas.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBDTAO}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_pad=\
+"Detta val säger åt BashBurn att använda ${BBHEADCOLOR}(-pad)${BBCOLOROFF} eller
+inte använda ${BBTABLECOLOR}(-nopad)${BBCOLOROFF}
+mellanrum mellan ljudspår. Om du vill bränna en musik-CD
+utan mellanrum mellan spår (T.ex. en livekonsert), deaktivera detta val.
+Nuvarande inställning är: ${BBOPTIONCOLOR}${BBPADDING}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_apply_1='Ändringar sparade!'
+bb_conf_apply_2='Kunde inte skriva till'
+bb_conf_apply_3='Du kanske måste ändra rättigheter'
+
+bb_conf_def_1='Standardvärden återställda'
+bb_conf_def_2='(BBROOTDIR har *inget* standardvärde. Du måste ändra det!)'
+
+bb_conf_xit_1='Tillbaka till huvudmenyn'
+bb_conf_xit_2=\
+"Du valde SPARA ÄNDRINGAR innan du avslutade eller hur?\n
+Om inte, välj 'n' för att gå tillbaka och göra så; du kan också
+välja 'y' för att avbryta och lämna denna dialogruta,
+${BBHEADCOLOR}MEN${BBCOLOROFF} om du gjort ändringar har de inte sparats.\n"
+
+bb_conf_err='Var vänlig mata in '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

@@ -1,0 +1,18 @@
+# check_path.lang - Swedish language
+
+bb_cp_1='Program hittat'
+bb_cp_2='i'
+bb_cp_3='Program EJ HITTAT!'
+bb_cp_4='Installera det, annars kommer inte alla funktioner att fungera.'
+bb_cp_5='Undersöker sökvägar...'
+bb_cp_6=' Bränningsverktyg'
+bb_cp_7=' Kopierare'
+bb_cp_8=' Kodare och Dekodare'
+bb_cp_9=' Blandat'
+bb_cp_10='OBS: Installera de program som ej hittades,'
+bb_cp_11='annars kommer BashBurn kanske inte fungera som tänkt.'
+bb_cp_12='Tryck [ENTER] för att återgå till huvudmenyn.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

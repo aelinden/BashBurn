@@ -1,0 +1,43 @@
+# multi.lang - Nynorsk
+
+bb_multi_enter_1="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+bb_multi_enter_2="Trykk [ENTER] for å halda fram."
+
+bb_multi_burn_1="Fann ISO-fil (cd-avtrykk)..."
+bb_multi_burn_2=" om dette IKKJE er fyrste brenninga på ein multisesjons-cd,"
+bb_multi_burn_3=" så MÅ denne ISO-fila vera laga med gyldige avviksinnstillingar frå tidlegare sesjonar."
+bb_multi_burn_4=" Det er fordi denne sesjonen elles vil bli usynleg og difor ubrukeleg."
+bb_multi_burn_5="Har brent cd..."
+bb_multi_burn_6=" Fann inga ISO-fil, prøver å laga ei..."
+bb_multi_burn_7="Finn avviksdata frå tidlegare sesjonar med -msinfo"
+bb_multi_burn_8="msinfo-opplysningar som trengst for multisesjon er:"
+bb_multi_burn_9="om klammene"
+bb_multi_burn_9b="har to siffer med eit komma, så er alt klart til start!"
+bb_multi_burn_10="ei feilmelding som endar med: \"cdrecord: Cannot read session offset\" tyder på ein tom, ubrent cd"
+bb_multi_burn_11="ei feilmelding som endar med: \"cdrecord: No disk / Wrong disk!\" tyder at det ikkje er nokon cd i stasjonen"
+bb_multi_burn_12="fann gyldige multisesjonsdata, legg til argument:"
+bb_multi_burn_13="Fyrste brenninga til ein multisesjons-cd treng ingen avviksdata frå tidlegare sesjonar"
+bb_multi_burn_14="No kan me laga ISO-fila, om mogleg..."
+
+bb_multi_burn_14b="Merkelapp på data-cden din: "							# New in 1.6
+
+bb_multi_burn_15="Har laga ISO-fil"
+bb_multi_burn_16="Feil: Greidde ikkje laga ISO-fil."
+bb_multi_burn_17="Kanskje det ikkje er nokon filer i"
+bb_multi_burn_18="Kanskje du ikkje har skriveløyve?"
+
+bb_multi_menu_title="Multisesjons-cd"
+bb_multi_menu_1="Fyrste brenninga på ein multisesjons-cd"
+bb_multi_menu_2="Hald fram med multisesjons-cd"
+bb_multi_menu_3="Gjer ferdig multisesjons-cd"
+bb_multi_menu_0="Tilbake"
+bb_multi_menu_entry="Val "
+
+bb_multi_ch0="Tilbake til hovudmenyen..."
+bb_multi_err="Skriv inn "
+
+
+
+
+
+

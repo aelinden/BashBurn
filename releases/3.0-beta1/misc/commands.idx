@@ -1,0 +1,36 @@
+# Commands.idx
+
+# It's too bad that the content of the bashburnrc file isn't just a bash
+# input file. Alas, it's not...
+
+bb_parse_config()
+{
+    typeset oldIFS="$IFS" # Save the value of IFS so it can be later restored.
+    typeset IFS		# Declare IFS so it's only localy affected.
+    typeset ii
+    typeset line
+
+    while read line	# Read a line of input.
+    do
+	[[ line =~ '^#' ]] && continue	# Skip the comments.
+	IFS=:	# Set IFS to the colon so we can break it up.
+	set -- $line
+	IFS="$oldIFS"
+	# In the future mod this in case that value is allowed to
+	# have embedded colons.
+	if (( $# == 2 ))
+	then	# We have something to parse.
+	    for ii in "${BB_KEYWORDS[@]}" # See if the keyword is known to us.
+	    do
+		[[ "$1" == $ii ]] || continue
+		read trimval <<< "$2"
+		eval "$1=\"$trimval\""
+		break
+	    done
+	fi
+    done < $BBCONFFILE
+}
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

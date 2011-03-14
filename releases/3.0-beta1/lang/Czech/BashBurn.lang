@@ -1,0 +1,51 @@
+# BashBurn.lang - Czech language
+
+bb_conf_check1="BashBurn nebyl nakonfigurovan. Polozkou 'Konfigurace'"
+bb_conf_check2="je nutne nastavit BashBurn pred spustenim."
+
+bb_quit1="Dekuji za pouzivani"
+bb_quit2="Navstivte "
+bb_quit3="http://bashburn.sf.net/ "
+bb_quit4="pro info a updaty. Pokud neni cestina spravna, zkuste English"
+
+bb_press_enter="Stisknout klavesu [ENTER] pro pokracovani."
+
+bb_no_temp_dir="Adresar pro odkladaci soubory nebyl vytvoren. Je nutne ho vytvorit."
+
+bb_text_1="vytvoreni probehlo uspesne!"
+bb_text_2="Je nutne nakonfigurovat BashBurn pred spustenim vypalovani."
+bb_text_3="Uzivatel nema prava pro zapis."
+bb_text_4="Zmenit tuto hodnotu konfigurace nebo nebude mozne vypalovat."
+bb_text_5="Adresar"
+bb_text_6="neexistuje, ackoliv je nakonfigurovany."
+
+bb_text_7="Detekuji CD mechaniku ...."
+bb_text_8="Detekovano: "
+
+bb_main_menu=MAIN
+
+bb_menu_1="Audio"
+bb_menu_2="Data"
+bb_menu_3="ISO"
+bb_menu_4="Bin/Cue"
+bb_menu_5="Multisession"
+bb_menu_6="Konfigurace BashBurn"
+bb_menu_7="Mount/Unmount CD"
+bb_menu_8="Test nastavenych cest"
+bb_menu_9="Definice vypalovanych dat"		# Edited once again in 1.6
+bb_menu_0="Konec"
+bb_menu_input="Vase volba? "
+
+bb_burndir_view="Obsah"
+bb_burndir_del1="Opravdu vymazat vsechny soubory"
+bb_burndir_del1b="(y/n)"
+bb_burndir_del2="byl vymazan."
+bb_burndir_del3="Mazani preruseno"
+
+bb_exit_error="Zvolte "
+
+bb_hit_any_key_to_continue='Hit any key to continue'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

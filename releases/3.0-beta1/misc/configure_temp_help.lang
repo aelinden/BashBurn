@@ -1,0 +1,166 @@
+# Temporary file so that at least other LANG get a help text (even if it is in English)
+# This will be removed once all BBLANG/configure.lang files are fixed
+
+bb_conf_cancel_quote='To cancel, just press [ENTER].'
+
+bb_conf_ch_writer=\
+"The writer is supposed to be entered as ${BBOPTIONCOLOR}0,0,0${BBCOLOROFF} for SCSI
+or /dev/hdX for IDE writers (Where X is a driver letter).
+For auto-detect, enter auto. ${bb_conf_cancel_quote}
+The current setting is: ${BBOPTIONCOLOR}${BBCDWRITER}${BBCOLOROFF}, and below is a list
+of possible writers on your system (According to /etc/fstab)." 
+		  
+
+bb_conf_ch_cddev="The device file of your reader is usually something like
+${BBOPTIONCOLOR}/dev/cdrom${BBCOLOROFF} or ${BBOPTIONCOLOR}/dev/dvd${BBCOLOROFF}.
+The current setting is: ${BBOPTIONCOLOR}${BBCDROM}${BBCOLOROFF}, and below is a list
+of possible readers on your system (According to /etc/fstab).
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_cdmnt="The mountpoint of your reader is usually something like
+${BBOPTIONCOLOR}/mnt/cdrom${BBCOLOROFF} or ${BBOPTIONCOLOR}/mnt/dvd${BBCOLOROFF}.
+The current setting is: ${BBOPTIONCOLOR}${BBCDMNT}${BBCOLOROFF}, and below is a list
+of possible readers on your system (According to /etc/fstab).
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_speed="Unless you have problems burning discs, you should leave
+this option as ${BBOPTIONCOLOR}-1${BBCOLOROFF}	and use the drive specific defaults.
+For most recorders the default is to write at maximum speed.
+The current setting is: ${BBOPTIONCOLOR}${BBSPEED}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_blanking=\
+"Here you set the default blanking type. The default value is
+${BBOPTIONCOLOR}fast${BBCOLOROFF}. This blanks the entire disc and therefore
+can take some time.
+The current setting is: ${BBOPTIONCOLOR}${BBBLANKING}${BBCOLOROFF}, and below is a list
+of possible blanking types. ${bb_conf_cancel_quote}"
+
+bb_conf_ch_numdev=\
+"Here you specify the number of disc drives in your system.
+If you are using one drive as both reader and writer, enter ${BBOPTIONCOLOR}1${BBCOLOROFF},
+otherwise enter ${BBOPTIONCOLOR}2${BBCOLOROFF}.
+The current setting is: ${BBOPTIONCOLOR}${BBNUMDEV}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_root="This options specifies the location of the BashBurn scripts.
+You should really have no reason to change this value,
+only do so if you know what you're doing.
+The current setting is: ${BBOPTIONCOLOR}${BBROOTDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_burndir=\
+"This option specifies where BashBurn will look for data to burn.
+Bu sure to have write permissions to this location.
+The current setting is: ${BBOPTIONCOLOR}${BBBURNDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_label="This option specifies the name of the disc to be burnt.
+It can be any string of text up to 32 characters such as
+${BBOPTIONCOLOR}My Pictures${BBCOLOROFF} or ${BBOPTIONCOLOR}Vacation Movies${BBCOLOROFF}.
+If you want to be asked\n for a label each time.
+enter ${BBOPTIONCOLOR}<ask-me>${BBCOLOROFF} as the label.
+The current setting is ${BBOPTIONCOLOR}${BBLABEL}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_author="This option describes the preparer of the disc, usually
+with an e-mail and phone number. There is space for
+128 characters of information.
+The current setting is: ${BBOPTIONCOLOR}${BBAUTHOR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_desc=\
+"This option describes what will be burnt to the disc.
+There is space for 128 characters of information.
+The current setting is: ${BBOPTIONCOLOR}${BBDESCRIPTION}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_norm=\
+"Normalization is the process of adjusting the volume of audio files
+to a standard level. This is useful for things like creating
+mix-CDs where different recording levels on different songs
+can cause the volume to vary greatly from song to song.
+This option enables ${BBHEADCOLOR}(yes)${BBCOLOROFF}
+or disables ${BBTABLECOLOR}(no)${BBCOLOROFF} this feature.
+Current option is: ${BBOPTIONCOLOR}${BBNORMALIZE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+    
+bb_conf_ch_dropts=\
+"This option specifies the driver specific options used
+when burning a disc. An examples is ${BBOPTIONCOLOR}burnfree${BBCOLOROFF} for
+avoiding buffer underruns. You can specify several options by separating
+them with a comma. This option is non-mandatory and can be skipped.
+Current setting is: ${BBOPTIONCOLOR}${BBDRIVEROPT}${BBCOLOROFF}, and below is a list
+of possible options. ${bb_conf_cancel_quote}"
+
+bb_conf_ch_fifo=\
+"This option specifies the path of the FIFO-directory
+which is used for piped audio burning. There is usually
+no reason to change this, the default should work fine in most cases.
+Current setting is: ${BBOPTIONCOLOR}${BBFIFODIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_tempdel=\
+"If you want BashBurn to remove the files in ${BBBURNDIR}
+after a disc has been burnt, enter ${BBHEADCOLOR}yes${BBCOLOROFF} here.
+Otherwise enter ${BBTABLECOLOR}no${BBCOLOROFF} to leave them.
+Current setting is: ${BBOPTIONCOLOR}${BBDELTEMPBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_ob="Overburn is trying to burn more onto a disc than it was
+designed for. This will not always work, and when it does
+only a few MB will fit. Your burner must support this feature
+and there is no guarantee that the disc will be readable in all
+readers. This option enables ${BBHEADCOLOR}(yes)${BBCOLOROFF} or
+disables ${BBTABLECOLOR}(no)${BBCOLOROFF} this feature.
+The current setting is: ${BBOPTIONCOLOR}${BBOVERBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_bitrate=\
+"For audio files, the bitrate is the main influence on quality.
+With higher bitrate comes better quality, but also bigger file size.
+This option specifies which bitrate to use when encoding audio files.
+The unit is in kbit and should be entered in multiples of 32.
+The current setting is: ${BBOPTIONCOLOR}${BBBITRATE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_lang=\
+"This option sets the language BashBurn's interface will be shown in.
+The current setting is: ${BBOPTIONCOLOR}${BBLANG}${BBCOLOROFF}, and below is a list
+of possible languages to choose from.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_dtao="This option tells BashBurn to burn in SAO (Session at Once)
+or TAO (Track at Once) mode. The default value TAO ${BBOPTIONCOLOR}(-tao)${BBCOLOROFF} is
+usually fine but in some cases SAO ${BBOPTIONCOLOR}(-sao)${BBCOLOROFF} must be used.
+The current setting is: ${BBOPTIONCOLOR}${BBDTAO}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_pad=\
+"This option tells BashBurn to enable ${BBHEADCOLOR}(-pad)${BBCOLOROFF} or
+disable ${BBTABLECOLOR}(-nopad)${BBCOLOROFF}
+gaps between audio tracks. If you want to burn an audio CD
+without gaps between tracks (For instance a live recording),
+disable this option.
+The current setting is ${BBOPTIONCOLOR}${BBPADDING}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_apply_1='Changes applied!'
+bb_conf_apply_2='Could not write into'
+bb_conf_apply_3='You might want to chmod 666'
+
+bb_conf_def_1='Defaults applied!'
+bb_conf_def_2="(BBROOTDIR has *no* default - you have to change it!)"
+
+bb_conf_xit_1='Back to main menu'
+bb_conf_xit_2=\
+"You did hit APPLY CHANGES before leaving, right?\n
+If you did not, select 'n' to go back and do so; at this stage
+you can also select 'y' here to cancel and leave this dialogue.
+${BBHEADCOLOR}BUT${BBCOLOROFF}, if you have applied changes, they have now been set.\n"
+
+bb_conf_err='Please enter '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

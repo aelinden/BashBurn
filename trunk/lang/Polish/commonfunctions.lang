@@ -1,0 +1,16 @@
+# commonfunctions.lang - Polish language file
+
+bb_cf_text1="p³yta CD prawdopodobnie jest ju¿ nagrana. Czy chcesz j± "
+bb_cf_text2="skasowaæ. Wpisz 'yes' tylko gdy jest to dysk RW. 'abort'"
+bb_cf_text3="je¶li chcesz przerwaæ i wróciæ do menu"
+bb_cf_text4="Anulowanie..."
+
+bb_cf_text5="Próba nagrania p³yty bez kasowania. Prawdopodobnie wyst±pi b³±d"
+bb_cf_text6="Kasowanie nieudane. Nagrywanie przerwane"
+
+bb_cdrw_blank1="Kasowanie cd..."
+bb_cdrw_blank2="CDRW skasowane"
+bb_cdrw_blank3="Kasowanie nie powiod³o siê. U¿ywam trybu wymuszonego..."
+bb_cdrw_blank4="Wymuszone kasowanie zakoñczone."
+bb_cdrw_blank5="Wymuszone kasowanie nie powiod³o siê. Powiniene¶ wymieniæ cd."
+bb_cdrw_blank6="CD/DVD wygl±da na pusty (lub brak CD w napêdzie), nie kasuje..."

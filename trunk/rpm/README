@@ -1,0 +1,13 @@
+rpm creation for bashburn.
+
+There are two files here (as we speak). The first is the spec file,
+and the other is a script called mkbbsrpm.sh The way this works is
+that you run the mkbbsrpm.sh script and the result is that you end up
+with a .tar.bz2 file in your ~/rpmbuild/SOURCES directory and the spec
+file in your SPECS directory. Then you just go to your SPECS
+directory and run
+
+rpmbuild -ba bashburn.spec
+
+This will result in a .src.rpm in the SRPMS dir and a .noarch.rpm in
+the RPMS/noarch dir.

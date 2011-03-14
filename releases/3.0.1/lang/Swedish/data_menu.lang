@@ -1,0 +1,33 @@
+# data_menu.lang - Swedish language
+
+bb_dm_newcd='Mata in en tom CD och tryck [ENTER] för att fortsätta.'
+
+bb_dm_wait='Tryck [ENTER] för att återgå.'
+
+bb_dm_menu_title='Datameny'
+bb_dm_menu_1='Bränn Data'
+bb_dm_menu_2='Kopiera Data-CD (CD till CD)'
+bb_dm_menu_3='Bränn Data-DVD'
+bb_dm_menu_4='Formattera CDRW'
+bb_dm_menu_5='Formattera DVD'
+bb_dm_menu_0='Tillbaka'
+bb_dm_menu_entry='Ditt val? '
+
+bb_dm_ch2_1=' ej monterad! Montera den först...'
+bb_dm_ch2_2='En ISO existerar redan i '
+bb_dm_ch2_3=' Radera eller flytta den'
+bb_dm_ch2_4='innan du försöker skapa en ny.'
+bb_dm_ch2_5='CD kopierad'
+bb_dm_ch2_6='Startar bränning'
+
+bb_dm_ch0='Återgår till meny...'
+
+bb_dm_error='Var vänlig ange '
+
+bb_dm_cdcopy='Kopierar CD-innehåll till '
+bb_dm_cdcopy_err1='Fel i Överföring. Är du säker att du har rätt CD i enheten?'
+bb_dm_cdcopy_err2='(Undersök felmeddelanden för tips)'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

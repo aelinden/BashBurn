@@ -1,0 +1,40 @@
+# iso_menu.lang - English language
+
+bb_im_wait_1='Press [ENTER] to return to menu.'
+
+bb_im_menu_title='ISO Menu'
+bb_im_menu_1='Burn ISO'
+bb_im_menu_2='Create ISO from files in '
+bb_im_menu_3='Create ISO from CD'
+bb_im_menu_4='Burn DVD image'
+bb_im_menu_5='Mount image'
+bb_im_menu_0='Back'
+bb_im_menu_entry='Your Choice? '
+
+bb_im_error_files='No files in '
+
+bb_im_ch2_1='An ISO exists in '
+bb_im_ch2_2=' Delete or move it'
+bb_im_ch2_3='before attempting to create a new one.'
+bb_im_ch2_4='Trying to create ISO-file'
+
+bb_im_ch2_4b='Label of your Data CD: '
+
+bb_im_ch2_5='ISO created'
+bb_im_ch2_6='Error: Could not create an iso-file!'
+bb_im_ch2_7='Maybe you do not have write permissions?'
+
+bb_im_ch3_1=' not mounted! Do that first...'
+bb_im_ch3_2='Creating ISO from CD in '
+
+bb_im_ch5_1='Enter path to image file to be mounted:'
+bb_im_ch5_2='(Or just press enter to cancel)'
+bb_im_ch5_3='No file name given, aborting.'
+
+bb_im_ch0='Returning to menu...'
+
+bb_im_error='Please enter '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

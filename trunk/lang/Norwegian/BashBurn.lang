@@ -1,0 +1,57 @@
+# BashBurn.lang - Nynorsk
+
+bb_conf_check1="BashBurn er ikkje sett opp. Vel 'Set opp' frå menyen og"
+bb_conf_check2="set opp BashBurn før du gjer noko anna."
+
+bb_quit1="Takk for at du brukte "
+bb_quit2="Gå til "
+bb_quit3="http://bashburn.sf.net "
+bb_quit4="for informasjon og oppdateringar."
+
+bb_press_enter="Trykk [ENTER] for å halda fram."
+
+bb_no_temp_dir="Katalogen for midlertidige filer finst ikkje. Prøver å laga han."
+
+bb_text_1="vart vellukka!"
+bb_text_2="Set opp BashBurn før du prøver å brenna."
+bb_text_3="Du har ikkje skrivetilgang for"
+bb_text_4="Du må endra denne innstillinga i oppsettet, elles kan du ikkje brenna noko."
+bb_text_5="Katalogen"
+bb_text_6="finst ikkje, sjølv om du skreiv han inn i oppsettfila."
+
+bb_text_7="Finn cd-brennar...."
+bb_text_8="Fann: "
+
+bb_main_menu=MAIN
+
+bb_menu_1="Lyd"
+bb_menu_2="Data"
+bb_menu_3="ISO (cd-avtrykk)"
+bb_menu_4="Bin/cue (video-cd)"
+bb_menu_5="Multisesjon"
+bb_menu_6="Set opp BashBurn"
+bb_menu_7="Monter og avmonter cd"
+bb_menu_8="Sjekk programstiar"
+bb_menu_9="Spesifiser data du vil brenna"		
+bb_menu_0="Avslutt"
+bb_menu_input="Kva vel du? "
+
+bb_cdrw_blank1="Slettar cd..."
+bb_cdrw_blank2="Har sletta cdrw"
+bb_cdrw_blank3="Enkel sletting verka ikkje. Prøver å tvinga sletting..."
+bb_cdrw_blank4="Tvungen sletting vellukka."
+bb_cdrw_blank5="Greidde ikkje å sletta. Du bør finna ein ny cd."
+
+bb_burndir_view="Innhaldet i"
+bb_burndir_del1="Vil du verkeleg sletta alle filene i"
+bb_burndir_del1b="(y/n)"
+bb_burndir_del2="er fjerna."
+bb_burndir_del3="Sletting avbroten"
+
+bb_exit_error="Ver god å velja "
+
+bb_hit_any_key_to_continue='Hit any key to continue'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

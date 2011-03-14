@@ -1,0 +1,130 @@
+BashBurn TODO file
+
+LP = Low priority
+MP = Medium priority
+HP = High priority
+
+
+*) Add cd text capabilities (LP) 
+
+*) If a CDRW is already written, enable some kind of automatic blanking. (MP)
+   (First of course warn about files being overwritten by the blanking.)
+
+*) Split up configure script in two parts (LP)
+
+*) Autodetection CD Recorder, useful for USB device (MP)
+
+*) World domination (HP)
+
+*) Anyone else have any suggestions?
+
+---------------Aug 25 2008 11:05 Steve Orr-------------------
+* Integrate configure menu with bbmenu. Add -c option to bbmenu. (HP)
+
+* Move /usr/bin/BashBurn to /usr/lib/BashBurn (MP)
+
+* loopback.sh calls cleanup which is not defined. (?)
+  FIXED 080920: Should be loopback_cleanup of course. /Anders
+
+* encode_filter only does something if ENCODEFILTER is not null. It
+  is never set. (?)
+
+* All global variables must be documented. If global variables are
+  being used to pass parameters, they need to be removed and replaced
+  with arguments. (HP)
+
+* Global variables which are used to pass information back should
+  be looked at to see if return values can be used. (MP)
+
+* Audiofunc.sh has tons of duplicate code. Needs to be consolidated.
+create_mp3s_from_wavs()
+create_oggs_from_wavs()
+create_flacs_from_wavs()
+create_mp3s_from_cd()
+create_oggs_from_cd()
+create_flacs_from_cd() (LP)
+
+* rm ${BBBURNDIR}/*.[Ww][Aa][Vv]
+  needs to be replaced by setting shopt -s nocaseglob, or find -iname
+  or grep -i
+  func/multifunc.sh
+  func/bincuefunc.sh
+  func/isofunc.sh
+  misc/xmmsread.sh
+  convert/convert_flacs.sh
+  convert/convert_oggs.sh
+  convert/convert_mp3s.sh
+  burning/burning.sh (MP)
+
+* Add prefix option to Install
+  Install.sh --prefix /usr/local
+  to cause bb in /usr/local/bin
+  and the rest in /usr/local/lib/BashBurn (LP)
+
+* Consolidate use of color so Install and BB use common defs. (LP)
+
+* Create color themes. (LP)
+
+* Extract out config items that users should not be allowed to
+  configure. (MP)
+BBISCONF: 1
+BBROOTDIR: /usr/bin/BashBurn
+BBAUTHOR: <Change me>  # This should be in the README, no?
+BBLANG: English # Should only be an override over the LANG variable.
+
+* Let's figure out what utilities BB needs to be allowed to install
+  and which utils are optional. (Q: Does bb not try to run things if
+  the optional utils do not exist?) (HP?)
+
+* Create a devel branch so people don't get shut down during
+  development. (?)
+
+* Create an rpm spec file and a deb package. (LP)
+
+* Look for continue statements that are not in a loop. (LP)
+---------------End of Aug 25 2008 11:05 Steve Orr-------------
+
+---------------Aug 26 2008 13:53 Steve Orr-------------
+* Add an option on the main menu to toggle command tracing. If tracing 
+  is on, then the cdrecord commandset will be logged to the logfile
+  and the commands will display on the screen. (LP)
+---------------End of Aug 26 2008 13:53 Steve Orr-------------
+
+---------------Sep 4 2008 1:22 Steve Orr---------------
+* misc/xmmsread returns success but its caller, audio_menu/burn_xmms_playlist,
+checks the status.
+
+* misc/loopback.sh::loopback has a lots of farout return values that are 
+ never looked at by the caller.
+
+---------------Sep 4 2008 15:16 Steve Orr---------------
+* Man page.
+* cmdline option -c for alternate bashburnrc with envvar override
+* ^C goes to top of current menu instead of exit.
+* Define what components are mandatory for bb to start.
+* lang subdirs should not be named in english. German should be
+  Deutsch, etc.
+* Remove maybe all of the cd commands that are all over the place.
+* Move /usr/bin/BashBurn to /usr/lib/Bashburn
+* Do we need a make install, make uninstall? Or do we want Install.sh
+  -d?
+* spec file to make an rpm?
+* Put a header in ALL files that are sourced in from a subroutine.
+* Move config functions to a more proper dir.
+
+---------------Sep 6 2008 12:22 Steve Orr---------------
+* Jimmy up the reads so that the only choices for what's available
+  are in the readline history. (See HISTORY EXPANSION).
+
+Sep 21 2008 16:00
+* Create global vars for values for IFS
+  + BBCONF_SEP (=':')
+  + BBAVAL_SEP (='@')
+  + BBCONFCH_SEP (='|')
+
+--------------May 6 2010 23:05 Anders Lindén-----------
+* Fix bug where BashBurn ignores speed setting when burning DVDs
+  (Doesn't seem to be a speed switch in the DVD burning command line)
+* BashBurn cannot handle m3u files with DOS line terminations. 
+  Try to add this functionality.
+* Add functionality to burn Blu-Ray discs.

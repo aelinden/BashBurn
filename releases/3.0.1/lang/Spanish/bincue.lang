@@ -1,0 +1,12 @@
+# bincue.lang - Spanish language
+
+bb_press_enter="Presione [ENTER] para volver al menú principal."
+
+bb_bincue_copy_1="El archivo Bin y Cue debe ser copiado/linkeado a"
+bb_bincue_copy_1b="antes de intentar grabar."
+bb_bincue_copy_2="Has hecho eso? (y/n):"
+bb_bincue_copy_3="Por favor copie el archivo Bin/Cue a"
+bb_bincue_copy3b="antes de intentar grabar."
+
+bb_bincue_burn_1="Grabación finalizada"
+bb_bincue_burn_2="Grabación fallida. Tal vez no tienes los permisos adecuados"

@@ -1,0 +1,194 @@
+# configure.lang - Spanish language
+
+# Nick - this needs checking by a native speaker
+bb_conf_menu_writer="Grabadora de CD"
+bb_conf_menu_cddev="Archivo de dispositivo de Lectora de CD"
+bb_conf_menu_cdmnt="Punto de montaje de la Lectora de CD"
+bb_conf_menu_speed="Velocidad"
+bb_conf_menu_blank="Tipo de blanqueado"
+bb_conf_menu_numdev="Numero de Dispositivos"
+bb_conf_menu_root="Directorio Raíz"
+bb_conf_menu_burn="Directorio de Grabación"
+bb_conf_menu_label="Etiqueta de CD"
+#bb_conf_menu10="Copyright"
+bb_conf_menu_auth="Autor"
+#bb_conf_menu12="Publicante"
+bb_conf_menu_desc="Descripción"
+#bb_conf_menu14="Nombre del paquete"
+bb_conf_menu_norm="Normalizar"
+bb_conf_menu_dropt="Opciones de controlador"
+bb_conf_menu_fifo="Directorio FIFO"
+bb_conf_menu_deltmp="Eliminar temporales después de grabar"
+bb_conf_menu_ob="Permitir overburn"
+#bb_conf_menu20="Protección de Copia"
+bb_conf_menu_bitrate="Cambiar el Bitrate"
+bb_conf_menu_lang="Lenguaje"
+bb_conf_menu_dtao="DAO/TAO"
+bb_conf_menu_gap="Silencio entre pistas"
+bb_conf_menu_adv=Avanzado
+bb_conf_menu_apply="Aplicar cambios"
+bb_conf_menu_default="Aplicar valores por defecto"
+bb_conf_menu0="Atrás"
+bb_conf_menu_entry="Su opción? "
+
+bb_conf_action_desc="Acciones"
+
+bb_conf_menu_toptext1="Configuración"
+bb_conf_menu_toptext2="Valor actual"
+bb_conf_default_is="Por defecto"
+# End Nick
+# Everything below still needs fixing
+# ===================================
+
+
+
+bb_conf_ch1_1="La ruta de la grabadora se debe ingresar como 0,0,0 (Para SCSI)"
+bb_conf_ch1_2="ATAPI:0,0,0 o /dev/hdX (Para grabadoras IDE)"
+bb_conf_ch1_3="(Donde hdX es la unidad correspondiente, como hdc)"
+bb_conf_ch1_4="También puede usar el nombre de dispositivo ej, yahama, sanyo, etc."
+bb_conf_ch1_5="si "
+bb_conf_ch1_6="esta configurado apropiadamente."
+bb_conf_ch1_7="(Posibles)  Dispositivos SCSI:"
+bb_conf_ch1_8="(Posibles) Dispositivos IDE:"
+bb_conf_ch1_9="Ingrese ruta a la grabadora: "
+bb_conf_ch1_10="Modo de autodetección, ingrese: auto"
+
+bb_conf_ch2_1="La ruta al archivo de dispositivo del CDROM es usualmente /dev/cdrom o /dev/dvd"
+bb_conf_ch2_2="Lista de posible unidades de CD (Según /etc/fstab): "
+bb_conf_ch2_3="Ingrese el archivo de dispositivo del cdrom: "
+
+bb_conf_ch3_1="El punto de montaje para su CDROM es usualmente /mnt/cdrom o /mnt/dvd"
+bb_conf_ch3_2="Lista de posible unidades de CD (Según /etc/fstab): "
+bb_conf_ch3_3="Ingrese el punto de montaje: "
+
+bb_conf_ch4_1="Las versiones recientes de cdrecord no usan velocidad 1"
+bb_conf_ch4_2="por defecto. Para dispositivos compatibles con MMC por"
+bb_conf_ch4_3="defecto se escribe a la máxima velocidad, así que generalmente"
+bb_conf_ch4_4="no tiene sentido poner una velocidad por defecto."
+bb_conf_ch4_5="Salvo que tengas una buena razón, usa velocidad -1 y deja"
+bb_conf_ch4_6="que cdrecord use su valor por defecto."
+bb_conf_ch4_7="Ingrese la velocidad de la grabadora: "
+
+bb_conf_ch5_1="Ingrese el tipo de blanqueado. Por defecto es all"
+bb_conf_ch5_2="Actualmente su valor es "
+
+bb_conf_ch6_1="Tienes ambas, una lectora y una grabadora de CD?"
+bb_conf_ch6_2="Si es así, ingresa 2. Sino, ingresa 1"
+
+bb_conf_ch7_1="El directorio raíz es donde se encuentran los scripts de BashBurn."
+bb_conf_ch7_2="Cambialo únicamente si sabes lo que haces."
+bb_conf_ch7_3="Si quieres cancelar, simplemente presiona enter "
+bb_conf_ch7_4=" en el prompt."
+
+bb_conf_ch8_1="Directorio de Grabación es donde pones/linkeas los archivos a grabar."
+bb_conf_ch8_2="Asegurate de tener permisos para escribir en este directorio."
+
+bb_conf_ch9_1="Este es el nombre del punto de montaje usado por el"
+bb_conf_ch9_2="manejador de volúmenes de Solaris y el nombre que se le"
+bb_conf_ch9_3="asigna al disco en Microsoft Win32 o la plataforma Apple Mac."
+bb_conf_ch9_4="La etiqueta actual es "
+bb_conf_ch9_4b="Si quieres que se te pregunte cada vez que etiqueta deseas"           # New in 1.6
+bb_conf_ch9_4c="ingresa <ask-me> aquí como etiqueta."                                  # New in 1.6 
+bb_conf_ch9_5="Ingrese la etiqueta de CD deseada:"
+
+bb_conf_ch10_1="Si quieres ponerle Copyright a tu CD, ingresalo aquí:"
+
+bb_conf_ch11_1="Esto debería describir al preparador del CD, usualmente"
+bb_conf_ch11_2="con una dirección de correo y un numero de teléfono. Hay"
+bb_conf_ch11_3="espacio para 128 caracteres de información en el disco."
+bb_conf_ch11_4="El autor actual es "
+bb_conf_ch11_5="Ingrese el Autor/Dueño del CD - oye, ese eres tu, no?"
+
+bb_conf_ch12_1="Esto debería describir al publicante del CD, usualmente"
+bb_conf_ch12_2="con una dirección de correo y un numero de teléfono."
+bb_conf_ch12_3="Hay espacio en el disco para 128 caracteres de información."
+bb_conf_ch12_4="El publicante actual es "
+bb_conf_ch12_5="Ingrese el Publicante del CD (si hay uno):"
+
+bb_conf_ch13_1="Esto debería describir el contenido que va a tener el"
+bb_conf_ch13_2="disco.  Hay un espacio en el disco para 128 caracteres"
+bb_conf_ch13_3="de información.   La descripción actual es:"
+bb_conf_ch13_4="Describa los contenidos del CD:"
+
+bb_conf_ch14_1="Un paquete consiste en varios CDs, por ejemplo, un SO"
+bb_conf_ch14_2="cuyo software se distribuye en varios discos."
+bb_conf_ch14_3="Esto es opcional. Si lo usas debes configurar la cantidad"
+bb_conf_ch14_4="de CDs y el numero de cada disco."
+bb_conf_ch14_5="El nombre de paquete actual es "
+bb_conf_ch14_6="Ingrese el nombre del paquete:"
+
+bb_conf_ch15_1="Normalizar es usado para ajustar el volumen de archivos WAV a un volumen MP3"
+bb_conf_ch15_2="estándar. Esto es útil para crear un álbum de una fuente variada de donde"
+bb_conf_ch15_3="diferentes volúmenes de grabación en cada álbum puede causar que el volumen"
+bb_conf_ch15_4="cambie de manera notable entre canción y canción. Actualmente su valor es "
+bb_conf_ch15_5="Solo ingrese yes si tiene el programa para normalizar instalado, de lo contrario no."
+
+bb_conf_ch16_1="Ingrese las opciones para el controlador que le gustaría usar, separadas"
+bb_conf_ch16_2="con una coma. Si no esta seguro, presione enter sin escribir nada."
+
+bb_conf_ch17_1="Ingrese al ubicación del directorio FIFO. Se necesita solo para grabación"
+bb_conf_ch17_2="redireccionada, y la mayoría de las veces el valor por defecto es suficiente."
+bb_conf_ch17_3="Si quieres cancelar presiona enter "
+bb_conf_ch17_4=" en el prompt."
+bb_conf_ch17_5=" es el directorio FIFO actual)"
+
+bb_conf_ch18_1="Borrar archivos en "
+bb_conf_ch18_2=" después de completada la grabación?"
+bb_conf_ch18_3="Por defecto no, que es lo que deberías elegir yes (si)"
+bb_conf_ch18_4="vas a grabar esos archivos mas de una vez... (yes/no)"
+
+bb_conf_ch19_1="Deseas que BashBurn permita overburn? Tu"
+bb_conf_ch19_2="grabadora debe soportarlo y no es seguro que"
+bb_conf_ch19_3="funcione, ya que puede grabar mas en el CD"
+bb_conf_ch19_4="de la capacidad que fue diseñado."
+bb_conf_ch19_5="Por defecto es no. (yes/no)"
+
+bb_conf_ch20_1="Esta opción es para CDs de audio. Están los contenidos protegidos contra copia?"
+bb_conf_ch20_2="Por defecto es no, si desea lo contrario, ingrese yes (si) "
+bb_conf_ch20_3="NOTA: "
+bb_conf_ch20_4="Esta opción "
+bb_conf_ch20_5="no"
+bb_conf_ch20_6=" protege contra copia los archivos de audio"
+bb_conf_ch20_7="siendo grabados, simplemente le dice a cdrecord que lo están."
+
+bb_conf_ch21_1="El Bitrate es lo que mas influye en la calidad de archivos de audio."
+bb_conf_ch21_2="Mientras mas bitrate, mas calidad. Por supuesto que mayor bitrate"
+bb_conf_ch21_3="provocara un aumento de tamaño en los archivos de audio."
+bb_conf_ch21_4="Configurar bitrate para archivos de audio MP3 y OGG."
+bb_conf_ch21_5="Por defecto es 128. "
+
+bb_conf_ch22_1="Aquí es donde cambias el lenguaje de BashBurn, por defecto Ingles."
+bb_conf_ch22_2="Lenguajes disponibles:"
+
+bb_conf_ch23_1="Esto es para decirle a cdrecord que grabe en modo:"
+bb_conf_ch23_2="SAO (Session at Once)"
+bb_conf_ch23_2b=" también llamado "
+bb_conf_ch23_2c="DAO (Disk at once)"
+bb_conf_ch23_3="o"
+bb_conf_ch23_4="TAO (Track at once)"
+bb_conf_ch23_5=" Por defecto es TAO."
+bb_conf_ch23_6="Para mas información consulte el manual de cdrecord (man cdrecord)"
+bb_conf_ch23_7="Ingrese su opción como -tao, -sao o -dao (SAO y DAO son equivalentes)"
+
+# Added in BashBurn 2.1
+bb_conf_ch24_1="Esta opcion habilita o deshabilita el silencio entre pistas."
+bb_conf_ch24_2="Si no quieres espacio, por ejemplo para grabar un CD de audio"
+bb_conf_ch24_3a="sin silencio entre pistas, ingrese"
+bb_conf_ch24_3b="para deshabilitar esta opcion."
+bb_conf_ch24_4="(Habilitada)."
+
+bb_conf_apply_1="Cambios aplicados!"
+bb_conf_apply_2="No se pudo escribir en"
+bb_conf_apply_3="Tal vez quieras usar el comando chmod 666"
+
+bb_conf_def_1="Valores por defecto aplicados!"
+bb_conf_def_2="(BBROOTDIR *no* tiene valor por defecto - debes cambiarlo!)"
+
+bb_conf_xit_1="Volver al menú principal"
+bb_conf_xit_2="Seleccionaste APLICAR CAMBIOS antes de salir, no es cierto?"
+
+bb_conf_err="Por favor ingrese "
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

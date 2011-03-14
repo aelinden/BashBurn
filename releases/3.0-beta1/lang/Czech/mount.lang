@@ -1,0 +1,47 @@
+# mount.lang - Czech language
+
+bb_mnt_enter_1="Stisknout klavesu [ENTER] pro navrat do hlavniho menu"
+
+bb_mnt_menu_title="Mount/Unmount zarizeni"
+bb_mnt_menu_1="Mount zarizeni"
+bb_mnt_menu_2="Unmount zarizeni"
+bb_mnt_menu_3="Vysunout zarizeni"
+bb_mnt_menu_0="Zpet"
+bb_mnt_menu_input="Vase volba? "
+
+bb_mnt_ch1_1="Jake zarizeni chcete mountovat? Zvolte napr. /mnt/cdrom"
+bb_mnt_ch1_2="(Je nutne zvolit mountovaci bod, ne soubor zarizeni. Napriklad"
+bb_mnt_ch1_3="/mnt/cdrom funguje, ale /dev/cdrom nebude funkcni. Pokracovani"
+bb_mnt_ch1_4="stiskem klavesy ENTER bez ulozeni zmen."
+bb_mnt_ch1_5="Mountovani preruseno!"
+bb_mnt_ch1_6="Mountuji "
+bb_mnt_ch1_7=" primountovano."
+bb_mnt_ch1_8="Mountovani selhalo. Mozna nejsou nastavena spravna prava,"
+bb_mnt_ch1_9="zarizeni je jiz namountovano, neni CD v mechanice"
+bb_mnt_ch1_10="nebo chyba v zapise cesty k zarizeni?"
+
+bb_mnt_ch2_1="Zde neni pravdepodobne namoutovane zarizeni."
+bb_mnt_ch2_2="Jake zarizeni chcete unmountovat? Zvolte napr. /mnt/cdrom"
+bb_mnt_ch2_3=" unmountovano."
+bb_mnt_ch2_4="Unmountovani selhalo. Mozna nejsou nastavena prava"
+bb_mnt_ch2_5="nebo spatne zadana cesta k zarizeni?"
+
+bb_mnt_ch3_1="jake zarizeni chcete vysunout? Zvolte napr. /mnt/cdrom"
+bb_mnt_ch3_1b="nebo pokracujte stiskem klavesy enter bez ulozeni zmen."
+bb_mnt_ch3_1c="Preruseno!"
+bb_mnt_ch3_2=" vysunuto. (Vlozeni neni oznamovano ;-) )"
+bb_mnt_ch3_3="Vysunuti selhalo. Mozna nejsou nastavena prava"
+bb_mnt_ch3_4="nebo spaten zadana cesta k zarizeni?"
+
+bb_mnt_ch0="Zpet do hlavniho menu"
+
+bb_mnt_error="Zvolte "
+
+
+
+
+
+
+
+
+

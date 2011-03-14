@@ -1,0 +1,4 @@
+# convert_images.lang - English version
+
+bb_conv_img1='is now converted to ISO-format.'
+bb_conv_img2='could not be converted.'

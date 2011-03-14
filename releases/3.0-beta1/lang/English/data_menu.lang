@@ -1,0 +1,33 @@
+# data_menu.lang - English language
+
+bb_dm_newcd='Insert blank CD and then press [ENTER] to go on'
+
+bb_dm_wait='Press [ENTER] to return to main menu.'
+
+bb_dm_menu_title='Data Menu'
+bb_dm_menu_1='Burn Data'
+bb_dm_menu_2='Copy Data CD (CD to CD)'
+bb_dm_menu_3='Burn Data DVD'
+bb_dm_menu_4='Format CDRW'
+bb_dm_menu_5='Format DVD'
+bb_dm_menu_0=Back
+bb_dm_menu_entry='Your Choice? '
+
+bb_dm_ch2_1=' not mounted! Mount it first please...'
+bb_dm_ch2_2='An ISO exists in '
+bb_dm_ch2_3=' Delete or move it'
+bb_dm_ch2_4='before attempting to create a new one.'
+bb_dm_ch2_5='CD copied!'
+bb_dm_ch2_6='Starting burn'
+
+bb_dm_ch0='Returning to menu..'
+
+bb_dm_error='Please enter '
+
+bb_dm_cdcopy='Copying CD contents to '
+bb_dm_cdcopy_err1='Error in transfer. Are you sure you have the correct CD in the drive?'
+bb_dm_cdcopy_err2='(Check any error messages for hints)'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

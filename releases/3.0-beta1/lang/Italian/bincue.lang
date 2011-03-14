@@ -1,0 +1,12 @@
+# bincue.lang - Italian language
+
+bb_press_enter="Premi [ENTER] per tornare al menù principale."
+
+bb_bincue_copy_1="I file Bin e Cue devono essere copiati/linkati in"
+bb_bincue_copy_1b="prima di provare a masterizzare."
+bb_bincue_copy_2="Hai già fatto? (y/n):"
+bb_bincue_copy_3="Per favore copia i file Bin/Cue in"
+bb_bincue_copy3b="prima di cercare di masterizzare."
+
+bb_bincue_burn_1="Masterizzazione terminata"
+bb_bincue_burn_2="Masterizzazione fallita. Forse non hai i permessi necessari?"

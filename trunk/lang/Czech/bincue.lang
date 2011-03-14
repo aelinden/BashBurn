@@ -1,0 +1,12 @@
+# bincue.lang - Czech language
+
+bb_press_enter="Stisknout klavesu [ENTER] pro navrat do hlavniho menu."
+
+bb_bincue_copy_1="Bin a Cue soubor musi byt nakopirovan/nalinkovan do"
+bb_bincue_copy_1b="pred spustenim vypalovani."
+bb_bincue_copy_2="Opravdu pokracovat? (y/n): "
+bb_bincue_copy_3="Nakopirovat bin/cue soubor do"
+bb_bincue_copy3b="pred spustenim vypalovani."
+
+bb_bincue_burn_1="Vypalovani bylo uspesen dokonceno"
+bb_bincue_burn_2="Vypalovani selhalo. Pravdepodobne nema uzivatel pristupova prava."

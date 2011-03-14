@@ -1,0 +1,22 @@
+# commonfunctions.lang - Spanish language file
+
+bb_cf_text1="El CD parece escrito. Desea borrarlo?"
+bb_cf_text2="Sólo responda 'yes' si es un regrabable. Ingrese"
+bb_cf_text3="'abort' si desea cancelar y volver al menú."
+bb_cf_text4="Abortando..."
+
+bb_cf_text5="Intentando grabar sin borrar el CD. Probablemente fallará."
+bb_cf_text6="Proceso de borrado fallido. Proceso de grabación abortado"
+
+bb_cdrw_blank1="Borrar CD..."
+bb_cdrw_blank2="CDRW limpio"
+bb_cdrw_blank3="El borrado ha fallado. Intentando borrado forzado..."
+bb_cdrw_blank4="Borrado forzado completada satisfactoriamente."
+bb_cdrw_blank5="El borrado no pudo ser completado. Debería reemplazar este CD."
+bb_cdrw_blank6="CD/DVD parece estar vacío (O no hay CD en dispositivo), no se borrará..."
+
+bb_dvd_blank1="Borrado rapido o total?"
+bb_dvd_blank2="Ingrese 'yes' para rapido, "
+bb_dvd_blank3="o 'no' para formato total."
+bb_dvd_blank4="Presione [ENTER] sino ingresar texto"
+bb_dvd_blank5="para cancelar la operacion."

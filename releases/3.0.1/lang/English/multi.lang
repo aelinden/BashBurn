@@ -1,0 +1,37 @@
+# multi.lang - English language
+
+bb_multi_enter_1='Press [ENTER] to return to main menu.'
+bb_multi_enter_2='Press [ENTER] to continue.'
+
+bb_multi_burn_1='ISO found...'
+bb_multi_burn_2=' if this is NOT the first burn to a multisession CD'
+bb_multi_burn_3=' then this ISO *MUST* have been created using valid previous session offset parameters'
+bb_multi_burn_4=' Why? because this session will be invisible and useless otherwise'
+bb_multi_burn_5='CD burnt...'
+bb_multi_burn_6=' No ISO found, trying to create one...'
+bb_multi_burn_7='Obtaining previous session offset data using -msinfo'
+bb_multi_burn_8='msinfo info needed for multisession is:'
+bb_multi_burn_9='if brackets'
+bb_multi_burn_9b='have two numbers with a comma - ALL IS GOOD TO GO!'
+bb_multi_burn_10="an error message ending with: \"cdrecord: Cannot read session offset\" means a virgin CD blank"
+bb_multi_burn_11="an error message ending with: \"cdrecord: No disk / Wrong disk!\" means no disk in drive"
+bb_multi_burn_12='got valid multisession data, adding args:'
+bb_multi_burn_13='First burn to multisession CD does not need previous session offset data'
+bb_multi_burn_14='Now, make the ISO if possible...'
+
+bb_multi_burn_14b='Label of your Data CD: '							# New in 1.6
+
+bb_multi_burn_15='ISO created'
+bb_multi_burn_16='Error: Could not create an iso-file.'
+bb_multi_burn_17='Maybe... No files in'
+bb_multi_burn_18='Maybe you dont have write permissions?'
+
+bb_multi_menu_title='Multisession CD'
+bb_multi_menu_1='First burn to a Multisession CD'
+bb_multi_menu_2='Continue Multisession CD'
+bb_multi_menu_3='Finish Multisession CD'
+bb_multi_menu_0='Back'
+bb_multi_menu_entry='Your Choice '
+
+bb_multi_ch0='Back to main menu...'
+bb_multi_err='Please enter '

@@ -1,0 +1,5 @@
+# convert_mp3s.lang - Spanish language
+
+bb_conv_mp3_1="descomprimidos"
+bb_conv_mp3_2="y listos para ser grabados"
+bb_conv_mp3_3="no se pudo descomprimirlos"

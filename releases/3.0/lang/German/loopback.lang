@@ -1,0 +1,38 @@
+# loopback.lang - German language
+
+bb_lb_noread='konnte nicht gelesen werden.'
+bb_lb_no_lb_dir='Kein loopback Verzeichnis, erstelle eines...'
+
+bb_lb_dir_c='Verzeichnis erstellt.'
+bb_lb_dir_cf='Erstellung fehlgeschlagen, breche ab.'
+
+bb_lb_no_im_dir='Kein Image Verzeichnis, erstelle eines...'
+bb_lb_no_temp_dir='Kein temporaere-Dateien Verzeichnis, erstelle eines...'
+
+bb_lb_sudo1='Du must in der sudoers Gruppe sein um das Image einzuhaengen (mounten).'
+bb_lb_sudo2='Gib unten Dein Password ein, wenn das fehlschlägt koennte es sein dass'
+bb_lb_sudo3='Du nicht in der Gruppe bist. Aendere das dann und versuche es erneut.'
+bb_lb_sudo4='Du musst auch die Unterstuetzung fuer Loopback-Geraete'
+bb_lb_sudo5='in Deinem Betriebssystemkernel haben (als Modul oder einkompiliert),'
+bb_lb_sudo6='sonst wird der naechste Schritt fehlschlagen.'
+
+bb_lb_mount='Image eingehaengt (gemountet).'
+bb_lb_mount_fail='Einhaengen fehlgeschlagen, breche ab.'
+
+bb_lb_cp_cont='Kopiere Inhalt, bitte warten...'
+
+bb_lb_in_file="Du bist nun im Image-Dateisystem. Editiere nach belieben, tippe 'exit' um zurueckzukehren."
+
+bb_lb_change1='Hast Du irgendetwas geaendert? (Falls ja, muss ein neues Image'
+bb_lb_change2='erstellt werden, was eine Zeit lang dauert) (y/n)'
+bb_lb_change3='Daten existieren schon in'
+bb_lb_change4='sie werden geloescht wenn Du weitermachst.'
+bb_lb_change5='Moechtest Du weitermachen? (y/n)'
+bb_lb_change6='Erstelle ein neues Image, bitte warten...'
+bb_lb_change7='Neues Image erstellt in'
+bb_lb_change8='Breche ab, ohne Daten zu loeschen. Aenderungen im Image werden verworfen.'
+bb_lb_change9='Keine Aenderungen gemacht, ueberspringe Image-Neuerstellung.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

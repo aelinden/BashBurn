@@ -1,0 +1,41 @@
+# burning.lang - Czech language
+
+bb_press_enter="Stisknout klavesu [ENTER] pro navrat do hlavniho menu."
+
+bb_no_ob="Neni povolen overburn..."
+
+bb_burning_tmp_1="Odkladaci soubory v"
+bb_burning_tmp_1b="byly smazany..."
+bb_burning_tmp_2="nebyly smazany..."
+
+bb_burning_audio_1="hledani"
+bb_burning_audio_2="Nenalezeny audio soubory v"
+bb_burning_audio_3="Nelze pouzit normalize..."
+
+bb_burning_finish_1="Vypalovani bylo uspesne dokonceno"
+bb_burning_finish_2="Vypalovani selhalo."
+bb_burning_finish_3="Soubor(y) byly nalinkovany/zkopirovany do"
+
+bb_burning_error="Zadne soubory v "
+
+bb_burning_iso_1="Nenalazen ISO v"
+
+bb_burning_data_1="Zkousim vytvorit ISO-soubor"
+
+bb_burning_data_label="Nazev-label Data CD: "					# New in 1.6
+
+bb_burning_data_2="Chyba: Nemohu vytvorit ISO-soubor."
+bb_burning_data_3="Tip - uzivatel nema prava pro zapis?"
+
+bb_burning_fifo_1="Nenalezeny WAV soubory v"
+bb_burning_fifo_2="Zacatek vypalovani"
+bb_burning_fifo_2b="tracky!"
+bb_burning_fifo3="Cisteni nevyuzite fronty"
+
+bb_burning_dvd_1="Je toto inicializacni session tohoto DVD?"
+bb_burning_dvd_2="(Zvol no jestlize chces pripojit novou session do"
+bb_burning_dvd_3="jiz vypaleneho DVD. Pro ukonceni operace"
+bb_burning_dvd_4="stiskni [ENTER] bez zadani vstupu)"
+bb_burning_dvd_5="(yes/no): "
+
+

@@ -1,0 +1,111 @@
+Credits for BashBurn (Previously Magma):
+==================
+
+The supreme overlord:
+Anders Linden
+
+Evil henchmen:
+Steven W. Orr
+Nick Warne
+Markus Kollmar
+
+Minions:
+
+paddor:
+Small enhancement in init_bashburn()
+
+Amedeo Grazie:
+Italian translation
+
+casper:
+Small improvements in audiofunc.sh
+
+Santiago:
+The czech translation
+
+Eivind Ødegård:
+The norwegian translation
+
+Karol Krenski: 
+For the SVN server
+
+Fabian Stietzel:
+Added function to ask for CD label
+
+Guillermo Bonvehi:
+New spanish translation and bugfix
+
+Miguel Ross:
+The french translation
+
+Jakub Krajniak:
+For the polish translation and helping with the SVN server
+
+Guillermo Juarez:
+For the spanish translation
+
+Tobias Rittweiler:
+For being second in command for a long time. 
+What I didn't know, he did.
+
+Nicol N. Schraudolph:
+For fixing the bash detection issue
+
+Wilmer Jaramillo:
+For a bunch of small fixes and enhancements
+
+ziL:
+For making a perty logo and testing BashBurn
+
+Jim Shofstall:
+For misc small fixes and lots of ideas
+
+Pat:
+For fixing the bin/cue script
+
+Page:
+For the little fix to xmmsread.sh
+
+Marcel Karras:
+For providing the new webhost and subdomain at freebits.de.
+(BashBurn is not on freebits anymore)
+
+Dennis Wilson:
+For designing the Magma webpage at freebits.de
+
+"Angles" Puglisi:
+For creating RPMs of Magma and rewriting the multisession script.
+(Angles does not create rpms anymore)
+
+Cristoffer Bruun:
+For taking care of driver options issues.
+
+Jean-François Deverge:
+For adding pipe enhanced mp3+wav burning.
+
+Joel Wiesmann:
+For helping me with lots of stuff and giving me the chance to test menubuilder.
+(The program the menus for Magma were originally made in.) 
+Menubuilder is available from www.secuserv.ch.vu
+
+Olav Vitters:
+For fixing the annoying "Spaces in mp3 files" bug.
+
+Hampus Ram:
+For solving the "Burn anyways" bug.
+
+Elvstone:
+For helping me with the configure script 
+(Even though Tobias thrashed it and rewrote it), and a nice logo.
+
+Matte aka Pälsis:
+For making me aware of the mkisofs bug.
+
+MadMaN:
+For actually using and bugtesting Magma/BashBurn.
+
+#linuxhelp on irc.openprojects.net for helping me with many problems.
+
+Thanks all for your help. It's really appreciated.
+Oh, and if I forgot anyone, scream. 
+

@@ -1,0 +1,28 @@
+# datadefine.lang - Swedish language
+
+
+bb_mnt_menu_title="Definiera data"
+
+bb_wfe_1="Tryck [ENTER] för att återgå."
+
+bb_dc_menu_1=" Kopiera/Länka data till "
+bb_dc_menu_2=" Visa data i "
+bb_dc_menu_3=" Radera data i "
+bb_dc_menu_0=" Tillbaka"
+
+bb_dc_explain1="Du är nu placerad i ett skal. Din nuvarande position"
+bb_dc_explain2a="är i "
+bb_dc_explain2b="-katalogen. För att BashBurn ska kunna"
+bb_dc_explain3="bränna någonting måste du kopiera eller länka"
+bb_dc_explain4="din data till denna katalog. Du gör detta genom 'cp' eller 'ln'"
+bb_dc_explain5="kommandona. T.ex. för att länka din data hit anger du:"
+bb_dc_explain6=" 'ln -s <sökväg till data> ./' (Utan '')"
+bb_dc_explain7="eller för att kopiera ersätter du 'ln -s' med 'cp'."
+bb_dc_explain8="När du är klar skriver du exit för att återgå till menyn."
+
+bb_dc_ch3_1="Vill du verkligen ta bort dessa filer? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2="Filer borttagna."
+bb_dc_ch3_3="Filer ej borttagna."
+bb_dc_ch3_4="Inga filer i "
+
+bb_dc_menu_err="Fel. Var vänlig ange"

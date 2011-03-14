@@ -1,0 +1,55 @@
+# BashBurn.lang - English language
+
+bb_conf_check1="BashBurn has not been configured. Enter 'Configure' and"
+bb_conf_check2='setup BashBurn before trying to use it.'
+
+bb_quit1='Thank you for using '
+bb_quit2='Visit '
+bb_quit3='http://bashburn.dose.se/ ' 
+bb_quit4='for info and updates.'
+
+bb_press_enter='Press [ENTER] to continue.'
+
+bb_no_temp_dir='Directory for temporary files does not exist. Attempting to create it.'
+
+bb_text_1='created succesfully!'
+bb_text_2='Configure BashBurn before attempting to burn.'
+bb_text_3='You do not have write permission for'
+bb_text_4='Change this value in config or you will not be able to burn anything.'
+bb_text_5='The directory'
+bb_text_6='does not exist, although you wrote it into the configfile'
+
+bb_text_7='Detecting CD Writer...'
+bb_text_8='Detected: '
+
+bb_main_menu='Main Menu'
+
+bb_menu_1=Audio
+bb_menu_2=Data
+# bb_menu_3=ISO # Old, not used as of 3.1.0
+# bb_menu_4='Bin/Cue' # Old, not used as of 3.1.0
+bb_menu_5=Multisession
+bb_menu_6='Configure BashBurn'
+bb_menu_7='Mount/Unmount CD'
+bb_menu_8='Check Program Paths'
+bb_menu_9='Define burn data'
+bb_menu_0=Quit
+bb_menu_adv="Advanced Settings"
+bb_menu_input='Your Choice? '
+bb_menu_imgs=Images
+
+
+bb_burndir_view='Contents of'
+bb_burndir_del1='Do you really want to erase all files in'
+bb_burndir_del1b='(y/n)'
+bb_burndir_del2='is cleared.'
+bb_burndir_del3='Deletion cancelled'
+
+bb_exit_error='Please choose '
+
+bb_hit_any_key_to_continue='Hit any key to continue'
+
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

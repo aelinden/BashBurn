@@ -1,0 +1,199 @@
+# configure.lang - Polish language
+
+# Nick - this needs checking by a native speaker
+# I don't get Polish at all (as bad as C++), so there are a few words
+# in here that need translating still - all marked
+bb_conf_menu_writer="Nagrywarka"
+bb_conf_menu_cddev="Plik urz±dzenia CD-ROM"
+bb_conf_menu_cdmnt="Punkt montowania CD-ROM"
+bb_conf_menu_speed="Prêdko¶æ"
+bb_conf_menu_blank="Tryb kasowania"
+bb_conf_menu_numdev="Liczba urz±dzeñ"
+bb_conf_menu_root="Katalog g³ówny"
+bb_conf_menu_burn="Katalog TMP"
+bb_conf_menu_label="Etykieta CD"
+#bb_conf_menu10="Copyright"
+bb_conf_menu_auth="Autor"
+#bb_conf_menu12="Wydawca"
+bb_conf_menu_desc="Opis"
+#bb_conf_menu14="Nazwa pakietu"
+bb_conf_menu_norm="Normalizacja"
+bb_conf_menu_dropt="Opcje urz±dzenia"
+bb_conf_menu_fifo="Katalog FIFO"
+bb_conf_menu_deltmp="Usun±æ pliki tymczasowe"
+bb_conf_menu_ob="Overburning"
+#bb_conf_menu20="Ochrona przed kopiowaniem"
+bb_conf_menu_bitrate="Ustaw Bitrate"
+bb_conf_menu_lang="Jêzyk"
+bb_conf_menu_dtao="DAO/TAO"
+# == next two need translating
+bb_conf_menu_gap="Gap between tracks"
+bb_conf_menu_adv=Advanced
+# == end
+bb_conf_menu_apply="Zastosuj zmiany"
+bb_conf_menu_default="Przywróæ domy¶lne"
+bb_conf_menu_back="Powrót"
+bb_conf_menu_entry="Wybór?"
+
+# These next 4 lines need translating
+bb_conf_action_desc="Actions"
+
+bb_conf_menu_toptext1=Setup
+bb_conf_menu_toptext2='Current value'
+bb_conf_default_is='Default is'
+# End Nick
+# Everything below still needs fixing
+# ===================================
+
+
+
+bb_conf_ch1_1="Nagrywarka powinna byæ wpisana jako 0,0,0 (dla SCSI)"
+bb_conf_ch1_2="ATAPI:0,0,0 lub /dev/hdX (dla nagrywarek IDE)"
+bb_conf_ch1_3="(Gdzie hdX jest nazw± urz±dzenia, np. hdc)"
+bb_conf_ch1_4="Mo¿esz równie¿ u¿yæ nazw urz±dzenia np. yahama, sanyo, itd."
+bb_conf_ch1_5="je¶li "
+bb_conf_ch1_6="s± prawid³owo skonfigurowane."
+bb_conf_ch1_7="(Mo¿liwo¶ci) Urz±dzenia SCSI:"
+bb_conf_ch1_8="(Mo¿liwo¶ci) Urz±dzenia IDE:"
+bb_conf_ch1_9="Wpisz scie¿kê do nagrywarki: "
+bb_conf_ch1_10="Autodetekcja nagrywarki: wpisz auto"
+
+bb_conf_ch2_1="¦cie¿ka do urz±dzenia cdrom wygl±da zazwyczaj jak /dev/cdrom lub /dev/dvd"
+bb_conf_ch2_2="Lista dostêpnych napêdów cd (na podstawie /etc/fstab): "
+bb_conf_ch2_3="Wpisz nazwê pliku urz±dzenia: "
+
+bb_conf_ch3_1="¦cie¿ka do urz±dzenia cdrom wygl±da zazwyczaj jak /dev/cdrom lub /dev/dvd"
+bb_conf_ch3_2="Lista dostêpnych napêdów cd (na podstawie /etc/fstab): "
+bb_conf_ch3_3="Wpisz nazwê pliku urz±dzenia: "
+
+bb_conf_ch4_1="Zwróæ uwagê na to, ¿e ¿adna wersja cdrecord nie nagywa z"
+bb_conf_ch4_2="x1. Dla napêdów MMC domy¶lnie wybierana jest maksymalna"
+bb_conf_ch4_3="prêdko¶æ, wiêc w³a¶ciwie nie ma sensu"
+bb_conf_ch4_4="ustawanie domy¶lnej prêdko¶ci. Chyba, ¿e masz dobre powody"
+bb_conf_ch4_5="aby to zrobiæ, u¿yj speed == -1 i pozwól cdrecorde wybraæ"
+bb_conf_ch4_6="prêdko¶æi zgodn± z danymi technicznymi napêdu"
+bb_conf_ch4_7="Prêdko¶æ nagrywania: "
+
+bb_conf_ch5_1="Rodzaj kasowania. Domy¶lnie all lub disc"
+bb_conf_ch5_2="Teraz ustawione jako "
+
+bb_conf_ch6_1="Czy masz CD-ROM i CD-RW?"
+bb_conf_ch6_2="Je¶li tak, wpisz 2. Je¶li nie, wpisz 1"
+
+bb_conf_ch7_1="Katalog g³ówny jest miejscem gdzie znajduj± siê skrypty BashBurns."
+bb_conf_ch7_2="Zmieñ je¶li wiesz co robisz."
+bb_conf_ch7_3="Je¶li chcesz anulowa, naci¶nij enter."
+bb_conf_ch7_4=""
+
+bb_conf_ch8_1="Katalog TEMP jest miejscem gdzie znajduj± siê pliki/linki do nagrania."
+bb_conf_ch8_2="Miej pewno¶æ, ¿e posiadasz prawa do zapisu do tego katalogu."
+
+bb_conf_ch9_1="To jest nazwa która bêdzie u¿yta jako punkt montowania"
+bb_conf_ch9_2="przez system Solaris Voulme Managment i nazwa która jest"
+bb_conf_ch9_3="przyporz±dkowana dyskowi na platformie MS Win32 lub Apple Mac"
+bb_conf_ch9_4="Nazwa dysku "
+bb_conf_ch9_4b="Je¶li chcesz byæ proszony o podanie nazwy dysku za ka¿dym razem"
+bb_conf_ch9_4c="wpisz <ask-me> jako nazwe dysku."
+bb_conf_ch9_5="Wpisz now± nazwê dysku CD:"
+
+bb_conf_ch10_1="Je¶li chcesz okre¶liæ prawo w³asno¶ci do swojego dysku, wpisz je teraz:"
+
+bb_conf_ch11_1="Pole to powinno okre¶laæ autora tego dysku, zazwyczaj"
+bb_conf_ch11_2="z adresem mail i numerem telefonu. Jest miejsce na"
+bb_conf_ch11_3="128 znaków z informacj±."
+bb_conf_ch11_4="Ustawiony autor to "
+bb_conf_ch11_5="Wpisz Autora/W³a¶ciciela dysku CD - hej, czy to ty? :-)"
+
+bb_conf_ch12_1="Pole to powinno okre¶laæ wydawce tego dysku,"
+bb_conf_ch12_2="zazwyczaj z adresem mail i numerem telefonu."
+bb_conf_ch12_3="Miejsce jest na 128 znaków z informacj±"
+bb_conf_ch12_4="Ustawiony wydawca to "
+bb_conf_ch12_5="Wpisz nazwê wydawcy dyskuCD (je¶li jest):"
+
+bb_conf_ch13_1="Pole to powinno okre¶laæ aplikacje która bêdzie na dysku"
+bb_conf_ch13_2="Miejsce jest na 128 znaków z informacj±"
+bb_conf_ch13_3="Ustawiony opis to "
+bb_conf_ch13_4="Wpisz opis dysku:"
+
+bb_conf_ch14_1="Pakiet zawiera kilka dysków CD, na przyk³ad, OS w którym"
+bb_conf_ch14_2="oprogramowanie jest podzielone na kilka dysków."
+bb_conf_ch14_3="To jest opcja. Je¶li jej u¿ywasz wpisz numer"
+bb_conf_ch14_4="dysku."
+bb_conf_ch14_5="Ustawiona nazwa pakietu to "
+bb_conf_ch14_6="Wpisz nazwê pakietu:"
+
+bb_conf_ch15_1="Normalizacja jest u¿ywana do ustawienia na odpowiednim poziomie g³o¶no¶ci"
+bb_conf_ch15_2="w plikach wav. Jest to u¿yteczne przy tworzeniu sk³adanek z plików mp3, gdzie"
+bb_conf_ch15_3="ró¿ny poziom g³o¶no¶ci w ró¿nych utworach mo¿e powodowaæ, ¿e g³o¶no¶æ"
+bb_conf_ch15_4="zmienia siê z utworu na utwór.  Ustawione teraz jest na "
+bb_conf_ch15_5="Wpisz yes gdy masz zainstalowany program normalize, inaczej wpisz no"
+
+bb_conf_ch16_1="Wpisz opcjê napêdu jakich chcesz u¿yc, oddziel je przecinkami."
+bb_conf_ch16_2="Je¶li nie jeste¶ pewny, naci¶nij enter bez wpisywania czegokolwiek."
+
+bb_conf_ch17_1="Enter location of FIFO-directory. This is only needed"
+bb_conf_ch17_2="for piped burning, and most times the standard value is fine."
+bb_conf_ch17_3="If you want to cancel just enter "
+bb_conf_ch17_4=" at the prompt."
+bb_conf_ch17_5=" is the current FIFO-directory)"
+bb_conf_ch17_1="Wpisz lokalizacje katalogu FIFO. Jest on potrzebny tylko"
+bb_conf_ch17_2="do przegrywana w locie, i w wiêkszo¶ci przypadków domy¶lne"
+bb_conf_ch17_3="ustawienia s± poprawne. Je¶li chcesz anulowaæ, poprostu"
+bb_conf_ch17_4=" naci¶nij enter."
+bb_conf_ch17_5=" jest katalogiem FIFO)"
+
+bb_conf_ch18_1="Usun±æ pliki w "
+bb_conf_ch18_2=" po zakoñczeniu nagrywania?"
+bb_conf_ch18_3="Domy¶lnie jest no(nie), je¶li chcesz nagraæ pliki"
+bb_conf_ch18_4="po raz kolejny..."
+
+bb_conf_ch19_1="Czy chcesz aby BashBurn zezwoli³ na 'nadpalanie'. Twoja"
+bb_conf_ch19_2="nagrywarka musi wspieraæ to, i nie jest pewne czy to"
+bb_conf_ch19_3="bêdzie dzia³±æ poprawnie, jednak mo¿esz dziêki temu nagraæ"
+bb_conf_ch19_4="wiêcej na cd ni¿ to zosta³o przewidziane."
+bb_conf_ch19_5="Domy¶lnie jest no(nie). (yes/no) [tak/nie]"
+
+bb_conf_ch20_1="Ta opcja jest dla p³yt audio. Czy p³yta jest chronina"
+bb_conf_ch20_2="przed kopiowaniem. Domy¶lnie jest no. "
+bb_conf_ch20_3="UWAGA: "
+bb_conf_ch20_4="Ta opcja "
+bb_conf_ch20_5="nie"
+bb_conf_ch20_6=" chroni w³a¶ciwie plików audio przed"
+bb_conf_ch20_7="przegraniem, ona tylko pokazuje cdrecorder'owi ¿e s± takie."
+
+bb_conf_ch21_1="Bitrate ma g³ówny wp³yw na jako¶ci plików audio."
+bb_conf_ch21_2="Wy¿szy bitrate, wy¿sza jako¶ci. Wy¿szy bitrate oznacza"
+bb_conf_ch21_3="wiêkszy rozmiar plików audio."
+bb_conf_ch21_4="Ustaw bitrate dla plików ogg i mp3."
+bb_conf_ch21_5="Domy¶lnym jest 128. "
+
+bb_conf_ch22_1="Tutaj mo¿esz ustawiæ jêzyk BashBurn'a, domy¶lnym jest angielski."
+bb_conf_ch22_2="Dostêpne jêzyki:"
+
+bb_conf_ch23_1="Ta opcja mówi cdrecord'owi aby nagrywa³ w:"
+bb_conf_ch23_2="SAO (Session at Once)"
+bb_conf_ch23_2b=" równie¿ nazywane "
+bb_conf_ch23_2c="DAO (Disk at once)"
+bb_conf_ch23_3="lub"
+bb_conf_ch23_4="tryb TAO (Track at once)"
+bb_conf_ch23_5=" Default is TAO."
+bb_conf_ch23_6="Wiêcej informacji w dokumentacji cdrecord. (man cdrecord)"
+bb_conf_ch23_7="Wpisz swój wybór jako: -tao, -sao lub -dao (SAO and DAO are the same)"
+
+
+
+bb_conf_apply_1="Zmiany zastosowane!"
+bb_conf_apply_2="Nie mo¿na by³o zapisaæ do"
+bb_conf_apply_3="Musisz ustawiæ uprawnienia chmod 666"
+
+bb_conf_def_1="Domy¶lne ustawienia przywrócone!"
+bb_conf_def_2="(BBROOTDIR *nie* jest domy¶lne - musisz to zmieniæ!)"
+
+bb_conf_xit_1="Powrót do g³ównego menu"
+bb_conf_xit_2="Nie wybra³e¶ ZASTOSUJ ZMIANY przed wyj¶ciem, prawda?"
+
+bb_conf_err="Wybierz "
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

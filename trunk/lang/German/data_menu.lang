@@ -1,0 +1,33 @@
+# data_menu.lang - German language
+
+bb_dm_newcd="Lege eine leere CD ein und druecke 'ENTER' um fortzufahren"
+
+bb_dm_wait="Druecke 'ENTER' um zu Hauptmenue zurueckzukehren."
+
+bb_dm_menu_title=Daten-Menue
+bb_dm_menu_1='Brenne Daten'
+bb_dm_menu_2='Kopiere Daten-CD (CD nach CD)'
+bb_dm_menu_3='Brenne Daten-DVD'
+bb_dm_menu_4='CDRW loeschen'
+bb_dm_menu_5='DVD loeschen'
+bb_dm_menu_0=Zurueck
+bb_dm_menu_entry='Was moechtest Du tun? '
+
+bb_dm_ch2_1=' nicht gemountet! Mounte das Geraet bitte erst...'
+bb_dm_ch2_2='Ein ISO existiert in '
+bb_dm_ch2_3=' Loesche oder benenne es um'
+bb_dm_ch2_4='bevor Du versuchst ein neues zu generieren.'
+bb_dm_ch2_5='CD kopiert!'
+bb_dm_ch2_6='Starte Brennen'
+
+bb_dm_ch0='Kehre zum Menue zurueck...'
+
+bb_dm_error='Bitte bestaetige '
+
+bb_dm_cdcopy='Kopiere CD-Inhalt nach '
+bb_dm_cdcopy_err1='Fehler beim Transferieren. Ist die richtige CD im Laufwerk?'
+bb_dm_cdcopy_err2='(Ueberpruefe alle Fehlermeldungen fuer Problem-Hinweise)'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

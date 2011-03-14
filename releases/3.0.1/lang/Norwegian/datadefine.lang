@@ -1,0 +1,28 @@
+# datadefine.lang - Nynorsk
+
+
+bb_mnt_menu_title="Spesifiser data du vil brenna"
+
+bb_wfe_1="Trykk [ENTER] for å gå tilbake til hovudmenyen."
+
+bb_dc_menu_1=" Kopier eller lenk data til "
+bb_dc_menu_2=" Sjå på data i "
+bb_dc_menu_3=" Slett data i "
+bb_dc_menu_0=" Tilbake til hovudmenyen"
+
+bb_dc_explain1="Eg set deg på kommandolinja. No er du i"
+bb_dc_explain2a="katalogen "
+bb_dc_explain2b=". Om BashBurn skal kunna"
+bb_dc_explain3="brenna noko, må du kopiera eller lenka filene dine"
+bb_dc_explain4="til denne katalogen. Det kan du gjera med kommandoane cp eller ln."
+bb_dc_explain5="For å lenka filer til denne katalogen, skriv du til dømes:"
+bb_dc_explain6=" 'ln -s <sti til data> ./' (utan ''), og for å"
+bb_dc_explain7="kopiera data, erstattar du ln -s med cp."
+bb_dc_explain8="Når du er ferdig, skriv du inn exit for å koma tilbake til menyen."
+
+bb_dc_ch3_1="Vil du verkeleg sletta desse filene? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2="Har sletta filer."
+bb_dc_ch3_3="Har ikkje sletta filer."
+bb_dc_ch3_4="Ingen filer i "
+
+bb_dc_menu_err="Feil. Ver god å velja"

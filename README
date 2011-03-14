@@ -1,0 +1,5 @@
+This is the BashBurn code repo. 
+Active development takes place in trunk, old release branches are 
+located under releases. The playground directory is (logically) for playing
+around with stuff that might or might not at some point make it into a release.
+

@@ -18,6 +18,7 @@ bb_adv_oggdec='Ogg-avkodningsprogram'
 bb_adv_flac='FLAC kod/avkodningsprogram'
 bb_adv_eject='Skivutmatningsprogram'
 bb_adv_norm='Ljudbalanseringsprogram'
+bb_adv_nrg2iso='NRG-fil konverteringsprogram'
 bb_adv_back=Tillbaka
 bb_adv_action_desc=Aktioner
 bb_adv_error='Var vänlig ange'

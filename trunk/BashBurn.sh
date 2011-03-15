@@ -40,7 +40,7 @@ BBDESCRIPTION: Burnt with BashBurn
 BBAUTHOR: <Change me>
 BBLABEL: BashBurn CD/DVD
 BBNORMALIZE: no
-BBDRIVEROPT: 
+BBDRIVEROPT:
 BBDELTEMPBURN: no
 BBOVERBURN: no
 BBBITRATE: 192
@@ -227,7 +227,7 @@ define_global_menus()
     audiomenu[9]="$bb_am_menu_10@create_oggs_from_cd"
     audiomenu[10]="$bb_am_menu_11@create_flacs_from_cd"
     audiomenu[11]="$bb_am_menu_0@return"
-    
+
     # If old behaviour of grepping /etc/fstab is wanted 
     # when selecting burner/reader, replace printcdroms with grepcdfstab
     conf_menuitems[0]='bb_conf_menu_writer@BBCDWRITER@bb_conf_ch_writer@grepcdfstab'
@@ -305,9 +305,6 @@ source_language_modules()
     . $langdir/configure.lang
     . $langdir/convert_audio.lang
     . $langdir/convert_images.lang
-    #. $langdir/convert_flacs.lang
-    #. $langdir/convert_mp3s.lang
-    #. $langdir/convert_oggs.lang
     . $langdir/data_menu.lang
     . $langdir/datadefine.lang
     . $langdir/iso_menu.lang
@@ -392,7 +389,7 @@ then
 	"\n	You have an different version of $BBCONFFILE that
 	will not work with version ${BBVERSION}.
 	Please remove ${BBCONFFILE}, restart BashBurn, and
-	immediately reconfigure ([option 5] in the main menu).\n"
+	immediately reconfigure ([option 4] in the main menu).\n"
 	die
 	 fi
 
@@ -405,7 +402,7 @@ then
 "There is no '${BBCONFFILE}'.
 This is the file where BashBurn stores and reads its configuration.
 BashBurn  will now attempt to create a default template file.
-PLEASE remember to set up your configuration first [option 5] in the main menu."
+PLEASE remember to setup your configuration first [option 4] in the main menu."
     create_config
     if [[ -r $BBCONFFILE ]]
     then
@@ -415,7 +412,7 @@ PLEASE remember to set up your configuration first [option 5] in the main menu."
 Please report this bug to the BashBurn developers.'
     fi
 fi
-# If we get to here then the rc file exists.    
+# If we get to here then the rc file exists.
 . ${BBROOTDIR}/misc/commands.idx
 bb_parse_config
 
@@ -456,7 +453,7 @@ source_language_modules
 . ${BBROOTDIR}/menus/configure.sh
 . ${BBROOTDIR}/menus/datadefine.sh
 . ${BBROOTDIR}/menus/data_menu.sh
-. ${BBROOTDIR}/menus/iso_menu.sh 
+. ${BBROOTDIR}/menus/iso_menu.sh
 . ${BBROOTDIR}/menus/image_menu.sh
 . ${BBROOTDIR}/menus/mount.sh
 . ${BBROOTDIR}/misc/check_path.sh

@@ -1,0 +1,11 @@
+# image_menu.lang - Swedish version
+
+bb_image_menu_title='Avbildningsmeny'
+bb_image_menu1='ISO-meny'
+bb_image_menu2='Bränn bin/cue-filer'
+bb_image_menu3='Konvertera NRG-filer'
+bb_image_menu_back=Tillbaka
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

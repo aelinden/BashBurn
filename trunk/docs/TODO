@@ -128,3 +128,6 @@ Sep 21 2008 16:00
 * BashBurn cannot handle m3u files with DOS line terminations. 
   Try to add this functionality.
 * Add functionality to burn Blu-Ray discs.
+
+-------------April 23 2011 19:10 Anders Lindén----------
+* Add CDDB lookup when ripping audio CDs

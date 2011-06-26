@@ -134,9 +134,6 @@ install_files()
     typeset -ra convert_files=( \
 	    convert_audio.sh \
 	    convert_images.sh \
-	    #convert_flacs.sh \
-	    #convert_mp3s.sh \
-	    #convert_oggs.sh \
 	    )
     typeset -ra func_files=( \
 	    advancedfunc.sh \
@@ -171,9 +168,6 @@ install_files()
 	    configure.lang \
 	    convert_audio.lang \
 	    convert_images.lang \
-	    #convert_flacs.lang \
-	    #convert_mp3s.lang \
-	    #convert_oggs.lang \
 	    data_menu.lang \
 	    datadefine.lang \
 	    iso_menu.lang \
@@ -213,11 +207,11 @@ install_files()
 	then
 	    for jj in "${languages[@]}"
 	    do
-		mkdir -p $bblib/$ii/$jj || 
+		mkdir -p $bblib/$ii/$jj ||
 			die 'Error: Can not create a lang directory.'
 		for kk in $(eval echo "\${${ii}_files[@]}")
 		do
-		    cp "lang/${jj}/$kk" $bblib/$ii/$jj/ || 
+		    cp "lang/${jj}/$kk" $bblib/$ii/$jj/ ||
 		    die "Failed to copy $ii/$jj/$kk" ||
 			die 'Error: Failed to copy a file to a lang dir.'
 		done

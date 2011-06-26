@@ -186,8 +186,6 @@ define_global_menus()
     mainmenu[1]="$bb_menu_2@data_menu"
     # 3.1.0 - Move ISO and bin/cue into image menu together
     # together with NRG to ISO conversion.
-     #mainmenu[2]="$bb_menu_3@iso_menu" 
-     #mainmenu[3]="$bb_menu_4@bincue"
     mainmenu[2]="$bb_menu_imgs@image_menu"
     mainmenu[3]="$bb_menu_5@multi"
     mainmenu[4]="$bb_menu_6@configure && return"	# Very tricky.

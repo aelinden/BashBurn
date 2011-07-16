@@ -26,7 +26,7 @@ create_reg_config()
     typeset line
 
     echo -e "
-VERSION: 3.1.x
+VERSION: 3.1.0
 BBISCONF: 0
 BBCDWRITER: <Change me>
 BBCDROM: <Change me>

@@ -22,19 +22,21 @@ bb_text_6="no existe, a pesar de que lo has escrito en el archivo de configuraci
 bb_text_7="Detectando grabadora de CD ...."
 bb_text_8="Detectada: "
 
-bb_main_menu=MAIN
+bb_main_menu='Menú principal'
 
 bb_menu_1="Audio"
 bb_menu_2="Datos"
-bb_menu_3="ISO"
-bb_menu_4="Bin/Cue"
+# bb_menu_3="ISO" # Not used as of 3.1.0
+# bb_menu_4="Bin/Cue" # Not used as of 3.1.0
 bb_menu_5="Multisesión"
 bb_menu_6="Configurar BashBurn"
 bb_menu_7="Montar/Desmontar CD"
 bb_menu_8="Comprobar rutas de programas"
 bb_menu_9="Defina datos a grabar"		# Edited once again in 1.6
 bb_menu_0="Salir"
-bb_menu_input="Su opción? "
+bb_menu_adv='Configuración avanzada'
+bb_menu_input='Su opción? '
+bb_menu_imgs='Imágenes'
 
 
 bb_burndir_view="Los contenidos de "

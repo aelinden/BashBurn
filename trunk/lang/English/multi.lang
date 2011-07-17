@@ -35,3 +35,7 @@ bb_multi_menu_entry='Your Choice '
 
 bb_multi_ch0='Back to main menu...'
 bb_multi_err='Please enter '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

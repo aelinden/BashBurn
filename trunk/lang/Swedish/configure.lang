@@ -1,6 +1,5 @@
 # configure.lang - Swedish language
 
-# Nick - this needs checking by a native speaker
 bb_conf_menu_writer=CD-brännare
 bb_conf_menu_cddev='CD-läsarens enhetsfil'
 bb_conf_menu_cdmnt='CD-läsarens monteringspunkt'

@@ -21,6 +21,7 @@ bb_dvd_blank3='eller no för total formattering.'
 bb_dvd_blank4='Tryck [ENTER] utan att skriva något'
 bb_dvd_blank5='För att avbryta.'
 
+bb_menu_error_range="${BBTABLECOLOR}Fel${BBCOLOROFF}: Inmatning måste vara inom"
 # Local Variables: **
 # mode:shell-script **
 # End: **

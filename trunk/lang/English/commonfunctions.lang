@@ -1,4 +1,5 @@
 # commonfunctions.lang - English language file
+
 bb_cf_text1='CD seems to already be written to. Do you wish to blank it?'
 bb_cf_text2='Only answer 'yes' if the media is a rewritable disk. Enter'
 bb_cf_text3="'abort' if you wish to cancel and return to the menu."

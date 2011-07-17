@@ -1,7 +1,0 @@
-# convert_flacs.lang - Swedish version
-
-bb_conv_flac_1='FLAC-fil(er) konverterad(e) och redo att brännas.'
-
-# Local Variables: **
-# mode:shell-script **
-# End: **

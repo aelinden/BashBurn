@@ -1,10 +1,9 @@
 # Swedish language file for advanced.lang
-# 
-
 
 bb_adv_menutitle='Avancerade inställningar'
 bb_adv_cdburncmd='CD-brännarprogram'
 bb_adv_dvdburncmd='DVD-brännarprogram'
+bb_adv_dvdburncmdopts='DVD-brännarinställningar'
 bb_adv_isocmd='ISO-skaparprogram'
 bb_adv_dvdblankcmd='DVD-formatteringsprogram'
 bb_adv_imgburncmd='ISO-brännarprogram'
@@ -35,7 +34,7 @@ bb_adv_dvdburncmd_help=\
 ${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBURNCMD}${BBCOLOROFF}"
 
 bb_adv_dvdburncmdopts_help=\
-"Detta är de DVD-bränningsinställningar som används. Ändra endast dessa
+"Detta är de DVD-brännarinställningar som används. Ändra endast dessa
 om du vet vad du gör. I de flesta fall är standardinställningarna ok.
 Nuvarande inställningar är: ${BBOPTIONCOLOR}${BB_DVDBURNCMDOPTS}${BBCOLOROFF}"
 
@@ -93,7 +92,10 @@ bb_adv_norm_help=\
 "${bb_this_is_the_cmd} normalisera ljudfiler.
 ${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NORMCMD}${BBCOLOROFF}"
 
-bb_menu_error_range="${BBTABLECOLOR}Fel${BBCOLOROFF}: Inmatning måste vara inom gränsen"
+bb_adv_nrg2iso_help=\
+"${bb_this_is_the_cmd} konvertera NRG-filer till ISO-filer.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NRG2ISO}${BBCOLOROFF}"
+
 # Local Variables: **
 # mode:shell-script **
 # End: **

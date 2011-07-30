@@ -22,6 +22,7 @@ bb_dvd_blank4='Enter [ENTER] without entering anything'
 bb_dvd_blank5='To cancel the operation.'
 
 bb_menu_error_range="${BBTABLECOLOR}Error${BBCOLOROFF}: Input must be in range"
+
 # Local Variables: **
 # mode:shell-script **
 # End: **

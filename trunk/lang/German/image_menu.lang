@@ -1,10 +1,10 @@
-# image_menu.lang - Temporary file until updated
+# image_menu.lang - German version
 
-bb_image_menu_title='Image menu'
+bb_image_menu_title='Bildmenu'
 bb_image_menu1='ISO-menu'
-bb_image_menu2='Burn bin/cue-files'
-bb_image_menu3='Convert NRG-files'
-bb_image_menu_back=Back
+bb_image_menu2='Brennen bin/cue-Dateien'
+bb_image_menu3='Konvertieren NRG-Dateien'
+bb_image_menu_back=Zurueck
 
 # Local Variables: **
 # mode:shell-script **

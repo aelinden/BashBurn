@@ -1,6 +1,6 @@
 # burning.lang - German language
 
-bb_press_enter="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+bb_press_enter="Druecke [ENTER] um zum Hauptmenue zurueckzukehren."
 
 bb_no_ob='Ueberbrennen nicht aktivieren...'
 

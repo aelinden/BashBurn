@@ -21,6 +21,8 @@ bb_dvd_blank3="oder 'no' fuer ein gesamtes Formatieren ein."
 bb_dvd_blank4='Druecke [ENTER] ohne irgendwas sonst einzugeben'
 bb_dvd_blank5='um den Vorgang abzubrechen.'
 
+bb_menu_error_range="${BBTABLECOLOR}Error${BBCOLOROFF}: Input muss im Bereich"
+
 # Local Variables: **
 # mode:shell-script **
 # End: **

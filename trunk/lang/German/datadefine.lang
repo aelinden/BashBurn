@@ -1,9 +1,8 @@
 # datadefine.lang - German language
 
-
 bb_mnt_menu_title='Brenndateien definieren'
 
-bb_wfe_1="Druecke 'ENTER' um zum Menue zurueckzukehren."
+bb_wfe_1="Druecke [ENTER] um zum Menue zurueckzukehren."
 
 bb_dc_menu_1=' Kopiere/Verlinke Dateien in '
 bb_dc_menu_2=' Anschauen der Dateien in '

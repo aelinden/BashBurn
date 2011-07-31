@@ -1,7 +1,0 @@
-# convert_flacs.lang - German version
-
-bb_conv_flac_1='Flac-Dateien konvertiert und bereit gebrannt zu werden.'
-
-# Local Variables: **
-# mode:shell-script **
-# End: **

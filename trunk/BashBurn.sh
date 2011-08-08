@@ -26,7 +26,7 @@ create_reg_config()
     typeset line
 
     echo -e "
-VERSION: 3.1.x
+VERSION: 3.1.0
 BBISCONF: 0
 BBCDWRITER: <Change me>
 BBCDROM: <Change me>
@@ -381,7 +381,7 @@ source_language_modules
 # Check if an old version is being used
 if [[ -r $BBCONFFILE ]]
 then
-	if (! grep -q "VERSION: 3.1.x"  $BBCONFFILE)
+	if (! grep -q "VERSION: 3.1.0"  $BBCONFFILE)
 	then
 	message \
 	"\n	You have an different version of $BBCONFFILE that

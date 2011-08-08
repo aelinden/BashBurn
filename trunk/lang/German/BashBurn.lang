@@ -26,15 +26,17 @@ bb_main_menu='Hauptmenue'
 
 bb_menu_1=Audio
 bb_menu_2=Daten
-bb_menu_3=ISO
-bb_menu_4=Bin/Cue
+#bb_menu_3=ISO
+#bb_menu_4=Bin/Cue
 bb_menu_5=Multisession
 bb_menu_6='BashBurn konfigurieren'
 bb_menu_7='CD ein-/aushaengen (mount)'
 bb_menu_8='Programmpfade ueberpruefen'
 bb_menu_9='Definieren der Brenndateien'
 bb_menu_0='Beenden'
+bb_menu_adv='Erweiterte Einstellungen'
 bb_menu_input='Was moechtest Du tun? '
+bb_menu_imgs=Bildern
 
 bb_burndir_view='Inhalt von'
 bb_burndir_del1='Moechtest Du wirklich alle Dateien loeschen in'
@@ -44,7 +46,7 @@ bb_burndir_del3='Loeschen abgebrochen'
 
 bb_exit_error='Bitte waehle '
 
-bb_hit_any_key_to_continue='Hit any key to continue'
+bb_hit_any_key_to_continue='Drücken Sie beliebige Taste um fortzufahren'
 
 # Local Variables: **
 # mode:shell-script **

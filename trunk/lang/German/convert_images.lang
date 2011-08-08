@@ -1,4 +1,16 @@
-# convert_images.lang - English version
+# convert_images.lang - German version
 
-bb_conv_img1='is now converted to ISO-format.'
-bb_conv_img2='could not be converted.'
+bb_conv_img_copied1a='Image-Datei muss kopiert / verlinkt werden'
+bb_conv_img_copied1b='bevor sie in ein ISO-Image umgewandelt werden'
+
+bb_conv_img_copied2='Haben Sie getan? (y/n): '
+
+bb_conv_img_copied3a='Bitte kopieren Sie Image-Datei auf'
+bb_conv_img_copied3b='bevor Sie versuchen, es zu verbrennen.'
+
+bb_conv_img1='ist jetzt nach ISO-Format konvertiert.'
+bb_conv_img2='konnte nicht konvertiert werden.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

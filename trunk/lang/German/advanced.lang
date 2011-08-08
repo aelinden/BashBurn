@@ -1,8 +1,7 @@
 # German language file for advanced.lang
 
-# 
-# Number of tabs after each option text will vary between languages.
-#
+# Party translated using google translate
+# A native speaker should check this
 
 bb_adv_menutitle="Erweiterte Optionen"
 bb_adv_cdburncmd="CD Brenn-Befehl"
@@ -20,6 +19,82 @@ bb_adv_oggdec="Ogg Decoder Befehl"
 bb_adv_flac="FLAC Encoder/Decoder-Befehl"
 bb_adv_eject="Disk Auswurf-Befehl"
 bb_adv_norm="Audio Normalisations-Befehl"
+bb_adv_nrg2iso='NRG zu ISO konvertieren Befehl'
+bb_adv_back=Zurueck
+bb_adv_actions_desc=Aktionen
+bb_adv_error='Bitte geben Sie'
+
+bb_this_is_the_cmd = "Dies ist der Befehl, mit"
+bb_curr_cmd = "Der aktuelle Befehl ist:"
+
+bb_adv_cdburncmd_help = \
+"${bb_this_is_the_cmd} eine CD brennen.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmd_help = \
+"${bb_this_is_the_cmd} eine DVD brennen.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmdopts_help = \
+"Das sind die DVD-Brennen verwendeten Optionen. Nur ändern Sie diese, wenn Sie wissen, was du tust. In fast allen Fällen die Standardwerte sollten in Ordnung sein. Die Optionen sind: ${BBOPTIONCOLOR}${BB_DVDBURNCMDOPTS}${BBCOLOROFF}"
+
+bb_adv_isocmd_help = \
+"${bb_this_is_the_cmd} Erstellen von ISO-Images.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_ISOCMD}${BBCOLOROFF}"
+
+bb_adv_dvdblankcmd_help = \
+"${bb_this_is_the_cmd} DVD-Rohlinge.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBLANK}${BBCOLOROFF}"
+
+bb_adv_imgburncmd_help = \
+"${bb_this_is_the_cmd} brennen CD-Images.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDIMAGECMD}${BBCOLOROFF}"
+
+bb_adv_audioripcmd_help = \
+"${bb_this_is_the_cmd} rippt Audio-CDs.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDAUDIORIP}${BBCOLOROFF}"
+
+bb_adv_cdcopycmd_help = \
+"${bb_this_is_the_cmd} kopieren von Daten-CDs.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_READCD}${BBCOLOROFF}"
+
+bb_adv_cdcopyopts_help = \
+"Das sind die Optionen beim Kopieren einer Daten-CD.
+Nur diese Optionen zu ändern, wenn du weißt, was du tust.
+In fast allen Fällen die Standardwerte sollten in Ordnung sein.
+Die Optionen sind: ${BBOPTIONCOLOR}${BB_READ_OPTS}${BBCOLOROFF}"
+
+bb_adv_mp3enc_help = \
+"${bb_this_is_the_cmd} codieren MP3-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3ENC}${BBCOLOROFF}"
+
+bb_adv_mp3dec_help = \
+"${bb_this_is_the_cmd} dekodieren MP3-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3DEC}${BBCOLOROFF}"
+
+bb_adv_oggenc_help = \
+"${bb_this_is_the_cmd} kodieren Ogg-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGENC}${BBCOLOROFF}"
+
+bb_adv_oggdec_help = \
+"${bb_this_is_the_cmd} entschlüsseln Ogg-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGDEC}${BBCOLOROFF}"
+
+bb_adv_flac_help = \
+"${bb_this_is_the_cmd} Encoder / Decoder FLAC-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_FLACCMD}${BBCOLOROFF}"
+
+bb_adv_eject_help = \
+"${bb_this_is_the_cmd} die disk auswerfen.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_EJECT}${BBCOLOROFF}"
+
+bb_adv_norm_help = \
+"${bb_this_is_the_cmd} normalisieren Audio-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NORMCMD}${BBCOLOROFF}"
+
+bb_adv_nrg2iso_help = \
+"${bb_this_is_the_cmd} konvertieren NRG-Dateien auf ISO-Dateien.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NRG2ISO}${BBCOLOROFF}"
 
 # Local Variables: **
 # mode:shell-script **

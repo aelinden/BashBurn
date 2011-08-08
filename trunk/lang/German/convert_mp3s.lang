@@ -1,9 +1,0 @@
-# convert_mp3s.lang - German language
-
-bb_conv_mp3_1=dekomprimiert
-bb_conv_mp3_2='und fertig zum Brennen'
-bb_conv_mp3_3='konnte nicht dekomprimiert werden'
-
-# Local Variables: **
-# mode:shell-script **
-# End: **

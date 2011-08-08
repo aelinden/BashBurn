@@ -1,6 +1,6 @@
 # bincue.lang - German language
 
-bb_press_enter="Druecke 'ENTER' um zum Hauptmenue zurueckzukehren."
+bb_press_enter="Druecke [ENTER] um zum Hauptmenue zurueckzukehren."
 
 bb_bincue_copy_1="'Bin' und 'Cue' Dateien muessen kopiert/verlinkt werden zu"
 bb_bincue_copy_1b='vor dem Versuch zu Brennen.'

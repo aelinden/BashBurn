@@ -1,6 +1,10 @@
 BashBurn ChangeLog:
 =================
 
+BashBurn 3.1.x
+- Removed incomplete translations. As of this release, only English and Swedish will be included 
+  in the official release. Other languages will be available to download from the BashBurn website.
+
 BashBurn 3.1.0 (Cube Monkey)
 - Support for converting NRG-files to ISO (convert_images.sh).
 - Moved ISO and bin/cue functions to new images menu.

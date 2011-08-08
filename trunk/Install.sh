@@ -146,14 +146,15 @@ install_files()
 	    mountfunc.sh \
 	    multifunc.sh \
 	    )
+	# Edit this when more languages are updated
     typeset -ra languages=( \
-	    Czech \
+	    #Czech \
 	    English \
 	    German \
-	    Italian \
-	    Norwegian \
-	    Polish \
-	    Spanish \
+	    #Italian \
+	    #Norwegian \
+	    #Polish \
+	    #Spanish \
 	    Swedish \
 	    )
     typeset -ra lang_files=( \

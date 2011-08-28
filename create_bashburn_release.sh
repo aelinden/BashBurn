@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'BashBurn release script'
+
 if [ $# -ne 1 ]; then
 	echo 'You must supply a version number as an argument.'
 else

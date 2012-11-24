@@ -150,7 +150,7 @@ install_files()
     typeset -ra languages=( \
 	    #Czech \
 	    English \
-	    German \
+	    #German \
 	    #Italian \
 	    #Norwegian \
 	    #Polish \
